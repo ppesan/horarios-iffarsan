@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Horários</title>
+
+  <style>
+    :root{
+      --bg:#F6F8F7;
+      --card:#FFFFFF;
+      --text:#1c1f1d;
+      --muted:#5d6560;
+      --border:#dfe6e1;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius:16px;
+      --pad:16px;
+      --green:#2E7D32; /* pode ajustar para o verde institucional */
+    }
+
+    *{ box-sizing:border-box; }
+    html, body{ height:100%; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .wrap{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px;
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .topbar{
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:end;
+      justify-content:space-between;
+    }
+
+    .controls{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:end;
+    }
+
+    label{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    select{
+      appearance:none;
+      -webkit-appearance:none;
+      -moz-appearance:none;
+      padding: 10px 40px 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      font-size: 14px;
+      min-width: 260px;
+      outline: none;
+    }
+
+    .selectWrap{
+      position: relative;
+    }
+    .selectWrap:after{
+      content:"▾";
+      position:absolute;
+      right: 12px;
+      top: 36px;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events:none;
+      font-size: 14px;
+    }
+
+    .status{
+      font-size: 13px;
+      color: var(--muted);
+      display:flex;
+      gap:10px;
+      align-items:center;
+      min-height: 18px;
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:99px;
+      background: var(--green);
+      opacity: .25;
+    }
+    .dot.on{ opacity: 1; }
+
+    .viewer{
+      padding: 12px;
+    }
+
+    canvas{
+      width: 100%;
+      height: auto;
+      display:block;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background:#fff;
+    }
+
+    .footer{
+      padding: 10px 16px 14px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--muted);
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border:1px solid var(--border);
+      background:#fff;
+      color: var(--text);
+      padding: 9px 12px;
+      border-radius: 12px;
+      cursor:pointer;
+      font-size: 13px;
+      text-decoration:none;
+      user-select:none;
+    }
+    .btn:hover{ filter: brightness(.98); }
+
+    @media (max-width: 560px){
+      select{ min-width: 220px; }
+      .topbar{ gap:10px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+
+      <div class="topbar">
+        <div class="controls">
+          <div class="selectWrap">
+            <label>
+              Tipo
+              <select id="typeSelect">
+                <option value="prof">Horários dos professores</option>
+                <option value="turma">Horários das turmas</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="selectWrap">
+            <label>
+              Selecionar
+              <select id="itemSelect" disabled>
+                <option>Carregando…</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="status" aria-live="polite">
+          <span class="dot" id="loadingDot"></span>
+          <span id="status"></span>
+        </div>
+      </div>
+
+      <div class="viewer">
+        <canvas id="pdfCanvas"></canvas>
+      </div>
+
+      <div class="footer">
+        <span>Dica: você pode salvar um link direto para uma página usando a URL com <b>?tipo=turma&page=10</b>.</span>
+        <a class="btn" id="openPdfBtn" href="#" target="_blank" rel="noopener">📄 Abrir PDF</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.js"></script>
+
+  <!-- Seu app -->
+  <script src="./app.js"></script>
+
+  <script>
+    // UX: bolinha indicando carregamento + botão "Abrir PDF" conforme tipo
+    (function(){
+      const dot = document.getElementById("loadingDot");
+      const statusEl = document.getElementById("status");
+      const typeEl = document.getElementById("typeSelect");
+      const openBtn = document.getElementById("openPdfBtn");
+
+      function pdfHref() {
+        return typeEl.value === "turma" ? "./horarios-turmas.pdf" : "./horarios-professores.pdf";
+      }
+
+      function refreshBtn(){ openBtn.href = pdfHref(); }
+      refreshBtn();
+
+      // Observa mudanças no status (app.js escreve nele) para ligar/desligar dot
+      const obs = new MutationObserver(() => {
+        const hasText = (statusEl.textContent || "").trim().length > 0;
+        dot.classList.toggle("on", hasText);
+        refreshBtn();
+      });
+
+      obs.observe(statusEl, { childList: true, characterData: true, subtree: true });
+
+      typeEl.addEventListener("change", refreshBtn);
+    })();
+  </script>
+</body>
+</html>
