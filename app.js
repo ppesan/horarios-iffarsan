@@ -1,81 +1,75 @@
-// app.js — sem CDN, usando PDF.js local
-// Requer no repositório:
-//  - /vendor/pdfjs/pdf.js
-//  - /vendor/pdfjs/pdf.worker.js
-// E os PDFs na raiz:
-//  - /horarios-professores.pdf
-//  - /horarios-turmas.pdf
-
+// ===== CONFIGURAÇÃO DOS PDFs =====
 const PDFS = {
   prof: "./horarios-professores.pdf",
   turma: "./horarios-turmas.pdf",
 };
 
+// ===== ELEMENTOS =====
 const typeSelect = document.getElementById("typeSelect");
 const itemSelect = document.getElementById("itemSelect");
 const canvas = document.getElementById("pdfCanvas");
 const statusEl = document.getElementById("status");
 const ctx = canvas.getContext("2d");
 
-// Worker LOCAL
+// ===== WORKER LOCAL =====
 pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdfjs/pdf.worker.js";
 
 let pdfDoc = null;
 
-function setStatus(msg) {
+// ===== FUNÇÕES AUXILIARES =====
+function setStatus(msg){
   statusEl.textContent = msg || "";
 }
 
-function normalize(text) {
-  return (text || "").replace(/\s+/g, " ").trim();
+function normalize(text){
+  return (text || "").replace(/\s+/g," ").trim();
 }
 
-async function getPageText(page) {
+async function getPageText(page){
   const content = await page.getTextContent();
-  return content.items.map((i) => i.str).join(" ");
+  return content.items.map(i => i.str).join(" ");
 }
 
-// TURMAS (padrão do seu PDF: INF 11 - ..., ENS T12 - ..., ENF T3 - ...)
-function extractTurma(text) {
+// ===== EXTRAÇÃO DE TURMAS =====
+function extractTurma(text){
   const t = normalize(text);
-
-  // aceita "-" ou "–"
   const match = t.match(/\b[A-Z]{2,4}\s?T?\d{1,2}\s?[-–]\s?.{1,100}/);
-  if (!match) return null;
+  if(!match) return null;
 
   let label = match[0];
-  label = label.replace(/\sIntegrado.*/i, "");
-  label = label.replace(/\[[^\]]+\]/g, "");
+  label = label.replace(/\sIntegrado.*/i,"");
+  label = label.replace(/\[[^\]]+\]/g,"");
   return normalize(label);
 }
 
-// PROFESSORES (pelo seu PDF: "Professor Nome Sobrenome")
-function extractProfessor(text) {
+// ===== EXTRAÇÃO DE PROFESSORES =====
+function extractProfessor(text){
   const t = normalize(text);
-
   const match = t.match(/\bProfessor[a]?\s+[A-ZÀ-Ú][A-Za-zÀ-ú\s'´`^~\-]{2,90}/);
-  if (!match) return null;
-
+  if(!match) return null;
   return normalize(match[0]);
 }
 
-function extractLabel(text, type) {
-  return type === "prof" ? extractProfessor(text) : extractTurma(text);
+function extractLabel(text,type){
+  return type==="prof" ? extractProfessor(text) : extractTurma(text);
 }
 
-async function renderPage(num) {
+// ===== RENDERIZAÇÃO =====
+async function renderPage(num){
   const page = await pdfDoc.getPage(num);
-
-  // escala boa para embed
-  const viewport = page.getViewport({ scale: 1.5 });
+  const viewport = page.getViewport({ scale:1.5 });
 
   canvas.width = Math.floor(viewport.width);
   canvas.height = Math.floor(viewport.height);
 
-  await page.render({ canvasContext: ctx, viewport }).promise;
+  await page.render({
+    canvasContext: ctx,
+    viewport: viewport
+  }).promise;
 }
 
-async function loadPdf(type) {
+// ===== CARREGAMENTO DO PDF =====
+async function loadPdf(type){
   const url = PDFS[type];
 
   setStatus("Carregando PDF...");
@@ -87,10 +81,10 @@ async function loadPdf(type) {
   setStatus("Lendo páginas...");
   itemSelect.innerHTML = "";
 
-  for (let p = 1; p <= pdfDoc.numPages; p++) {
+  for(let p=1; p<=pdfDoc.numPages; p++){
     const page = await pdfDoc.getPage(p);
     const text = await getPageText(page);
-    const label = extractLabel(text, type) || `Página ${p}`;
+    const label = extractLabel(text,type) || `Página ${p}`;
 
     const opt = document.createElement("option");
     opt.value = String(p);
@@ -101,17 +95,17 @@ async function loadPdf(type) {
   itemSelect.disabled = false;
   setStatus("");
 
-  await renderPage(parseInt(itemSelect.value || "1", 10));
+  await renderPage(1);
 }
 
-// Eventos
-typeSelect.addEventListener("change", () => {
+// ===== EVENTOS =====
+typeSelect.addEventListener("change",()=>{
   loadPdf(typeSelect.value);
 });
 
-itemSelect.addEventListener("change", () => {
-  renderPage(parseInt(itemSelect.value, 10));
+itemSelect.addEventListener("change",()=>{
+  renderPage(parseInt(itemSelect.value));
 });
 
-// Inicia
+// ===== INICIAR =====
 loadPdf("prof");
