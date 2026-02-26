@@ -1,6 +1,5 @@
 // app.js — seletor de HORÁRIOS (Professores + Turmas) com PDF.js
-// Requisitos: index.html com #typeSelect, #itemSelect, #status e #pdfCanvas
-// PDFs no mesmo diretório:
+// PDFs na raiz do GitHub Pages:
 //   - horarios-professores.pdf
 //   - horarios-turmas.pdf
 
@@ -15,7 +14,6 @@ const canvas = document.getElementById("pdfCanvas");
 const statusEl = document.getElementById("status");
 const ctx = canvas.getContext("2d");
 
-// Worker do PDF.js (CDN)
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.js";
 
@@ -23,7 +21,7 @@ let pdfDoc = null;
 let pageMap = []; // [{ label, pageNumber }]
 let currentType = typeSelect?.value || "prof";
 
-// ---------- Utilidades ----------
+// ---------------- Utils ----------------
 function setStatus(msg) {
   statusEl.textContent = msg || "";
 }
@@ -32,56 +30,109 @@ function normalizeSpaces(s) {
   return (s || "").replace(/\s+/g, " ").trim();
 }
 
+// Para casos em que o PDF “junta” tokens e some com espaços:
+function loosen(s) {
+  // remove espaços para um 2º modo de busca (fallback)
+  return (s || "").replace(/\s+/g, "");
+}
+
 async function getPageText(page) {
   const content = await page.getTextContent();
+  // juntar tokens com espaço ajuda, mas alguns PDFs ainda “colam” tudo
   return content.items.map((it) => it.str).join(" ");
 }
 
-// ---------- Extratores de rótulo (dropdown) ----------
-// Professores: tenta achar "Professor Fulano de Tal"
+// ---------------- Label extractors ----------------
+
+// PROFESSORES (robusto)
+// 1) tenta "Professor Fulano..." ou "Prof. Fulano..."
+// 2) se não achar, tenta pegar um nome próprio "Fulano de Tal" e filtra cabeçalhos comuns
 function extractProfessorName(text) {
   const t = normalizeSpaces(text);
+  const t2 = loosen(t);
 
-  // Ajuste se seu PDF de professores tiver outro padrão de cabeçalho
-  // Ex.: "Professor Adelino Jacó Seibt"
-  const m = t.match(/\bProfessor[a]?\s+[A-ZÀ-Ú][A-Za-zÀ-ú'´`^~\-\s]+/);
-  if (!m) return null;
+  // 1) Com "Professor/Prof"
+  let m =
+    t.match(/\b(Professor[a]?|Prof\.?)\s+([A-ZÀ-Ú][A-Za-zÀ-ú'´`^~\-]+(?:\s+[A-ZÀ-Ú][A-Za-zÀ-ú'´`^~\-]+){1,5})\b/) ||
+    t2.match(/\b(Professor[a]?|Prof\.?)\s*([A-ZÀ-Ú][A-Za-zÀ-ú'´`^~\-]+(?:[A-ZÀ-Ú][A-Za-zÀ-ú'´`^~\-]+){1,5})\b/);
 
-  return normalizeSpaces(m[0]);
+  if (m) {
+    // m[2] pode vir colado no modo loosen; não dá para “re-separar” perfeito,
+    // então priorizamos o match com espaços; se cair no loosen, mostramos como está.
+    const name = m[2] ? normalizeSpaces(m[2]) : null;
+    if (name) return `Professor ${name}`;
+  }
+
+  // 2) Fallback por “nome próprio” (evita pegar "Instituto Federal Farroupilha")
+  const head = t.slice(0, 260);
+  const candidates = head.match(
+    /\b[A-ZÀ-Ú][a-zà-ú]+(?:\s+(?:de|da|do|dos|das|e))?(?:\s+[A-ZÀ-Ú][a-zà-ú]+){1,5}\b/g
+  );
+
+  if (!candidates) return null;
+
+  const blacklist = [
+    "Instituto Federal",
+    "Farroupilha",
+    "Campus",
+    "Santo",
+    "Ângelo",
+    "Horário criado",
+    "aSc TimeTables",
+    "HORÁRIOS",
+  ];
+
+  for (const c of candidates) {
+    const ok = !blacklist.some((b) => c.toLowerCase().includes(b.toLowerCase()));
+    if (ok) return c;
+  }
+
+  return null;
 }
 
-// Turmas: ajustado ao seu PDF real (padrão do topo)
-// Exemplos no arquivo: "INF 11 - ...", "ADM 11 - ...", "ENS T12 - ...", "ENF T3 - ..." :contentReference[oaicite:1]{index=1}
+// TURMAS (ajustado ao seu PDF + robusto a espaços sumidos)
+// Padrões esperados (exemplos reais): INF 11 - ..., ADM 11 - ..., ENS T12 - ..., ENF T3 - ... :contentReference[oaicite:1]{index=1}
 function extractTurmaName(text) {
   const t = normalizeSpaces(text);
+  const t2 = loosen(t);
 
-  // Captura algo como:
-  // INF 11 - 1º ANO Técnico em Informática Integrado
-  // ADM 21 - 2º ano Técnico em Administração Integrado
-  // ENS T12 - 1º sem Téc. Enfermagem [Registro no Sigaa]
-  // ENF T3 - 1º sem Bacharelado em Enfermagem
-  const m = t.match(/\b[A-Z]{2,4}\s?T?\d{1,2}\s?-\s.+?(?=(\bHorário criado\b|\bHORÁRIOS\b|$))/i);
+  // 1) Modo normal (com espaços) — aceita hífen "-" ou "–"
+  let m = t.match(/\b([A-Z]{2,4})\s*(T)?\s*(\d{1,2})\s*[-–]\s*([^]+?)\b/i);
+
+  // 2) Fallback sem espaços (quando vira "INF11-1ºANO...")
+  if (!m) {
+    m = t2.match(/\b([A-Z]{2,4})(T)?(\d{1,2})[-–]([^]+?)\b/i);
+  }
+
   if (!m) return null;
 
-  let label = m[0];
+  const sigla = m[1].toUpperCase();
+  const hasT = m[2] ? " T" : "";
+  const numero = m[3];
+  let resto = m[4] || "";
 
-  // Limpeza: remove "Integrado..." e colchetes "[Registro ...]"
-  label = label.replace(/\sIntegrado.*/i, "");
-  label = label.replace(/\s\[[^\]]+\]/g, "");
-  label = normalizeSpaces(label);
+  // corta o resto para não virar “a página inteira”
+  resto = normalizeSpaces(resto).slice(0, 90);
 
-  // Mantém rótulo num tamanho razoável
-  if (label.length > 80) label = label.slice(0, 80).trim() + "…";
+  // limpeza: remove "Integrado..." e colchetes "[Registro...]"
+  resto = resto.replace(/\sIntegrado.*/i, "");
+  resto = resto.replace(/\s\[[^\]]+\]/g, "");
+  resto = normalizeSpaces(resto);
+
+  // monta label
+  let label = `${sigla}${hasT} ${numero} - ${resto}`.trim();
+
+  // se ainda estiver grande, reduz
+  if (label.length > 90) label = label.slice(0, 90).trim() + "…";
 
   return label;
 }
 
 function extractLabel(text, type) {
-  if (type === "prof") return extractProfessorName(text);
-  return extractTurmaName(text);
+  return type === "prof" ? extractProfessorName(text) : extractTurmaName(text);
 }
 
-// ---------- Carregar PDF e montar dropdown ----------
+// ---------------- Load / render ----------------
 async function loadPdf(type) {
   currentType = type;
   const url = PDFS[type];
@@ -102,7 +153,7 @@ async function loadPdf(type) {
     pageMap.push({ label, pageNumber: p });
   }
 
-  // Ordena alfabeticamente (se preferir manter a ordem do PDF, comente esta linha)
+  // Ordena alfabeticamente (se quiser manter ordem do PDF, comente)
   pageMap.sort((a, b) => a.label.localeCompare(b.label, "pt-BR"));
 
   itemSelect.innerHTML = "";
@@ -117,18 +168,14 @@ async function loadPdf(type) {
   setStatus(`Pronto: ${pdfDoc.numPages} páginas`);
 }
 
-// ---------- Renderizar página selecionada ----------
 async function renderPage(pageNumber) {
   if (!pdfDoc) return;
 
   setStatus(`Renderizando página ${pageNumber}…`);
-
   const page = await pdfDoc.getPage(pageNumber);
 
-  // Escala base
-  const baseScale = 1.6;
-
-  // Ajuste leve conforme largura disponível (para ficar bom no embed do Google Sites)
+  // Ajuste de escala para embed (Google Sites)
+  const baseScale = 1.5;
   const containerWidth = Math.min(document.body.clientWidth || 900, 1100);
   const viewport1 = page.getViewport({ scale: 1 });
   const fitScale = (containerWidth / viewport1.width) * baseScale;
@@ -139,15 +186,12 @@ async function renderPage(pageNumber) {
   canvas.height = Math.floor(viewport.height);
 
   await page.render({ canvasContext: ctx, viewport }).promise;
-
   setStatus("");
 }
 
-// ---------- (Opcional) parâmetros de URL ----------
+// URL opcional: ?tipo=turma&page=10
 function applyUrlParams() {
-  // Permite abrir direto: ?tipo=turma&page=10
   const params = new URLSearchParams(window.location.search);
-
   const tipo = params.get("tipo");
   const page = parseInt(params.get("page"), 10);
 
@@ -163,27 +207,21 @@ function updateUrl(pageNumber) {
   const params = new URLSearchParams(window.location.search);
   params.set("tipo", currentType);
   params.set("page", String(pageNumber));
-  const newUrl = `${window.location.pathname}?${params.toString()}`;
-  window.history.replaceState(null, "", newUrl);
+  history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
 }
 
-// ---------- Inicialização ----------
 async function init() {
   try {
     const initialPageFromUrl = applyUrlParams();
 
     await loadPdf(currentType);
 
-    // Seleciona a página inicial
     let startPage = initialPageFromUrl || parseInt(itemSelect.value, 10) || 1;
-
-    // Se veio página pela URL, tenta selecionar (se existir)
     if (initialPageFromUrl) itemSelect.value = String(startPage);
 
     await renderPage(startPage);
     updateUrl(startPage);
 
-    // Eventos
     typeSelect.addEventListener("change", async () => {
       await loadPdf(typeSelect.value);
       const p = parseInt(itemSelect.value, 10) || 1;
@@ -199,7 +237,7 @@ async function init() {
   } catch (e) {
     console.error(e);
     setStatus(
-      "Erro ao carregar. Verifique se os PDFs estão no mesmo diretório e com os nomes: horarios-professores.pdf e horarios-turmas.pdf"
+      "Erro ao carregar. Confira se os PDFs estão na raiz e com os nomes: horarios-professores.pdf e horarios-turmas.pdf"
     );
   }
 }
