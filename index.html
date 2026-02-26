@@ -3,90 +3,262 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Horários</title>
+  <title>Horários Acadêmicos</title>
+
+  <!-- (Opcional) Se você quiser um ícone depois, coloque um favicon.ico na raiz e descomente:
+  <link rel="icon" href="./favicon.ico">
+  -->
 
   <style>
+    :root{
+      --verde:#2e7d32;
+      --verde-escuro:#1b5e20;
+      --verde-claro:#e8f5e9;
+      --bg:#f4f6f5;
+      --card:#ffffff;
+      --texto:#1c1f1d;
+      --muted:#5d6560;
+      --borda:#dfe6e1;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius:16px;
+    }
+
+    *{ box-sizing:border-box; }
+
     body{
       margin:0;
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      background:#f5f7f6;
+      background:var(--bg);
+      color:var(--texto);
     }
 
-    .container{
+    .wrap{
       max-width:1100px;
-      margin:auto;
-      padding:20px;
+      margin:0 auto;
+      padding:16px;
+    }
+
+    .header{
+      background:linear-gradient(135deg, var(--verde), var(--verde-escuro));
+      color:#fff;
+      border-radius:var(--radius);
+      padding:16px 18px;
+      box-shadow:var(--shadow);
+      margin-bottom:14px;
+    }
+
+    .header-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    .title{
+      font-size:18px;
+      font-weight:700;
+      letter-spacing:.2px;
+      margin:0;
+    }
+
+    .subtitle{
+      margin:6px 0 0 0;
+      opacity:.9;
+      font-size:13px;
+    }
+
+    .badge{
+      background:rgba(255,255,255,.16);
+      border:1px solid rgba(255,255,255,.22);
+      padding:8px 10px;
+      border-radius:999px;
+      font-size:12px;
+      white-space:nowrap;
     }
 
     .card{
-      background:#fff;
-      border-radius:14px;
-      box-shadow:0 10px 30px rgba(0,0,0,.08);
-      padding:18px;
+      background:var(--card);
+      border:1px solid var(--borda);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
     }
 
-    .top{
+    .controls{
+      padding:14px 14px 10px 14px;
+      border-bottom:1px solid var(--borda);
       display:flex;
-      gap:15px;
+      gap:12px;
       flex-wrap:wrap;
       align-items:end;
-      margin-bottom:15px;
+      justify-content:space-between;
+    }
+
+    .left-controls{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:end;
     }
 
     label{
       display:flex;
       flex-direction:column;
-      font-size:13px;
-      color:#555;
       gap:6px;
+      font-size:12px;
+      color:var(--muted);
     }
 
-    select{
-      padding:10px;
-      border-radius:10px;
-      border:1px solid #ddd;
-      min-width:260px;
+    select, input{
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--borda);
+      background:#fff;
+      color:var(--texto);
+      font-size:14px;
+      outline:none;
+      min-width:240px;
     }
 
-    #status{
+    input{
+      min-width:280px;
+    }
+
+    .right-controls{
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+
+    .status{
+      font-size:12px;
+      color:var(--muted);
+      min-height:18px;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+
+    .dot{
+      width:10px;height:10px;border-radius:999px;
+      background:var(--verde);
+      opacity:.25;
+    }
+    .dot.on{ opacity:1; }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--borda);
+      background:#fff;
+      cursor:pointer;
       font-size:13px;
-      color:#666;
-      min-width:220px;
+      color:var(--texto);
+      text-decoration:none;
+      user-select:none;
+    }
+
+    .btn:hover{ filter:brightness(.98); }
+    .btn.primary{
+      background:var(--verde);
+      border-color:var(--verde);
+      color:#fff;
+    }
+
+    .viewer{
+      padding:12px;
     }
 
     canvas{
       width:100%;
-      border-radius:12px;
-      border:1px solid #ddd;
+      height:auto;
+      display:block;
+      border-radius:14px;
+      border:1px solid var(--borda);
       background:#fff;
+    }
+
+    .footer{
+      padding:10px 14px 14px 14px;
+      border-top:1px solid var(--borda);
+      color:var(--muted);
+      font-size:12px;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+
+    @media (max-width: 640px){
+      select, input{ min-width: 100%; }
+      .right-controls{ width:100%; justify-content:space-between; }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="wrap">
+
+    <div class="header">
+      <div class="header-top">
+        <div>
+          <h1 class="title">Horários Acadêmicos</h1>
+          <p class="subtitle">Selecione professor ou turma para visualizar o horário.</p>
+        </div>
+        <div class="badge">IFFar • 2026/1</div>
+      </div>
+    </div>
+
     <div class="card">
 
-      <div class="top">
-        <label>
-          Tipo
-          <select id="typeSelect">
-            <option value="prof">Horários dos professores</option>
-            <option value="turma">Horários das turmas</option>
-          </select>
-        </label>
+      <div class="controls">
+        <div class="left-controls">
+          <label>
+            Tipo
+            <select id="typeSelect">
+              <option value="prof">Horários dos professores</option>
+              <option value="turma">Horários das turmas</option>
+            </select>
+          </label>
 
-        <label>
-          Selecionar
-          <select id="itemSelect" disabled>
-            <option>Carregando...</option>
-          </select>
-        </label>
+          <label>
+            Buscar (digite parte do nome)
+            <input id="searchInput" type="text" placeholder="Ex.: Adelino / INF 11 / Enfermagem..." autocomplete="off">
+          </label>
 
-        <div id="status"></div>
+          <label>
+            Selecionar
+            <select id="itemSelect" disabled>
+              <option>Carregando...</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="right-controls">
+          <div class="status" aria-live="polite">
+            <span class="dot" id="loadingDot"></span>
+            <span id="status"></span>
+          </div>
+
+          <a class="btn primary" id="openPdfBtn" href="#" target="_blank" rel="noopener">📄 Abrir PDF completo</a>
+        </div>
       </div>
 
-      <canvas id="pdfCanvas"></canvas>
+      <div class="viewer">
+        <canvas id="pdfCanvas"></canvas>
+      </div>
+
+      <div class="footer">
+        <span>Dica: para forçar atualização após trocar PDFs, use Ctrl+F5 (ou abra em aba anônima).</span>
+        <span>Desenvolvido para incorporação no Google Sites.</span>
+      </div>
 
     </div>
   </div>
