@@ -1,3 +1,11 @@
+// app.js — sem CDN, usando PDF.js local
+// Requer no repositório:
+//  - /vendor/pdfjs/pdf.js
+//  - /vendor/pdfjs/pdf.worker.js
+// E os PDFs na raiz:
+//  - /horarios-professores.pdf
+//  - /horarios-turmas.pdf
+
 const PDFS = {
   prof: "./horarios-professores.pdf",
   turma: "./horarios-turmas.pdf",
@@ -9,57 +17,65 @@ const canvas = document.getElementById("pdfCanvas");
 const statusEl = document.getElementById("status");
 const ctx = canvas.getContext("2d");
 
-// Worker (LEGACY) — combina com o pdf.min.js legacy
-pdfjsLib.GlobalWorkerOptions.workerSrc =
-  "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/legacy/build/pdf.worker.min.js";
+// Worker LOCAL
+pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdfjs/pdf.worker.js";
 
 let pdfDoc = null;
-let currentType = "prof";
 
-function setStatus(msg){
+function setStatus(msg) {
   statusEl.textContent = msg || "";
 }
 
-function normalize(text){
-  return (text || "").replace(/\s+/g," ").trim();
+function normalize(text) {
+  return (text || "").replace(/\s+/g, " ").trim();
 }
 
-async function getPageText(page){
+async function getPageText(page) {
   const content = await page.getTextContent();
-  return content.items.map(i => i.str).join(" ");
+  return content.items.map((i) => i.str).join(" ");
 }
 
-// TURMAS (padrão do seu PDF: INF 11 - ..., ENS T12 - ..., etc.)
-function extractTurma(text){
+// TURMAS (padrão do seu PDF: INF 11 - ..., ENS T12 - ..., ENF T3 - ...)
+function extractTurma(text) {
   const t = normalize(text);
 
-  // aceita hífen normal "-" ou traço "–"
-  const match = t.match(/\b[A-Z]{2,4}\s?T?\d{1,2}\s?[-–]\s?.{1,90}/);
-
-  if(!match) return null;
+  // aceita "-" ou "–"
+  const match = t.match(/\b[A-Z]{2,4}\s?T?\d{1,2}\s?[-–]\s?.{1,100}/);
+  if (!match) return null;
 
   let label = match[0];
-  label = label.replace(/\sIntegrado.*/i,"");
-  label = label.replace(/\[[^\]]+\]/g,"");
+  label = label.replace(/\sIntegrado.*/i, "");
+  label = label.replace(/\[[^\]]+\]/g, "");
   return normalize(label);
 }
 
-// PROFESSORES (pelo seu print: "Professor Adelino Jacó ...")
-function extractProfessor(text){
+// PROFESSORES (pelo seu PDF: "Professor Nome Sobrenome")
+function extractProfessor(text) {
   const t = normalize(text);
 
-  const match = t.match(/\bProfessor[a]?\s+[A-ZÀ-Ú][A-Za-zÀ-ú\s'´`^~\-]{2,80}/);
-  if(!match) return null;
+  const match = t.match(/\bProfessor[a]?\s+[A-ZÀ-Ú][A-Za-zÀ-ú\s'´`^~\-]{2,90}/);
+  if (!match) return null;
 
   return normalize(match[0]);
 }
 
-function extractLabel(text,type){
-  return (type==="prof") ? extractProfessor(text) : extractTurma(text);
+function extractLabel(text, type) {
+  return type === "prof" ? extractProfessor(text) : extractTurma(text);
 }
 
-async function loadPdf(type){
-  currentType = type;
+async function renderPage(num) {
+  const page = await pdfDoc.getPage(num);
+
+  // escala boa para embed
+  const viewport = page.getViewport({ scale: 1.5 });
+
+  canvas.width = Math.floor(viewport.width);
+  canvas.height = Math.floor(viewport.height);
+
+  await page.render({ canvasContext: ctx, viewport }).promise;
+}
+
+async function loadPdf(type) {
   const url = PDFS[type];
 
   setStatus("Carregando PDF...");
@@ -71,10 +87,10 @@ async function loadPdf(type){
   setStatus("Lendo páginas...");
   itemSelect.innerHTML = "";
 
-  for(let p=1; p<=pdfDoc.numPages; p++){
+  for (let p = 1; p <= pdfDoc.numPages; p++) {
     const page = await pdfDoc.getPage(p);
     const text = await getPageText(page);
-    const label = extractLabel(text,type) || `Página ${p}`;
+    const label = extractLabel(text, type) || `Página ${p}`;
 
     const opt = document.createElement("option");
     opt.value = String(p);
@@ -88,18 +104,7 @@ async function loadPdf(type){
   await renderPage(parseInt(itemSelect.value || "1", 10));
 }
 
-async function renderPage(num){
-  const page = await pdfDoc.getPage(num);
-
-  // escala boa para embed (Google Sites)
-  const viewport = page.getViewport({ scale: 1.5 });
-
-  canvas.width = Math.floor(viewport.width);
-  canvas.height = Math.floor(viewport.height);
-
-  await page.render({ canvasContext: ctx, viewport }).promise;
-}
-
+// Eventos
 typeSelect.addEventListener("change", () => {
   loadPdf(typeSelect.value);
 });
@@ -108,5 +113,5 @@ itemSelect.addEventListener("change", () => {
   renderPage(parseInt(itemSelect.value, 10));
 });
 
-// inicia
+// Inicia
 loadPdf("prof");
