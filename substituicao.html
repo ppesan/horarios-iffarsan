@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Substituição de Professores</title>
+
+  <style>
+    :root{
+      --verde:#2e7d32;
+      --verde-escuro:#1b5e20;
+      --bg:#f4f6f5;
+      --card:#ffffff;
+      --texto:#1c1f1d;
+      --muted:#5d6560;
+      --borda:#dfe6e1;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius:16px;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--texto);
+    }
+    .wrap{ max-width:1100px; margin:0 auto; padding:16px; }
+    .header{
+      background:linear-gradient(135deg, var(--verde), var(--verde-escuro));
+      color:#fff;
+      border-radius:var(--radius);
+      padding:16px 18px;
+      box-shadow:var(--shadow);
+      margin-bottom:14px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .title{ margin:0; font-size:18px; font-weight:700; }
+    .subtitle{ margin:6px 0 0 0; opacity:.9; font-size:13px; }
+    .badge{
+      background:rgba(255,255,255,.16);
+      border:1px solid rgba(255,255,255,.22);
+      padding:8px 10px;
+      border-radius:999px;
+      font-size:12px;
+      white-space:nowrap;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--borda);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .controls{
+      padding:14px;
+      border-bottom:1px solid var(--borda);
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:end;
+      justify-content:space-between;
+    }
+    .left-controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:end; }
+    label{ display:flex; flex-direction:column; gap:6px; font-size:12px; color:var(--muted); }
+    select, input{
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--borda);
+      background:#fff;
+      color:var(--texto);
+      font-size:14px;
+      outline:none;
+      min-width:240px;
+    }
+    input{ min-width:280px; }
+    .right-controls{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end; }
+    .status{ font-size:12px; color:var(--muted); min-height:18px; display:flex; align-items:center; gap:8px; }
+    .dot{ width:10px; height:10px; border-radius:999px; background:var(--verde); opacity:.25; }
+    .dot.on{ opacity:1; }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid var(--borda);
+      background:#fff;
+      cursor:pointer;
+      font-size:13px;
+      color:var(--texto);
+      text-decoration:none;
+      user-select:none;
+    }
+    .btn.primary{
+      background:var(--verde);
+      border-color:var(--verde);
+      color:#fff;
+    }
+    .content{ padding:14px; }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    .panel{
+      border:1px solid var(--borda);
+      border-radius:14px;
+      padding:12px;
+      background:#fff;
+    }
+    .panel h3{ margin:0 0 10px 0; font-size:14px; }
+    .hint{ font-size:12px; color:var(--muted); margin-top:6px; }
+    .list{
+      margin:0;
+      padding:0;
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+    .item{
+      padding:10px 12px;
+      border:1px solid var(--borda);
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+    }
+    .name{ font-weight:600; font-size:13px; }
+    .meta{ font-size:12px; color:var(--muted); text-align:right; }
+    .footer{
+      padding:10px 14px 14px 14px;
+      border-top:1px solid var(--borda);
+      color:var(--muted);
+      font-size:12px;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    @media (max-width: 860px){
+      .grid{ grid-template-columns:1fr; }
+    }
+    @media (max-width: 640px){
+      select, input{ min-width:100%; }
+      .right-controls{ width:100%; justify-content:space-between; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div>
+        <h1 class="title">Substituição de Professores</h1>
+        <p class="subtitle">Escolha dia e horário. O sistema lista quem está livre nesse horário.</p>
+      </div>
+      <div class="badge">IFFar • 2026/1</div>
+    </div>
+
+    <div class="card">
+      <div class="controls">
+        <div class="left-controls">
+          <label>
+            Dia
+            <select id="diaSelect" disabled>
+              <option>Carregando...</option>
+            </select>
+          </label>
+
+          <label>
+            Horário (início)
+            <select id="horaSelect" disabled>
+              <option>Carregando...</option>
+            </select>
+          </label>
+
+          <label>
+            Professor ausente (opcional)
+            <input id="ausenteInput" list="profList" placeholder="Digite o nome (ex.: Adelino)" disabled>
+            <datalist id="profList"></datalist>
+          </label>
+        </div>
+
+        <div class="right-controls">
+          <div class="status" aria-live="polite">
+            <span class="dot" id="loadingDot"></span>
+            <span id="status"></span>
+          </div>
+          <button class="btn primary" id="buscarBtn" disabled>🔎 Buscar disponíveis</button>
+          <a class="btn" href="./index.html">↩ Voltar aos horários</a>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="grid">
+          <div class="panel">
+            <h3>Disponíveis neste horário</h3>
+            <ul class="list" id="disponiveisList"></ul>
+            <div class="hint" id="disponiveisHint"></div>
+          </div>
+
+          <div class="panel">
+            <h3>Ocupados neste horário</h3>
+            <ul class="list" id="ocupadosList"></ul>
+            <div class="hint" id="ocupadosHint"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <span>Dica: se trocar o CSV no GitHub e não atualizar, use Ctrl+F5.</span>
+        <span>Fonte: exportação aSc (XML → CSV)</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="./substituicao.js"></script>
+</body>
+</html>
