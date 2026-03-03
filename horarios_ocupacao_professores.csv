@@ -1,0 +1,1563 @@
+﻿dia,periodo,inicio,fim,professor,turmas,disciplina
+Terça,1,7:30,8:20,Alexandre Novicki,AGR 21 - 2º ano Técnico em Agricultura Integrado,Física
+Terça,2,8:20,9:10,Alexandre Novicki,AGR 21 - 2º ano Técnico em Agricultura Integrado,Física
+Terça,3,9:10,10:00,Alexandre Novicki,AGR 21 - 2º ano Técnico em Agricultura Integrado,Física
+Sexta,5,11:10,12:00,Alexandre Novicki,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Física
+Quarta,3,9:10,10:00,Alexandre Novicki,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Física
+Quarta,4,10:20,11:10,Alexandre Novicki,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Física
+Quarta,5,11:10,12:00,Alexandre Novicki,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Física
+Sexta,3,9:10,10:00,Larissa Zanetti Theil,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Educação Física
+Sexta,4,10:20,11:10,Larissa Zanetti Theil,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Educação Física
+Sexta,5,11:10,12:00,Larissa Zanetti Theil,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Educação Física
+Segunda,6,13:30,14:20,Leandro Jorge Daronco,ADM 21 - 2º ANO Técnico em Administração Integrado,História
+Segunda,7,14:20,15:10,Leandro Jorge Daronco,ADM 21 - 2º ANO Técnico em Administração Integrado,História
+Segunda,8,15:30,16:20,Leandro Jorge Daronco,ADM 21 - 2º ANO Técnico em Administração Integrado,História
+Quarta,4,10:20,11:10,Larissa Zanetti Theil,ADM 31 - 3º ANO Técnico em Administração Integrado,Educação Física
+Quarta,5,11:10,12:00,Larissa Zanetti Theil,ADM 31 - 3º ANO Técnico em Administração Integrado,Educação Física
+Quarta,6,13:30,14:20,Larissa Zanetti Theil,ADM 31 - 3º ANO Técnico em Administração Integrado,Educação Física
+Segunda,3,9:10,10:00,Leandro Jorge Daronco,ADM 31 - 3º ANO Técnico em Administração Integrado,História
+Segunda,4,10:20,11:10,Leandro Jorge Daronco,ADM 31 - 3º ANO Técnico em Administração Integrado,História
+Segunda,5,11:10,12:00,Leandro Jorge Daronco,ADM 31 - 3º ANO Técnico em Administração Integrado,História
+Quinta,10,19:00,19:50,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,11,19:50,20:40,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,12,20:50,21:40,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,13,21:40,22:30,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,14,,,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,15,,,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,16,,,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,6,13:30,14:20,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,7,14:20,15:10,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,8,15:30,16:20,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Quinta,9,16:20,17:10,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Sexta,6,13:30,14:20,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Sexta,7,14:20,15:10,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Sexta,8,15:30,16:20,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Sexta,9,16:20,17:10,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Sexta,10,19:00,19:50,Marcele Teixeira Homrich Ravasio,PROFEPT - Mestrado IFFar Polo Jaguari,Mestrado
+Terça,1,7:30,8:20,Willian Rubira da Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Física
+Terça,2,8:20,9:10,Willian Rubira da Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Física
+Terça,3,9:10,10:00,Willian Rubira da Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Física
+Quinta,3,9:10,10:00,Willian Rubira da Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Física
+Sexta,5,11:10,12:00,Kelly de Fátima Castilhos,ADM 31 - 3º ANO Técnico em Administração Integrado,Filosofia
+Terça,1,7:30,8:20,Kelly de Fátima Castilhos,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Filosofia
+Segunda,8,15:30,16:20,Leandro Jorge Daronco,ADM 22 - 2º ANO Técnico em Administração Integrado,História
+Segunda,9,16:20,17:10,Leandro Jorge Daronco,ADM 22 - 2º ANO Técnico em Administração Integrado,História
+Segunda,10,19:00,19:50,Leandro Jorge Daronco,ADM 22 - 2º ANO Técnico em Administração Integrado,História
+Sexta,1,7:30,8:20,Kelly de Fátima Castilhos,ADM 22 - 2º ANO Técnico em Administração Integrado,Filosofia
+Sexta,2,8:20,9:10,Kelly de Fátima Castilhos,ADM 22 - 2º ANO Técnico em Administração Integrado,Filosofia
+Sexta,3,9:10,10:00,Kelly de Fátima Castilhos,ADM 22 - 2º ANO Técnico em Administração Integrado,Filosofia
+Sexta,1,7:30,8:20,Willian Rubira da Silva,INF 11  - 1º ANO Técnico em Informática Integrado,Física
+Sexta,2,8:20,9:10,Willian Rubira da Silva,INF 11  - 1º ANO Técnico em Informática Integrado,Física
+Sexta,3,9:10,10:00,Willian Rubira da Silva,INF 11  - 1º ANO Técnico em Informática Integrado,Física
+Quarta,3,9:10,10:00,Willian Rubira da Silva,INF 11  - 1º ANO Técnico em Informática Integrado,Física
+Quarta,4,10:20,11:10,Willian Rubira da Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Física
+Quarta,5,11:10,12:00,Willian Rubira da Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Física
+Quarta,6,13:30,14:20,Willian Rubira da Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Física
+Quinta,4,10:20,11:10,Willian Rubira da Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Física
+Sexta,1,7:30,8:20,Adriane Speranza,ADM 31 - 3º ANO Técnico em Administração Integrado,Química
+Sexta,2,8:20,9:10,Adriane Speranza,ADM 31 - 3º ANO Técnico em Administração Integrado,Química
+Sexta,3,9:10,10:00,Adriane Speranza,ADM 31 - 3º ANO Técnico em Administração Integrado,Química
+Segunda,8,15:30,16:20,Rosélia da Rosa Lutchemeyer,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Matemática
+Segunda,9,16:20,17:10,Rosélia da Rosa Lutchemeyer,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Matemática
+Segunda,10,19:00,19:50,Rosélia da Rosa Lutchemeyer,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Matemática
+Segunda,7,14:20,15:10,Manuela Sulzbach Rodrigues,AGR 21 - 2º ano Técnico em Agricultura Integrado,Fruticultura e Silvicultura
+Segunda,8,15:30,16:20,Manuela Sulzbach Rodrigues,AGR 21 - 2º ano Técnico em Agricultura Integrado,Fruticultura e Silvicultura
+Segunda,9,16:20,17:10,Manuela Sulzbach Rodrigues,AGR 21 - 2º ano Técnico em Agricultura Integrado,Fruticultura e Silvicultura
+Segunda,10,19:00,19:50,Manuela Sulzbach Rodrigues,AGR 21 - 2º ano Técnico em Agricultura Integrado,Fruticultura e Silvicultura
+Segunda,11,19:50,20:40,Manuela Sulzbach Rodrigues,AGR 21 - 2º ano Técnico em Agricultura Integrado,Fruticultura e Silvicultura
+Quarta,4,10:20,11:10,Thaiane da Silva Socoloski,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Inglesa
+Quarta,5,11:10,12:00,Thaiane da Silva Socoloski,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Inglesa
+Quarta,6,13:30,14:20,Thaiane da Silva Socoloski,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Inglesa
+Sexta,5,11:10,12:00,Vinícius Feltrin Giglio,INF 11  - 1º ANO Técnico em Informática Integrado,Química
+Terça,1,7:30,8:20,Larissa Zanetti Theil,INF 21 - 2º ANO Técnico em Informática Integrado,Educação Física
+Terça,2,8:20,9:10,Larissa Zanetti Theil,INF 21 - 2º ANO Técnico em Informática Integrado,Educação Física
+Terça,3,9:10,10:00,Larissa Zanetti Theil,INF 21 - 2º ANO Técnico em Informática Integrado,Educação Física
+Quarta,5,11:10,12:00,Kelly de Fátima Castilhos,INF 21 - 2º ANO Técnico em Informática Integrado,Filosofia
+Segunda,8,15:30,16:20,Thaiane da Silva Socoloski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Inglesa
+Segunda,9,16:20,17:10,Thaiane da Silva Socoloski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Inglesa
+Segunda,10,19:00,19:50,Thaiane da Silva Socoloski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Inglesa
+Terça,4,10:20,11:10,Thaiane da Silva Socoloski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Inglesa
+Terça,5,11:10,12:00,Thaiane da Silva Socoloski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Inglesa
+Terça,6,13:30,14:20,Thaiane da Silva Socoloski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Inglesa
+Segunda,1,7:30,8:20,Willian Rubira da Silva,ADM 21 - 2º ANO Técnico em Administração Integrado,Física
+Segunda,2,8:20,9:10,Willian Rubira da Silva,ADM 21 - 2º ANO Técnico em Administração Integrado,Física
+Segunda,3,9:10,10:00,Willian Rubira da Silva,ADM 21 - 2º ANO Técnico em Administração Integrado,Física
+Sexta,3,9:10,10:00,Willian Rubira da Silva,ADM 22 - 2º ANO Técnico em Administração Integrado,Física
+Sexta,4,10:20,11:10,Willian Rubira da Silva,ADM 22 - 2º ANO Técnico em Administração Integrado,Física
+Sexta,5,11:10,12:00,Willian Rubira da Silva,ADM 22 - 2º ANO Técnico em Administração Integrado,Física
+Quarta,1,7:30,8:20,Larissa Zanetti Theil,ADM 32 - 3º ANO Técnico em Administração Integrado,Educação Física
+Quarta,2,8:20,9:10,Larissa Zanetti Theil,ADM 32 - 3º ANO Técnico em Administração Integrado,Educação Física
+Quarta,3,9:10,10:00,Larissa Zanetti Theil,ADM 32 - 3º ANO Técnico em Administração Integrado,Educação Física
+Quarta,3,9:10,10:00,Kelly de Fátima Castilhos,ADM 32 - 3º ANO Técnico em Administração Integrado,Filosofia
+Terça,2,8:20,9:10,Thaiane da Silva Socoloski,ADM 21 - 2º ANO Técnico em Administração Integrado,Língua Inglesa
+Quinta,1,7:30,8:20,Thaiane da Silva Socoloski,ADM 22 - 2º ANO Técnico em Administração Integrado,Língua Inglesa
+Quarta,1,7:30,8:20,Leandro Jorge Daronco,ADM 11 - 1º ANO  Técnico em Administração Integrado,História
+Quinta,6,13:30,14:20,Vinícius Feltrin Giglio,INF 11  - 1º ANO Técnico em Informática Integrado,Química
+Quinta,7,14:20,15:10,Vinícius Feltrin Giglio,INF 11  - 1º ANO Técnico em Informática Integrado,Química
+Quinta,8,15:30,16:20,Vinícius Feltrin Giglio,INF 11  - 1º ANO Técnico em Informática Integrado,Química
+Segunda,3,9:10,10:00,Ulisses dos Santos Gonçalves,AGR 21 - 2º ano Técnico em Agricultura Integrado,Geografia
+Segunda,4,10:20,11:10,Ulisses dos Santos Gonçalves,AGR 21 - 2º ano Técnico em Agricultura Integrado,Geografia
+Segunda,5,11:10,12:00,Ulisses dos Santos Gonçalves,AGR 21 - 2º ano Técnico em Agricultura Integrado,Geografia
+Terça,4,10:20,11:10,Ulisses dos Santos Gonçalves,ADM 22 - 2º ANO Técnico em Administração Integrado,Geografia
+Segunda,8,15:30,16:20,Ulisses dos Santos Gonçalves,ADM 32 - 3º ANO Técnico em Administração Integrado,Geografia
+Segunda,9,16:20,17:10,Ulisses dos Santos Gonçalves,ADM 32 - 3º ANO Técnico em Administração Integrado,Geografia
+Segunda,10,19:00,19:50,Ulisses dos Santos Gonçalves,ADM 32 - 3º ANO Técnico em Administração Integrado,Geografia
+Terça,3,9:10,10:00,Ulisses dos Santos Gonçalves,ADM 21 - 2º ANO Técnico em Administração Integrado,Geografia
+Quinta,8,15:30,16:20,Ulisses dos Santos Gonçalves,ADM 31 - 3º ANO Técnico em Administração Integrado,Geografia
+Quinta,9,16:20,17:10,Ulisses dos Santos Gonçalves,ADM 31 - 3º ANO Técnico em Administração Integrado,Geografia
+Quinta,10,19:00,19:50,Ulisses dos Santos Gonçalves,ADM 31 - 3º ANO Técnico em Administração Integrado,Geografia
+Sexta,3,9:10,10:00,Luis Henrique Loose,AGR 21 - 2º ano Técnico em Agricultura Integrado,Culturas Anuais I
+Sexta,4,10:20,11:10,Luis Henrique Loose,AGR 21 - 2º ano Técnico em Agricultura Integrado,Culturas Anuais I
+Sexta,5,11:10,12:00,Luis Henrique Loose,AGR 21 - 2º ano Técnico em Agricultura Integrado,Culturas Anuais I
+Sexta,6,13:30,14:20,Luis Henrique Loose,AGR 21 - 2º ano Técnico em Agricultura Integrado,Culturas Anuais I
+Sexta,7,14:20,15:10,Luis Henrique Loose,AGR 21 - 2º ano Técnico em Agricultura Integrado,Culturas Anuais I
+Quarta,5,11:10,12:00,Maria Aparecida Lucca Paranhos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Quinta,8,15:30,16:20,Maria Aparecida Lucca Paranhos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Quinta,9,16:20,17:10,Maria Aparecida Lucca Paranhos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Quinta,10,19:00,19:50,Maria Aparecida Lucca Paranhos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Segunda,6,13:30,14:20,Elaine Luiza Biacchi Vione,AGR 21 - 2º ano Técnico em Agricultura Integrado,Extensão e Desenvolvimento Rural
+Segunda,6,13:30,14:20,Maria Aparecida Lucca Paranhos,INF 31 - 3º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,7,14:20,15:10,Maria Aparecida Lucca Paranhos,INF 31 - 3º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,8,15:30,16:20,Maria Aparecida Lucca Paranhos,INF 31 - 3º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Quinta,4,10:20,11:10,Maria Aparecida Lucca Paranhos,INF 31 - 3º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Quinta,5,11:10,12:00,Maria Aparecida Lucca Paranhos,INF 31 - 3º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Quinta,6,13:30,14:20,Maria Aparecida Lucca Paranhos,INF 31 - 3º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Quinta,6,13:30,14:20,Ulisses dos Santos Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Geografia
+Quinta,7,14:20,15:10,Ulisses dos Santos Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Geografia
+Quinta,8,15:30,16:20,Ulisses dos Santos Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Geografia
+Terça,4,10:20,11:10,Elaine Luiza Biacchi Vione,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Processamento de Alimentos
+Terça,5,11:10,12:00,Elaine Luiza Biacchi Vione,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Processamento de Alimentos
+Terça,6,13:30,14:20,Elaine Luiza Biacchi Vione,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Processamento de Alimentos
+Quinta,1,7:30,8:20,Kelly de Fátima Castilhos,ADM 21 - 2º ANO Técnico em Administração Integrado,Filosofia
+Quinta,2,8:20,9:10,Kelly de Fátima Castilhos,ADM 21 - 2º ANO Técnico em Administração Integrado,Filosofia
+Quinta,3,9:10,10:00,Kelly de Fátima Castilhos,ADM 21 - 2º ANO Técnico em Administração Integrado,Filosofia
+Terça,3,9:10,10:00,Kelly de Fátima Castilhos,AGR 21 - 2º ano Técnico em Agricultura Integrado,Filosofia
+Quinta,3,9:10,10:00,Kelly de Fátima Castilhos,AGR 21 - 2º ano Técnico em Agricultura Integrado,Filosofia
+Quarta,3,9:10,10:00,Adriane Speranza,ADM 31 - 3º ANO Técnico em Administração Integrado,Química
+Sexta,4,10:20,11:10,Adriane Speranza,INF 31 - 3º ANO Técnico em Informática Integrado,Química
+Sexta,5,11:10,12:00,Adriane Speranza,INF 31 - 3º ANO Técnico em Informática Integrado,Química
+Sexta,6,13:30,14:20,Adriane Speranza,INF 31 - 3º ANO Técnico em Informática Integrado,Química
+Quinta,3,9:10,10:00,Adriane Speranza,INF 31 - 3º ANO Técnico em Informática Integrado,Química
+Segunda,3,9:10,10:00,Willian Rubira da Silva,INF 31 - 3º ANO Técnico em Informática Integrado,Física
+Segunda,4,10:20,11:10,Willian Rubira da Silva,INF 31 - 3º ANO Técnico em Informática Integrado,Física
+Segunda,5,11:10,12:00,Willian Rubira da Silva,INF 31 - 3º ANO Técnico em Informática Integrado,Física
+Quarta,1,7:30,8:20,Willian Rubira da Silva,INF 31 - 3º ANO Técnico em Informática Integrado,Física
+Segunda,1,7:30,8:20,Phelipe Henrique Cardoso de Castro,INF 11  - 1º ANO Técnico em Informática Integrado,Educação Física
+Segunda,2,8:20,9:10,Phelipe Henrique Cardoso de Castro,INF 11  - 1º ANO Técnico em Informática Integrado,Educação Física
+Segunda,3,9:10,10:00,Phelipe Henrique Cardoso de Castro,INF 11  - 1º ANO Técnico em Informática Integrado,Educação Física
+Quinta,4,10:20,11:10,Phelipe Henrique Cardoso de Castro,ADM 11 - 1º ANO  Técnico em Administração Integrado,Educação Física
+Quinta,5,11:10,12:00,Phelipe Henrique Cardoso de Castro,ADM 11 - 1º ANO  Técnico em Administração Integrado,Educação Física
+Quinta,6,13:30,14:20,Phelipe Henrique Cardoso de Castro,ADM 11 - 1º ANO  Técnico em Administração Integrado,Educação Física
+Segunda,3,9:10,10:00,Phelipe Henrique Cardoso de Castro,ADM 12 - 1º Ano Técnico em Administração Integrado,Educação Física
+Segunda,4,10:20,11:10,Phelipe Henrique Cardoso de Castro,ADM 12 - 1º Ano Técnico em Administração Integrado,Educação Física
+Segunda,5,11:10,12:00,Phelipe Henrique Cardoso de Castro,ADM 12 - 1º Ano Técnico em Administração Integrado,Educação Física
+Quinta,1,7:30,8:20,Maria Aparecida Lucca Paranhos,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Quinta,2,8:20,9:10,Maria Aparecida Lucca Paranhos,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Quinta,3,9:10,10:00,Maria Aparecida Lucca Paranhos,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Quarta,3,9:10,10:00,Maria Aparecida Lucca Paranhos,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Sexta,9,16:20,17:10,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,10,19:00,19:50,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,11,19:50,20:40,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,12,20:50,21:40,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,13,21:40,22:30,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,14,,,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,15,,,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,16,,,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Sexta,17,,,Andressa Peripolli Rodrigues,Formação Pedagógica de Professores para a EPT - EaD,Estágio IV - Formação Pedagógica EaD
+Quinta,8,15:30,16:20,Ângela Pawlowski,AGR 21 - 2º ano Técnico em Agricultura Integrado,Biologia
+Quinta,9,16:20,17:10,Ângela Pawlowski,AGR 21 - 2º ano Técnico em Agricultura Integrado,Biologia
+Quinta,10,19:00,19:50,Ângela Pawlowski,AGR 21 - 2º ano Técnico em Agricultura Integrado,Biologia
+Quarta,6,13:30,14:20,Marcele Teixeira Homrich Ravasio,Formação Pedagógica de Professores para a EPT - EaD,Psicologia da Educação_Formação Pedagógica [EaD]
+Quarta,7,14:20,15:10,Marcele Teixeira Homrich Ravasio,Formação Pedagógica de Professores para a EPT - EaD,Psicologia da Educação_Formação Pedagógica [EaD]
+Quarta,8,15:30,16:20,Marcele Teixeira Homrich Ravasio,Formação Pedagógica de Professores para a EPT - EaD,Psicologia da Educação_Formação Pedagógica [EaD]
+Segunda,5,11:10,12:00,Phelipe Henrique Cardoso de Castro,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Educação Física
+Terça,1,7:30,8:20,Thaiane da Silva Socoloski,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Língua Inglesa
+Quarta,1,7:30,8:20,Airam Fernandes,AGR 21 - 2º ano Técnico em Agricultura Integrado,Defesa Fitossanitária
+Quarta,2,8:20,9:10,Airam Fernandes,AGR 21 - 2º ano Técnico em Agricultura Integrado,Defesa Fitossanitária
+Quarta,3,9:10,10:00,Airam Fernandes,AGR 21 - 2º ano Técnico em Agricultura Integrado,Defesa Fitossanitária
+Quinta,6,13:30,14:20,Airam Fernandes,AGR 21 - 2º ano Técnico em Agricultura Integrado,Mecanização Agrícola - Sala de aula Casarão
+Quinta,7,14:20,15:10,Airam Fernandes,AGR 21 - 2º ano Técnico em Agricultura Integrado,Mecanização Agrícola - Sala de aula Casarão
+Quinta,8,15:30,16:20,Airam Fernandes,AGR 21 - 2º ano Técnico em Agricultura Integrado,Mecanização Agrícola - Sala de aula Casarão
+Quinta,8,15:30,16:20,Jéssica Maria da Rosa Lucion,INF 31 - 3º ANO Técnico em Informática Integrado,Sociologia
+Quinta,9,16:20,17:10,Jéssica Maria da Rosa Lucion,INF 31 - 3º ANO Técnico em Informática Integrado,Sociologia
+Quinta,10,19:00,19:50,Jéssica Maria da Rosa Lucion,INF 31 - 3º ANO Técnico em Informática Integrado,Sociologia
+Quarta,1,7:30,8:20,Jéssica Maria da Rosa Lucion,ADM 31 - 3º ANO Técnico em Administração Integrado,Sociologia
+Quarta,2,8:20,9:10,Jéssica Maria da Rosa Lucion,ADM 31 - 3º ANO Técnico em Administração Integrado,Sociologia
+Quarta,3,9:10,10:00,Jéssica Maria da Rosa Lucion,ADM 31 - 3º ANO Técnico em Administração Integrado,Sociologia
+Segunda,6,13:30,14:20,Jéssica Maria da Rosa Lucion,ADM 32 - 3º ANO Técnico em Administração Integrado,Sociologia
+Segunda,7,14:20,15:10,Jéssica Maria da Rosa Lucion,ADM 32 - 3º ANO Técnico em Administração Integrado,Sociologia
+Segunda,8,15:30,16:20,Jéssica Maria da Rosa Lucion,ADM 32 - 3º ANO Técnico em Administração Integrado,Sociologia
+Quinta,6,13:30,14:20,Jéssica Maria da Rosa Lucion,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Sociologia
+Quinta,7,14:20,15:10,Jéssica Maria da Rosa Lucion,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Sociologia
+Quinta,8,15:30,16:20,Jéssica Maria da Rosa Lucion,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Sociologia
+Segunda,4,10:20,11:10,Jéssica Maria da Rosa Lucion,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Sociologia
+Sexta,3,9:10,10:00,Amilcar Guidolim Vitor,INF 21 - 2º ANO Técnico em Informática Integrado,História
+Sexta,4,10:20,11:10,Amilcar Guidolim Vitor,INF 21 - 2º ANO Técnico em Informática Integrado,História
+Sexta,5,11:10,12:00,Amilcar Guidolim Vitor,INF 21 - 2º ANO Técnico em Informática Integrado,História
+Quarta,3,9:10,10:00,Jéssica Maria da Rosa Lucion,ADM 21 - 2º ANO Técnico em Administração Integrado,Sociologia
+Terça,3,9:10,10:00,Letícia Domanski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Terça,4,10:20,11:10,Letícia Domanski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Terça,5,11:10,12:00,Letícia Domanski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,6,13:30,14:20,Letícia Domanski,ADM 11 - 1º ANO  Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,6,13:30,14:20,Letícia Domanski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,7,14:20,15:10,Letícia Domanski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,8,15:30,16:20,Letícia Domanski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,7,14:20,15:10,Letícia Domanski,ADM 12 - 1º Ano Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,6,13:30,14:20,Adriana Toso Kemp,ADM 31 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,7,14:20,15:10,Adriana Toso Kemp,ADM 31 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,8,15:30,16:20,Adriana Toso Kemp,ADM 31 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,1,7:30,8:20,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Topografia e Construções Rurais
+Segunda,2,8:20,9:10,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Topografia e Construções Rurais
+Segunda,3,9:10,10:00,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Topografia e Construções Rurais
+Segunda,4,10:20,11:10,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Topografia e Construções Rurais
+Segunda,5,11:10,12:00,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Topografia e Construções Rurais
+Quarta,4,10:20,11:10,Airam Fernandes,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Culturas Anuais II
+Quarta,5,11:10,12:00,Airam Fernandes,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Culturas Anuais II
+Quarta,6,13:30,14:20,Airam Fernandes,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Culturas Anuais II
+Segunda,8,15:30,16:20,Willian Juliano Dutra,INF 21 - 2º ANO Técnico em Informática Integrado,Análise e Modelagem de Sistemas
+Segunda,9,16:20,17:10,Willian Juliano Dutra,INF 21 - 2º ANO Técnico em Informática Integrado,Análise e Modelagem de Sistemas
+Segunda,10,19:00,19:50,Willian Juliano Dutra,INF 21 - 2º ANO Técnico em Informática Integrado,Análise e Modelagem de Sistemas
+Sexta,3,9:10,10:00,Alexandre Novicki,ADM 31 - 3º ANO Técnico em Administração Integrado,Física
+Sexta,4,10:20,11:10,Alexandre Novicki,ADM 31 - 3º ANO Técnico em Administração Integrado,Física
+Sexta,5,11:10,12:00,Alexandre Novicki,ADM 31 - 3º ANO Técnico em Administração Integrado,Física
+Sexta,1,7:30,8:20,Alexandre Novicki,ADM 32 - 3º ANO Técnico em Administração Integrado,Física
+Sexta,2,8:20,9:10,Alexandre Novicki,ADM 32 - 3º ANO Técnico em Administração Integrado,Física
+Sexta,3,9:10,10:00,Alexandre Novicki,ADM 32 - 3º ANO Técnico em Administração Integrado,Física
+Quarta,1,7:30,8:20,Kelly de Fátima Castilhos,INF 11  - 1º ANO Técnico em Informática Integrado,Filosofia
+Quarta,2,8:20,9:10,Kelly de Fátima Castilhos,INF 11  - 1º ANO Técnico em Informática Integrado,Filosofia
+Quarta,3,9:10,10:00,Kelly de Fátima Castilhos,INF 11  - 1º ANO Técnico em Informática Integrado,Filosofia
+Quinta,3,9:10,10:00,Phelipe Henrique Cardoso de Castro,ADM 21 - 2º ANO Técnico em Administração Integrado,Educação Física
+Terça,3,9:10,10:00,Larissa Zanetti Theil,ADM 22 - 2º ANO Técnico em Administração Integrado,Educação Física
+Sexta,1,7:30,8:20,Larissa Zanetti Theil,INF 31 - 3º ANO Técnico em Informática Integrado,Educação Física
+Sexta,2,8:20,9:10,Larissa Zanetti Theil,INF 31 - 3º ANO Técnico em Informática Integrado,Educação Física
+Sexta,3,9:10,10:00,Larissa Zanetti Theil,INF 31 - 3º ANO Técnico em Informática Integrado,Educação Física
+Quarta,3,9:10,10:00,Leandro Jorge Daronco,ADM 12 - 1º Ano Técnico em Administração Integrado,História
+Segunda,1,7:30,8:20,Leandro Jorge Daronco,ADM 32 - 3º ANO Técnico em Administração Integrado,História
+Segunda,2,8:20,9:10,Leandro Jorge Daronco,ADM 32 - 3º ANO Técnico em Administração Integrado,História
+Segunda,3,9:10,10:00,Leandro Jorge Daronco,ADM 32 - 3º ANO Técnico em Administração Integrado,História
+Quinta,6,13:30,14:20,Amilcar Guidolim Vitor,AGR 31 - 3º ANO Técnico em Agricultura Integrado,História
+Quinta,7,14:20,15:10,Amilcar Guidolim Vitor,AGR 31 - 3º ANO Técnico em Agricultura Integrado,História
+Quinta,8,15:30,16:20,Amilcar Guidolim Vitor,AGR 31 - 3º ANO Técnico em Agricultura Integrado,História
+Quinta,3,9:10,10:00,Vilson Hennemann,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática
+Segunda,1,7:30,8:20,Vilson Hennemann,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática
+Segunda,2,8:20,9:10,Vilson Hennemann,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática
+Segunda,3,9:10,10:00,Vilson Hennemann,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática
+Quarta,5,11:10,12:00,Vilson Hennemann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática
+Quinta,1,7:30,8:20,Vilson Hennemann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática
+Quinta,2,8:20,9:10,Vilson Hennemann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática
+Quinta,3,9:10,10:00,Vilson Hennemann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática
+Quinta,4,10:20,11:10,Vilson Hennemann,ADM 21 - 2º ANO Técnico em Administração Integrado,Matemática
+Quinta,5,11:10,12:00,Vilson Hennemann,ADM 21 - 2º ANO Técnico em Administração Integrado,Matemática
+Quinta,6,13:30,14:20,Vilson Hennemann,ADM 21 - 2º ANO Técnico em Administração Integrado,Matemática
+Quarta,1,7:30,8:20,Vilson Hennemann,ADM 21 - 2º ANO Técnico em Administração Integrado,Matemática
+Quarta,2,8:20,9:10,Vilson Hennemann,ADM 21 - 2º ANO Técnico em Administração Integrado,Matemática
+Quarta,3,9:10,10:00,Vilson Hennemann,ADM 21 - 2º ANO Técnico em Administração Integrado,Matemática
+Segunda,3,9:10,10:00,Vilson Hennemann,ADM 22 - 2º ANO Técnico em Administração Integrado,Matemática
+Segunda,4,10:20,11:10,Vilson Hennemann,ADM 22 - 2º ANO Técnico em Administração Integrado,Matemática
+Segunda,5,11:10,12:00,Vilson Hennemann,ADM 22 - 2º ANO Técnico em Administração Integrado,Matemática
+Quarta,3,9:10,10:00,Vilson Hennemann,ADM 22 - 2º ANO Técnico em Administração Integrado,Matemática
+Quarta,4,10:20,11:10,Vilson Hennemann,ADM 22 - 2º ANO Técnico em Administração Integrado,Matemática
+Quarta,5,11:10,12:00,Vilson Hennemann,ADM 22 - 2º ANO Técnico em Administração Integrado,Matemática
+Terça,1,7:30,8:20,Fátima  Regina Zan,ADM 31 - 3º ANO Técnico em Administração Integrado,Empreendedorismo
+Terça,2,8:20,9:10,Fátima  Regina Zan,ADM 31 - 3º ANO Técnico em Administração Integrado,Empreendedorismo
+Terça,3,9:10,10:00,Fátima  Regina Zan,ADM 31 - 3º ANO Técnico em Administração Integrado,Empreendedorismo
+Terça,4,10:20,11:10,Fátima  Regina Zan,ADM 32 - 3º ANO Técnico em Administração Integrado,Empreendedorismo
+Terça,5,11:10,12:00,Fátima  Regina Zan,ADM 32 - 3º ANO Técnico em Administração Integrado,Empreendedorismo
+Terça,6,13:30,14:20,Fátima  Regina Zan,ADM 32 - 3º ANO Técnico em Administração Integrado,Empreendedorismo
+Segunda,3,9:10,10:00,Jéssica Maria da Rosa Lucion,INF 21 - 2º ANO Técnico em Informática Integrado,Sociologia
+Terça,1,7:30,8:20,Francies Diego Motke,ADM 12 - 1º Ano Técnico em Administração Integrado,Fundamentos da Adminstração
+Terça,2,8:20,9:10,Francies Diego Motke,ADM 12 - 1º Ano Técnico em Administração Integrado,Fundamentos da Adminstração
+Terça,3,9:10,10:00,Francies Diego Motke,ADM 12 - 1º Ano Técnico em Administração Integrado,Fundamentos da Adminstração
+Sexta,3,9:10,10:00,Francies Diego Motke,ADM 11 - 1º ANO  Técnico em Administração Integrado,Fundamentos da Adminstração
+Sexta,4,10:20,11:10,Francies Diego Motke,ADM 11 - 1º ANO  Técnico em Administração Integrado,Fundamentos da Adminstração
+Sexta,5,11:10,12:00,Francies Diego Motke,ADM 11 - 1º ANO  Técnico em Administração Integrado,Fundamentos da Adminstração
+Quinta,8,15:30,16:20,Francies Diego Motke,ADM 22 - 2º ANO Técnico em Administração Integrado,Gestão de Pessoas
+Quinta,9,16:20,17:10,Francies Diego Motke,ADM 22 - 2º ANO Técnico em Administração Integrado,Gestão de Pessoas
+Quinta,10,19:00,19:50,Francies Diego Motke,ADM 22 - 2º ANO Técnico em Administração Integrado,Gestão de Pessoas
+Terça,4,10:20,11:10,Francies Diego Motke,ADM 21 - 2º ANO Técnico em Administração Integrado,Gestão de Pessoas
+Terça,5,11:10,12:00,Francies Diego Motke,ADM 21 - 2º ANO Técnico em Administração Integrado,Gestão de Pessoas
+Terça,6,13:30,14:20,Francies Diego Motke,ADM 21 - 2º ANO Técnico em Administração Integrado,Gestão de Pessoas
+Segunda,7,14:20,15:10,Luis Henrique Loose,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Agricultura Geral
+Segunda,8,15:30,16:20,Luis Henrique Loose,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Agricultura Geral
+Segunda,9,16:20,17:10,Luis Henrique Loose,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Agricultura Geral
+Segunda,10,19:00,19:50,Luis Henrique Loose,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Agricultura Geral
+Segunda,11,19:50,20:40,Luis Henrique Loose,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Agricultura Geral
+Quarta,5,11:10,12:00,Jéssica Maria da Rosa Lucion,ADM 22 - 2º ANO Técnico em Administração Integrado,Sociologia
+Terça,2,8:20,9:10,Adriana Toso Kemp,ADM 32 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Terça,3,9:10,10:00,Adriana Toso Kemp,ADM 32 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Terça,4,10:20,11:10,Adriana Toso Kemp,ADM 32 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,3,9:10,10:00,Adriana Toso Kemp,ADM 32 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,1,7:30,8:20,Adriana Toso Kemp,ADM 31 - 3º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Sexta,1,7:30,8:20,Vinícius Feltrin Giglio,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Química
+Sexta,2,8:20,9:10,Vinícius Feltrin Giglio,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Química
+Sexta,3,9:10,10:00,Vinícius Feltrin Giglio,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Química
+Terça,4,10:20,11:10,Vinícius Feltrin Giglio,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Química
+Quinta,1,7:30,8:20,Francies Diego Motke,AGR 21 - 2º ano Técnico em Agricultura Integrado,Administração Rural
+Quinta,2,8:20,9:10,Francies Diego Motke,AGR 21 - 2º ano Técnico em Agricultura Integrado,Administração Rural
+Quinta,3,9:10,10:00,Francies Diego Motke,AGR 21 - 2º ano Técnico em Agricultura Integrado,Administração Rural
+Quinta,3,9:10,10:00,Suziane Ghedini Martinelli,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Zootecnica Geral
+Quinta,4,10:20,11:10,Suziane Ghedini Martinelli,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Zootecnica Geral
+Quinta,5,11:10,12:00,Suziane Ghedini Martinelli,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Zootecnica Geral
+Quinta,6,13:30,14:20,Suziane Ghedini Martinelli,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Zootecnica Geral
+Quinta,7,14:20,15:10,Suziane Ghedini Martinelli,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Zootecnica Geral
+Terça,4,10:20,11:10,Adriana Toso Kemp,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Terça,5,11:10,12:00,Adriana Toso Kemp,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Terça,6,13:30,14:20,Adriana Toso Kemp,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,4,10:20,11:10,Adriana Toso Kemp,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Quarta,2,8:20,9:10,Jucelia Iantas,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Biologia
+Sexta,3,9:10,10:00,Jucelia Iantas,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Biologia
+Sexta,4,10:20,11:10,Jucelia Iantas,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Biologia
+Sexta,5,11:10,12:00,Jucelia Iantas,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Biologia
+Sexta,1,7:30,8:20,Francies Diego Motke,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Elaboração de Projetos Agrícolas
+Sexta,2,8:20,9:10,Francies Diego Motke,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Elaboração de Projetos Agrícolas
+Sexta,3,9:10,10:00,Francies Diego Motke,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Elaboração de Projetos Agrícolas
+Segunda,8,15:30,16:20,Dionara Denize Cavinatto,ADM 31 - 3º ANO Técnico em Administração Integrado,Direito
+Segunda,9,16:20,17:10,Dionara Denize Cavinatto,ADM 31 - 3º ANO Técnico em Administração Integrado,Direito
+Segunda,10,19:00,19:50,Dionara Denize Cavinatto,ADM 31 - 3º ANO Técnico em Administração Integrado,Direito
+Quinta,8,15:30,16:20,Dionara Denize Cavinatto,ADM 32 - 3º ANO Técnico em Administração Integrado,Direito
+Quinta,9,16:20,17:10,Dionara Denize Cavinatto,ADM 32 - 3º ANO Técnico em Administração Integrado,Direito
+Quinta,10,19:00,19:50,Dionara Denize Cavinatto,ADM 32 - 3º ANO Técnico em Administração Integrado,Direito
+Terça,1,7:30,8:20,Nelcí Andreatta Kunzler,INF 11  - 1º ANO Técnico em Informática Integrado,Arte
+Terça,2,8:20,9:10,Nelcí Andreatta Kunzler,INF 11  - 1º ANO Técnico em Informática Integrado,Arte
+Terça,3,9:10,10:00,Nelcí Andreatta Kunzler,INF 11  - 1º ANO Técnico em Informática Integrado,Arte
+Quarta,2,8:20,9:10,Nelcí Andreatta Kunzler,ADM 11 - 1º ANO  Técnico em Administração Integrado,Arte
+Terça,3,9:10,10:00,Nelcí Andreatta Kunzler,ADM 12 - 1º Ano Técnico em Administração Integrado,Arte
+Segunda,3,9:10,10:00,Nelcí Andreatta Kunzler,ADM 21 - 2º ANO Técnico em Administração Integrado,Arte
+Segunda,4,10:20,11:10,Nelcí Andreatta Kunzler,ADM 21 - 2º ANO Técnico em Administração Integrado,Arte
+Segunda,5,11:10,12:00,Nelcí Andreatta Kunzler,ADM 21 - 2º ANO Técnico em Administração Integrado,Arte
+Segunda,6,13:30,14:20,Nelcí Andreatta Kunzler,ADM 22 - 2º ANO Técnico em Administração Integrado,Arte
+Segunda,7,14:20,15:10,Nelcí Andreatta Kunzler,ADM 22 - 2º ANO Técnico em Administração Integrado,Arte
+Segunda,8,15:30,16:20,Nelcí Andreatta Kunzler,ADM 22 - 2º ANO Técnico em Administração Integrado,Arte
+Quinta,6,13:30,14:20,Ângela Pawlowski,ADM 31 - 3º ANO Técnico em Administração Integrado,Biologia
+Quinta,7,14:20,15:10,Ângela Pawlowski,ADM 31 - 3º ANO Técnico em Administração Integrado,Biologia
+Quinta,8,15:30,16:20,Ângela Pawlowski,ADM 31 - 3º ANO Técnico em Administração Integrado,Biologia
+Quarta,4,10:20,11:10,Ângela Pawlowski,ADM 32 - 3º ANO Técnico em Administração Integrado,Biologia
+Quarta,5,11:10,12:00,Ângela Pawlowski,ADM 32 - 3º ANO Técnico em Administração Integrado,Biologia
+Quarta,6,13:30,14:20,Ângela Pawlowski,ADM 32 - 3º ANO Técnico em Administração Integrado,Biologia
+Quarta,2,8:20,9:10,Ângela Pawlowski,INF 31 - 3º ANO Técnico em Informática Integrado,Biologia
+Quarta,3,9:10,10:00,Ângela Pawlowski,INF 31 - 3º ANO Técnico em Informática Integrado,Biologia
+Quarta,4,10:20,11:10,Ângela Pawlowski,INF 31 - 3º ANO Técnico em Informática Integrado,Biologia
+Quinta,8,15:30,16:20,George Rodrigo Souza Gonçalves,INF 11  - 1º ANO Técnico em Informática Integrado,Hardware I
+Quinta,9,16:20,17:10,George Rodrigo Souza Gonçalves,INF 11  - 1º ANO Técnico em Informática Integrado,Hardware I
+Quinta,10,19:00,19:50,George Rodrigo Souza Gonçalves,INF 11  - 1º ANO Técnico em Informática Integrado,Hardware I
+Segunda,3,9:10,10:00,George Rodrigo Souza Gonçalves,INF 11  - 1º ANO Técnico em Informática Integrado,Fundamentos de Informática e Aplicativos
+Segunda,4,10:20,11:10,George Rodrigo Souza Gonçalves,INF 11  - 1º ANO Técnico em Informática Integrado,Fundamentos de Informática e Aplicativos
+Segunda,5,11:10,12:00,George Rodrigo Souza Gonçalves,INF 11  - 1º ANO Técnico em Informática Integrado,Fundamentos de Informática e Aplicativos
+Segunda,1,7:30,8:20,George Rodrigo Souza Gonçalves,INF 21 - 2º ANO Técnico em Informática Integrado,Redes de Computadores I
+Segunda,2,8:20,9:10,George Rodrigo Souza Gonçalves,INF 21 - 2º ANO Técnico em Informática Integrado,Redes de Computadores I
+Segunda,3,9:10,10:00,George Rodrigo Souza Gonçalves,INF 21 - 2º ANO Técnico em Informática Integrado,Redes de Computadores I
+Terça,1,7:30,8:20,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Redes de Computadores II
+Terça,2,8:20,9:10,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Redes de Computadores II
+Terça,3,9:10,10:00,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Redes de Computadores II
+Quinta,7,14:20,15:10,George Rodrigo Souza Gonçalves,ADM 11 - 1º ANO  Técnico em Administração Integrado,Informática
+Quinta,6,13:30,14:20,George Rodrigo Souza Gonçalves,ADM 12 - 1º Ano Técnico em Administração Integrado,Informática
+Segunda,6,13:30,14:20,George Rodrigo Souza Gonçalves,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Informática Básica
+Quinta,4,10:20,11:10,Vinícius Feltrin Giglio,AGR 21 - 2º ano Técnico em Agricultura Integrado,Química
+Quinta,5,11:10,12:00,Vinícius Feltrin Giglio,AGR 21 - 2º ano Técnico em Agricultura Integrado,Química
+Quinta,6,13:30,14:20,Vinícius Feltrin Giglio,AGR 21 - 2º ano Técnico em Agricultura Integrado,Química
+Quinta,4,10:20,11:10,Adriane Speranza,INF 21 - 2º ANO Técnico em Informática Integrado,Química
+Quinta,5,11:10,12:00,Adriane Speranza,INF 21 - 2º ANO Técnico em Informática Integrado,Química
+Quinta,6,13:30,14:20,Adriane Speranza,INF 21 - 2º ANO Técnico em Informática Integrado,Química
+Segunda,6,13:30,14:20,Suzana dos Santos Matos,ADM 11 - 1º ANO  Técnico em Administração Integrado,Geografia
+Segunda,7,14:20,15:10,Suzana dos Santos Matos,ADM 11 - 1º ANO  Técnico em Administração Integrado,Geografia
+Segunda,8,15:30,16:20,Suzana dos Santos Matos,ADM 11 - 1º ANO  Técnico em Administração Integrado,Geografia
+Segunda,8,15:30,16:20,Suzana dos Santos Matos,ADM 12 - 1º Ano Técnico em Administração Integrado,Geografia
+Segunda,9,16:20,17:10,Suzana dos Santos Matos,ADM 12 - 1º Ano Técnico em Administração Integrado,Geografia
+Segunda,10,19:00,19:50,Suzana dos Santos Matos,ADM 12 - 1º Ano Técnico em Administração Integrado,Geografia
+Quinta,8,15:30,16:20,Suzana dos Santos Matos,INF 21 - 2º ANO Técnico em Informática Integrado,Geografia
+Quinta,9,16:20,17:10,Suzana dos Santos Matos,INF 21 - 2º ANO Técnico em Informática Integrado,Geografia
+Quinta,10,19:00,19:50,Suzana dos Santos Matos,INF 21 - 2º ANO Técnico em Informática Integrado,Geografia
+Segunda,1,7:30,8:20,Suzana dos Santos Matos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Geografia
+Segunda,2,8:20,9:10,Suzana dos Santos Matos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Geografia
+Segunda,3,9:10,10:00,Suzana dos Santos Matos,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Geografia
+Segunda,1,7:30,8:20,Ulisses dos Santos Gonçalves,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Geografia
+Segunda,2,8:20,9:10,Ulisses dos Santos Gonçalves,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Geografia
+Segunda,3,9:10,10:00,Ulisses dos Santos Gonçalves,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Geografia
+Segunda,6,13:30,14:20,Adelino Jacó Seibt,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Inglesa
+Segunda,7,14:20,15:10,Adelino Jacó Seibt,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Inglesa
+Segunda,8,15:30,16:20,Adelino Jacó Seibt,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Língua Inglesa
+Segunda,8,15:30,16:20,Letícia Domanski,ADM 21 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,9,16:20,17:10,Letícia Domanski,ADM 21 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,10,19:00,19:50,Letícia Domanski,ADM 21 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,2,8:20,9:10,Letícia Domanski,ADM 22 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,3,9:10,10:00,Letícia Domanski,ADM 22 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,4,10:20,11:10,Letícia Domanski,ADM 22 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Quinta,3,9:10,10:00,Thaiane da Silva Socoloski,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Língua Inglesa
+Segunda,1,7:30,8:20,Adriana Toso Kemp,AGR 21 - 2º ano Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Segunda,2,8:20,9:10,Adriana Toso Kemp,AGR 21 - 2º ano Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Segunda,3,9:10,10:00,Adriana Toso Kemp,AGR 21 - 2º ano Técnico em Agricultura Integrado,Língua Port. e Lit. Brasileira
+Quarta,4,10:20,11:10,Amilcar Guidolim Vitor,INF 31 - 3º ANO Técnico em Informática Integrado,História
+Quarta,5,11:10,12:00,Amilcar Guidolim Vitor,INF 31 - 3º ANO Técnico em Informática Integrado,História
+Quarta,6,13:30,14:20,Amilcar Guidolim Vitor,INF 31 - 3º ANO Técnico em Informática Integrado,História
+Quarta,3,9:10,10:00,Nelson Rodrigues de Carvalho,ADM 11 - 1º ANO  Técnico em Administração Integrado,Biologia
+Quarta,4,10:20,11:10,Nelson Rodrigues de Carvalho,ADM 11 - 1º ANO  Técnico em Administração Integrado,Biologia
+Quarta,5,11:10,12:00,Nelson Rodrigues de Carvalho,ADM 11 - 1º ANO  Técnico em Administração Integrado,Biologia
+Segunda,1,7:30,8:20,Marina Lara Silva dos Santos Teixeira,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática Financeira
+Segunda,2,8:20,9:10,Marina Lara Silva dos Santos Teixeira,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática Financeira
+Segunda,3,9:10,10:00,Marina Lara Silva dos Santos Teixeira,ADM 11 - 1º ANO  Técnico em Administração Integrado,Matemática Financeira
+Quinta,8,15:30,16:20,Nelson Rodrigues de Carvalho,ADM 12 - 1º Ano Técnico em Administração Integrado,Biologia
+Quinta,9,16:20,17:10,Nelson Rodrigues de Carvalho,ADM 12 - 1º Ano Técnico em Administração Integrado,Biologia
+Quinta,10,19:00,19:50,Nelson Rodrigues de Carvalho,ADM 12 - 1º Ano Técnico em Administração Integrado,Biologia
+Sexta,1,7:30,8:20,Marina Lara Silva dos Santos Teixeira,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática Financeira
+Sexta,2,8:20,9:10,Marina Lara Silva dos Santos Teixeira,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática Financeira
+Sexta,3,9:10,10:00,Marina Lara Silva dos Santos Teixeira,ADM 12 - 1º Ano Técnico em Administração Integrado,Matemática Financeira
+Quinta,6,13:30,14:20,Jucelia Iantas,ADM 21 - 2º ANO Técnico em Administração Integrado,Biologia
+Quinta,7,14:20,15:10,Jucelia Iantas,ADM 21 - 2º ANO Técnico em Administração Integrado,Biologia
+Quinta,8,15:30,16:20,Jucelia Iantas,ADM 21 - 2º ANO Técnico em Administração Integrado,Biologia
+Quinta,4,10:20,11:10,Jucelia Iantas,ADM 22 - 2º ANO Técnico em Administração Integrado,Biologia
+Quinta,5,11:10,12:00,Jucelia Iantas,ADM 22 - 2º ANO Técnico em Administração Integrado,Biologia
+Quinta,6,13:30,14:20,Jucelia Iantas,ADM 22 - 2º ANO Técnico em Administração Integrado,Biologia
+Quinta,2,8:20,9:10,Ana Queli Mafalda Reis Lautério,ADM 31 - 3º ANO Técnico em Administração Integrado,Matemática
+Quinta,3,9:10,10:00,Ana Queli Mafalda Reis Lautério,ADM 31 - 3º ANO Técnico em Administração Integrado,Matemática
+Quinta,4,10:20,11:10,Ana Queli Mafalda Reis Lautério,ADM 31 - 3º ANO Técnico em Administração Integrado,Matemática
+Segunda,1,7:30,8:20,Ana Queli Mafalda Reis Lautério,ADM 31 - 3º ANO Técnico em Administração Integrado,Matemática
+Segunda,2,8:20,9:10,Ana Queli Mafalda Reis Lautério,ADM 31 - 3º ANO Técnico em Administração Integrado,Matemática
+Segunda,3,9:10,10:00,Ana Queli Mafalda Reis Lautério,ADM 31 - 3º ANO Técnico em Administração Integrado,Matemática
+Quinta,4,10:20,11:10,Ana Queli Mafalda Reis Lautério,ADM 32 - 3º ANO Técnico em Administração Integrado,Matemática
+Quinta,5,11:10,12:00,Ana Queli Mafalda Reis Lautério,ADM 32 - 3º ANO Técnico em Administração Integrado,Matemática
+Quinta,6,13:30,14:20,Ana Queli Mafalda Reis Lautério,ADM 32 - 3º ANO Técnico em Administração Integrado,Matemática
+Segunda,3,9:10,10:00,Ana Queli Mafalda Reis Lautério,ADM 32 - 3º ANO Técnico em Administração Integrado,Matemática
+Segunda,4,10:20,11:10,Ana Queli Mafalda Reis Lautério,ADM 32 - 3º ANO Técnico em Administração Integrado,Matemática
+Segunda,5,11:10,12:00,Ana Queli Mafalda Reis Lautério,ADM 32 - 3º ANO Técnico em Administração Integrado,Matemática
+Quinta,1,7:30,8:20,Marina Lara Silva dos Santos Teixeira,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Matemática
+Quinta,2,8:20,9:10,Marina Lara Silva dos Santos Teixeira,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Matemática
+Quinta,3,9:10,10:00,Marina Lara Silva dos Santos Teixeira,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Matemática
+Quinta,4,10:20,11:10,Marina Lara Silva dos Santos Teixeira,INF 11  - 1º ANO Técnico em Informática Integrado,Matemática
+Quinta,5,11:10,12:00,Marina Lara Silva dos Santos Teixeira,INF 11  - 1º ANO Técnico em Informática Integrado,Matemática
+Quinta,6,13:30,14:20,Marina Lara Silva dos Santos Teixeira,INF 11  - 1º ANO Técnico em Informática Integrado,Matemática
+Sexta,3,9:10,10:00,Marina Lara Silva dos Santos Teixeira,INF 11  - 1º ANO Técnico em Informática Integrado,Matemática
+Sexta,4,10:20,11:10,Marina Lara Silva dos Santos Teixeira,INF 11  - 1º ANO Técnico em Informática Integrado,Matemática
+Sexta,5,11:10,12:00,Marina Lara Silva dos Santos Teixeira,INF 11  - 1º ANO Técnico em Informática Integrado,Matemática
+Quinta,1,7:30,8:20,Cristiane da Silva Stamberg,INF 31 - 3º ANO Técnico em Informática Integrado,Matemática
+Quinta,2,8:20,9:10,Cristiane da Silva Stamberg,INF 31 - 3º ANO Técnico em Informática Integrado,Matemática
+Quinta,3,9:10,10:00,Cristiane da Silva Stamberg,INF 31 - 3º ANO Técnico em Informática Integrado,Matemática
+Segunda,1,7:30,8:20,Cristiane da Silva Stamberg,INF 31 - 3º ANO Técnico em Informática Integrado,Matemática
+Segunda,2,8:20,9:10,Cristiane da Silva Stamberg,INF 31 - 3º ANO Técnico em Informática Integrado,Matemática
+Segunda,3,9:10,10:00,Cristiane da Silva Stamberg,INF 31 - 3º ANO Técnico em Informática Integrado,Matemática
+Sexta,1,7:30,8:20,Jucelia Iantas,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Biologia
+Sexta,2,8:20,9:10,Jucelia Iantas,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Biologia
+Sexta,3,9:10,10:00,Jucelia Iantas,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Biologia
+Quarta,3,9:10,10:00,Jucelia Iantas,INF 21 - 2º ANO Técnico em Informática Integrado,Biologia
+Quarta,4,10:20,11:10,Jucelia Iantas,INF 21 - 2º ANO Técnico em Informática Integrado,Biologia
+Quarta,5,11:10,12:00,Jucelia Iantas,INF 21 - 2º ANO Técnico em Informática Integrado,Biologia
+Quinta,3,9:10,10:00,Nelson Rodrigues de Carvalho,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Biologia
+Quinta,4,10:20,11:10,Nelson Rodrigues de Carvalho,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Biologia
+Quinta,5,11:10,12:00,Nelson Rodrigues de Carvalho,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Biologia
+Terça,10,19:00,19:50,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Terça,11,19:50,20:40,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Terça,12,20:50,21:40,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Terça,13,21:40,22:30,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Terça,14,,,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Terça,15,,,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Terça,16,,,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Algoritmos e Lógica de Programação I
+Quinta,10,19:00,19:50,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Quinta,11,19:50,20:40,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Quinta,12,20:50,21:40,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Quinta,13,21:40,22:30,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Quinta,14,,,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Quinta,15,,,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Quinta,16,,,Lucas Campello da Pieva,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Construção de Páginas Web I
+Sexta,10,19:00,19:50,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Sexta,11,19:50,20:40,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Sexta,12,20:50,21:40,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Sexta,13,21:40,22:30,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Sexta,14,,,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Sexta,15,,,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Sexta,16,,,Fábio Weber Albiero,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Fundamentos da Computação
+Quarta,10,19:00,19:50,Ana Queli Mafalda Reis Lautério,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Matemática Aplicada à Computação
+Quarta,11,19:50,20:40,Ana Queli Mafalda Reis Lautério,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Matemática Aplicada à Computação
+Quarta,12,20:50,21:40,Ana Queli Mafalda Reis Lautério,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Matemática Aplicada à Computação
+Terça,10,19:00,19:50,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Terça,11,19:50,20:40,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Terça,12,20:50,21:40,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Terça,13,21:40,22:30,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Terça,14,,,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Terça,15,,,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Terça,16,,,John Soldera,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Engenharia de Software II
+Segunda,10,19:00,19:50,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Segunda,11,19:50,20:40,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Segunda,12,20:50,21:40,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Segunda,13,21:40,22:30,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Segunda,14,,,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Segunda,15,,,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Segunda,16,,,Fábio Weber Albiero,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Estrutura de Dados
+Quinta,12,20:50,21:40,George Rodrigo Souza Gonçalves,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Redes de Computadores I
+Quinta,13,21:40,22:30,George Rodrigo Souza Gonçalves,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Redes de Computadores I
+Quinta,14,,,George Rodrigo Souza Gonçalves,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Redes de Computadores I
+Quinta,10,19:00,19:50,Dionara Denize Cavinatto,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Ética Profissional
+Quinta,11,19:50,20:40,Dionara Denize Cavinatto,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Ética Profissional
+Quinta,12,20:50,21:40,Dionara Denize Cavinatto,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Ética Profissional
+Sexta,10,19:00,19:50,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Sexta,11,19:50,20:40,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Sexta,12,20:50,21:40,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Sexta,13,21:40,22:30,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Sexta,14,,,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Sexta,15,,,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Sexta,16,,,Juliano  Gomes Weber,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Programação Web I
+Segunda,10,19:00,19:50,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Segunda,11,19:50,20:40,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Segunda,12,20:50,21:40,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Segunda,13,21:40,22:30,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Segunda,14,,,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Segunda,15,,,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Segunda,16,,,Willian Juliano Dutra,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Análise e Projeto de Software
+Quarta,10,19:00,19:50,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Quarta,11,19:50,20:40,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Quarta,12,20:50,21:40,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Quarta,13,21:40,22:30,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Quarta,14,,,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Quarta,15,,,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Quarta,16,,,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação para Dispositivos Móveis e sem fio
+Terça,10,19:00,19:50,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Terça,11,19:50,20:40,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Terça,12,20:50,21:40,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Terça,13,21:40,22:30,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Terça,14,,,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Terça,15,,,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Terça,16,,,Juliano  Gomes Weber,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Programação WEB III
+Quinta,10,19:00,19:50,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Eletiva II - Programação Orientada à Objetos [06019050]
+Quinta,11,19:50,20:40,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Eletiva II - Programação Orientada à Objetos [06019050]
+Quinta,12,20:50,21:40,John Soldera,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Eletiva II - Programação Orientada à Objetos [06019050]
+Quarta,10,19:00,19:50,Adelino Jacó Seibt,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Leitura e Produção Textual
+Quarta,11,19:50,20:40,Adelino Jacó Seibt,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Leitura e Produção Textual
+Quarta,12,20:50,21:40,Adelino Jacó Seibt,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Leitura e Produção Textual
+Segunda,10,19:00,19:50,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Segunda,11,19:50,20:40,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Segunda,12,20:50,21:40,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Segunda,13,21:40,22:30,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Segunda,14,,,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Segunda,15,,,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Segunda,16,,,Ângela Pawlowski,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Vegetal
+Terça,10,19:00,19:50,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Terça,11,19:50,20:40,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Terça,12,20:50,21:40,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Terça,13,21:40,22:30,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Terça,14,,,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Terça,15,,,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Terça,16,,,Ana Queli Mafalda Reis Lautério,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática
+Sexta,10,19:00,19:50,Fátima  Regina Zan,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos do Agronegócio
+Sexta,11,19:50,20:40,Fátima  Regina Zan,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos do Agronegócio
+Sexta,12,20:50,21:40,Fátima  Regina Zan,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos do Agronegócio
+Sexta,10,19:00,19:50,Marina Lara Silva dos Santos Teixeira,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática Financeira
+Sexta,11,19:50,20:40,Marina Lara Silva dos Santos Teixeira,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática Financeira
+Sexta,12,20:50,21:40,Marina Lara Silva dos Santos Teixeira,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Matemática Financeira
+Quinta,10,19:00,19:50,Fátima  Regina Zan,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Administração
+Quinta,11,19:50,20:40,Fátima  Regina Zan,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Administração
+Quinta,12,20:50,21:40,Fátima  Regina Zan,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Administração
+Terça,10,19:00,19:50,Luis Henrique Loose,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Agrometeorologia
+Terça,11,19:50,20:40,Luis Henrique Loose,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Agrometeorologia
+Terça,12,20:50,21:40,Luis Henrique Loose,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Agrometeorologia
+Terça,12,20:50,21:40,Luis Henrique Loose,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Gestão de Recursos Hídricos
+Terça,13,21:40,22:30,Luis Henrique Loose,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Gestão de Recursos Hídricos
+Terça,14,,,Luis Henrique Loose,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Gestão de Recursos Hídricos
+Segunda,10,19:00,19:50,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Segunda,11,19:50,20:40,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Segunda,12,20:50,21:40,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Segunda,13,21:40,22:30,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Segunda,14,,,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Segunda,15,,,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Segunda,16,,,Airam Fernandes,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Mecanização Agrícola
+Quarta,10,19:00,19:50,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Quarta,11,19:50,20:40,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Quarta,12,20:50,21:40,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Quarta,13,21:40,22:30,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Quarta,14,,,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Quarta,15,,,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Quarta,16,,,Elaine Luiza Biacchi Vione,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Tecnologia em Alimentos
+Sexta,12,20:50,21:40,Martin Ledermann,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Comercialização de Produtos Agropecuários
+Sexta,13,21:40,22:30,Martin Ledermann,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Comercialização de Produtos Agropecuários
+Sexta,14,,,Martin Ledermann,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Comercialização de Produtos Agropecuários
+Quarta,10,19:00,19:50,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Quarta,11,19:50,20:40,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Quarta,12,20:50,21:40,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Quarta,13,21:40,22:30,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Quarta,14,,,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Quarta,15,,,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Quarta,16,,,Fátima  Regina Zan,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Administração de produção e Operações
+Terça,10,19:00,19:50,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Terça,11,19:50,20:40,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Terça,12,20:50,21:40,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Terça,13,21:40,22:30,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Terça,14,,,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Terça,15,,,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Terça,16,,,Suziane Ghedini Martinelli,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Bovinos de Corte e Ovinos
+Segunda,12,20:50,21:40,Manuela Sulzbach Rodrigues,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Fruticultura e Silvicultura
+Segunda,13,21:40,22:30,Manuela Sulzbach Rodrigues,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Fruticultura e Silvicultura
+Segunda,14,,,Manuela Sulzbach Rodrigues,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Fruticultura e Silvicultura
+Segunda,10,19:00,19:50,Elaine Luiza Biacchi Vione,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Olericultura
+Segunda,11,19:50,20:40,Elaine Luiza Biacchi Vione,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Olericultura
+Segunda,12,20:50,21:40,Elaine Luiza Biacchi Vione,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cadeia Produtiva de Olericultura
+Sexta,10,19:00,19:50,Martin Ledermann,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cooperativismo e Associativismo
+Sexta,11,19:50,20:40,Martin Ledermann,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cooperativismo e Associativismo
+Sexta,12,20:50,21:40,Martin Ledermann,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Cooperativismo e Associativismo
+Quinta,10,19:00,19:50,Airam Fernandes,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Tecnologia em Produção de Sementes
+Quinta,11,19:50,20:40,Airam Fernandes,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Tecnologia em Produção de Sementes
+Quinta,12,20:50,21:40,Airam Fernandes,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Tecnologia em Produção de Sementes
+Quinta,12,20:50,21:40,Airam Fernandes,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Eletiva II - Tópicos em Manejo Integrado [06022065]
+Quinta,13,21:40,22:30,Airam Fernandes,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Eletiva II - Tópicos em Manejo Integrado [06022065]
+Quinta,14,,,Airam Fernandes,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Eletiva II - Tópicos em Manejo Integrado [06022065]
+Segunda,6,13:30,14:20,Manuela Sulzbach Rodrigues,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Forragicultura
+Quinta,8,15:30,16:20,Airam Fernandes,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Infraestrutura I
+Quinta,9,16:20,17:10,Airam Fernandes,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Infraestrutura I
+Quinta,10,19:00,19:50,Airam Fernandes,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Infraestrutura I
+Terça,2,8:20,9:10,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Solos
+Terça,3,9:10,10:00,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Solos
+Terça,4,10:20,11:10,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Solos
+Segunda,3,9:10,10:00,Suziane Ghedini Martinelli,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Zootecnia I
+Segunda,4,10:20,11:10,Suziane Ghedini Martinelli,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Zootecnia I
+Segunda,5,11:10,12:00,Suziane Ghedini Martinelli,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Zootecnia I
+Quarta,4,10:20,11:10,Suziane Ghedini Martinelli,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Zootecnia I
+Quarta,5,11:10,12:00,Suziane Ghedini Martinelli,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Zootecnia I
+Quarta,6,13:30,14:20,Suziane Ghedini Martinelli,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Zootecnia I
+Segunda,10,19:00,19:50,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Segunda,11,19:50,20:40,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Segunda,12,20:50,21:40,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Segunda,13,21:40,22:30,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Segunda,14,,,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Segunda,15,,,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Segunda,16,,,Zípora Morgana Quinteiro dos Santos,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Facial II
+Terça,10,19:00,19:50,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Terça,11,19:50,20:40,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Terça,12,20:50,21:40,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Terça,13,21:40,22:30,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Terça,14,,,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Terça,15,,,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Terça,16,,,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética Corporal II
+Quarta,10,19:00,19:50,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Pré e Pós Operatório de Cirurgias Plásticas
+Quarta,11,19:50,20:40,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Pré e Pós Operatório de Cirurgias Plásticas
+Quarta,12,20:50,21:40,Gabriela  de Campos Severo,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Pré e Pós Operatório de Cirurgias Plásticas
+Quarta,12,20:50,21:40,Jéssica Lohmann Monteiro,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Extensão em Estética e Cosmética IV
+Quarta,13,21:40,22:30,Jéssica Lohmann Monteiro,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Extensão em Estética e Cosmética IV
+Quarta,14,,,Jéssica Lohmann Monteiro,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Extensão em Estética e Cosmética IV
+Quinta,10,19:00,19:50,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Quinta,11,19:50,20:40,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Quinta,12,20:50,21:40,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Quinta,13,21:40,22:30,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Quinta,14,,,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Quinta,15,,,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Quinta,16,,,Maiara Krebs Segatto,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Estética e Modelagem Capilar
+Sexta,12,20:50,21:40,Fátima  Regina Zan,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Empreendedorismo [EaD] sexta noite 1º e 2º períodos
+Sexta,13,21:40,22:30,Fátima  Regina Zan,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Empreendedorismo [EaD] sexta noite 1º e 2º períodos
+Sexta,14,,,Fátima  Regina Zan,ESC T6 - 5º Sem Sup Tec. Estética e Cosmética,Empreendedorismo [EaD] sexta noite 1º e 2º períodos
+Segunda,10,19:00,19:50,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Segunda,11,19:50,20:40,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Segunda,12,20:50,21:40,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Segunda,13,21:40,22:30,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Segunda,14,,,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Segunda,15,,,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Segunda,16,,,Gabriela  de Campos Severo,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Drenagem Linfática Manual
+Terça,10,19:00,19:50,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Terça,11,19:50,20:40,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Terça,12,20:50,21:40,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Terça,13,21:40,22:30,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Terça,14,,,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Terça,15,,,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Terça,16,,,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Massoterapia
+Quarta,10,19:00,19:50,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quarta,11,19:50,20:40,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quarta,12,20:50,21:40,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quarta,13,21:40,22:30,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quarta,14,,,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quarta,15,,,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quarta,16,,,Maiara Krebs Segatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Maquiagem Social
+Quinta,10,19:00,19:50,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Extensão em Estética e Cosmética II
+Quinta,11,19:50,20:40,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Extensão em Estética e Cosmética II
+Quinta,12,20:50,21:40,Jéssica Lohmann Monteiro,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Extensão em Estética e Cosmética II
+Sexta,10,19:00,19:50,Zípora Morgana Quinteiro dos Santos,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Ambiente e Saúde [EaD]
+Sexta,11,19:50,20:40,Zípora Morgana Quinteiro dos Santos,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Ambiente e Saúde [EaD]
+Sexta,12,20:50,21:40,Zípora Morgana Quinteiro dos Santos,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Ambiente e Saúde [EaD]
+Quinta,12,20:50,21:40,Dionara Denize Cavinatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Ética Profissional [EaD]
+Quinta,13,21:40,22:30,Dionara Denize Cavinatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Ética Profissional [EaD]
+Quinta,14,,,Dionara Denize Cavinatto,ESC T7 -  3º  Sem. Sup. Tec. Estética e Cosmética,Ética Profissional [EaD]
+Segunda,10,19:00,19:50,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Segunda,11,19:50,20:40,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Segunda,12,20:50,21:40,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Segunda,13,21:40,22:30,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Segunda,14,,,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Segunda,15,,,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Segunda,16,,,Talitha Comaru,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Anatomia e Fisiologia
+Terça,10,19:00,19:50,Maiara Krebs Segatto,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Estética e Imagem Pessoal
+Terça,11,19:50,20:40,Maiara Krebs Segatto,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Estética e Imagem Pessoal
+Terça,12,20:50,21:40,Maiara Krebs Segatto,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Estética e Imagem Pessoal
+Quarta,10,19:00,19:50,Lucas Gabriel Almeida Ramos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Biossegurança e Primeiro Socorros
+Quarta,11,19:50,20:40,Lucas Gabriel Almeida Ramos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Biossegurança e Primeiro Socorros
+Quarta,12,20:50,21:40,Lucas Gabriel Almeida Ramos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Biossegurança e Primeiro Socorros
+Terça,12,20:50,21:40,Nelson Rodrigues de Carvalho,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Bioquímica
+Terça,13,21:40,22:30,Nelson Rodrigues de Carvalho,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Bioquímica
+Terça,14,,,Nelson Rodrigues de Carvalho,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Bioquímica
+Quinta,10,19:00,19:50,Zípora Morgana Quinteiro dos Santos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Cosmetologia
+Quinta,11,19:50,20:40,Zípora Morgana Quinteiro dos Santos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Cosmetologia
+Quinta,12,20:50,21:40,Zípora Morgana Quinteiro dos Santos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Cosmetologia
+Sexta,12,20:50,21:40,Zípora Morgana Quinteiro dos Santos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Cosmetologia
+Sexta,13,21:40,22:30,Zípora Morgana Quinteiro dos Santos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Cosmetologia
+Sexta,14,,,Zípora Morgana Quinteiro dos Santos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Cosmetologia
+Quinta,12,20:50,21:40,Jéssica Lohmann Monteiro,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Eletrotermofototerapia
+Quinta,13,21:40,22:30,Jéssica Lohmann Monteiro,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Eletrotermofototerapia
+Quinta,14,,,Jéssica Lohmann Monteiro,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Introdução à Eletrotermofototerapia
+Sexta,10,19:00,19:50,Marcele Teixeira Homrich Ravasio,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Metodologia Científica [EaD]
+Sexta,11,19:50,20:40,Marcele Teixeira Homrich Ravasio,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Metodologia Científica [EaD]
+Sexta,12,20:50,21:40,Marcele Teixeira Homrich Ravasio,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Metodologia Científica [EaD]
+Sexta,12,20:50,21:40,Marcele Teixeira Homrich Ravasio,Turma Especial ESC,Psicologia [EaD]
+Sexta,13,21:40,22:30,Marcele Teixeira Homrich Ravasio,Turma Especial ESC,Psicologia [EaD]
+Sexta,14,,,Marcele Teixeira Homrich Ravasio,Turma Especial ESC,Psicologia [EaD]
+Quinta,10,19:00,19:50,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quinta,11,19:50,20:40,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quinta,12,20:50,21:40,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quinta,13,21:40,22:30,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quinta,14,,,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quinta,15,,,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quinta,16,,,Willian Juliano Dutra,LC  T9 - 3º Sem Licenciatura em Computação,Engenharia de Software
+Quarta,10,19:00,19:50,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Quarta,11,19:50,20:40,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Quarta,12,20:50,21:40,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Quarta,13,21:40,22:30,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Quarta,14,,,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Quarta,15,,,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Quarta,16,,,Juliano  Gomes Weber,LC  T9 - 3º Sem Licenciatura em Computação,Linguagem de Programação I
+Terça,10,19:00,19:50,Vilson Hennemann,LC  T9 - 3º Sem Licenciatura em Computação,Matemática
+Terça,11,19:50,20:40,Vilson Hennemann,LC  T9 - 3º Sem Licenciatura em Computação,Matemática
+Terça,12,20:50,21:40,Vilson Hennemann,LC  T9 - 3º Sem Licenciatura em Computação,Matemática
+Segunda,10,19:00,19:50,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Segunda,11,19:50,20:40,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Segunda,12,20:50,21:40,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Segunda,13,21:40,22:30,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Segunda,14,,,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Segunda,15,,,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Segunda,16,,,Lucas Campello da Pieva,LC T8 - 5º Sem Licenciatura em Computação,Banco de Dados
+Quarta,10,19:00,19:50,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Interface Homem-Computador
+Quarta,11,19:50,20:40,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Interface Homem-Computador
+Quarta,12,20:50,21:40,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Interface Homem-Computador
+Quinta,10,19:00,19:50,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quinta,11,19:50,20:40,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quinta,12,20:50,21:40,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quinta,13,21:40,22:30,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quinta,14,,,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quinta,15,,,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quinta,16,,,Juliano  Gomes Weber,LC T8 - 5º Sem Licenciatura em Computação,Programação Web I
+Quarta,12,20:50,21:40,Letícia Domanski,LC T8 - 5º Sem Licenciatura em Computação,Educação de Jovens e Adultos
+Quarta,13,21:40,22:30,Letícia Domanski,LC T8 - 5º Sem Licenciatura em Computação,Educação de Jovens e Adultos
+Quarta,14,,,Letícia Domanski,LC T8 - 5º Sem Licenciatura em Computação,Educação de Jovens e Adultos
+Sexta,10,19:00,19:50,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Sexta,11,19:50,20:40,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Sexta,12,20:50,21:40,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Sexta,13,21:40,22:30,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Sexta,14,,,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Sexta,15,,,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Sexta,16,,,Andréa Pereira,LC T8 - 5º Sem Licenciatura em Computação,Metodologia do Ensino da Computação II
+Terça,12,20:50,21:40,Marcele Teixeira Homrich Ravasio,LC T8 - 5º Sem Licenciatura em Computação,Prática de Ensino de Computação V - PeCC V
+Terça,13,21:40,22:30,Marcele Teixeira Homrich Ravasio,LC T8 - 5º Sem Licenciatura em Computação,Prática de Ensino de Computação V - PeCC V
+Terça,14,,,Marcele Teixeira Homrich Ravasio,LC T8 - 5º Sem Licenciatura em Computação,Prática de Ensino de Computação V - PeCC V
+Sexta,12,20:50,21:40,Willian Juliano Dutra,LC T7 - 7º Sem Licenciatura em Computação,"Ciência, Tecnologia e Sociedade"
+Sexta,13,21:40,22:30,Willian Juliano Dutra,LC T7 - 7º Sem Licenciatura em Computação,"Ciência, Tecnologia e Sociedade"
+Sexta,14,,,Willian Juliano Dutra,LC T7 - 7º Sem Licenciatura em Computação,"Ciência, Tecnologia e Sociedade"
+Sexta,10,19:00,19:50,Willian Juliano Dutra,LC T7 - 7º Sem Licenciatura em Computação,Jogos Eletrônicos
+Sexta,11,19:50,20:40,Willian Juliano Dutra,LC T7 - 7º Sem Licenciatura em Computação,Jogos Eletrônicos
+Sexta,12,20:50,21:40,Willian Juliano Dutra,LC T7 - 7º Sem Licenciatura em Computação,Jogos Eletrônicos
+Quarta,12,20:50,21:40,Andréa Pereira,LC T10 - 1º Sem Licenciatura em Computação,Informática na Educação
+Quarta,13,21:40,22:30,Andréa Pereira,LC T10 - 1º Sem Licenciatura em Computação,Informática na Educação
+Quarta,14,,,Andréa Pereira,LC T10 - 1º Sem Licenciatura em Computação,Informática na Educação
+Sexta,10,19:00,19:50,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Sexta,11,19:50,20:40,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Sexta,12,20:50,21:40,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Sexta,13,21:40,22:30,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Sexta,14,,,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Sexta,15,,,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Sexta,16,,,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Introdução à Computação
+Terça,12,20:50,21:40,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Pensamento Computacional
+Terça,13,21:40,22:30,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Pensamento Computacional
+Terça,14,,,Karlise Soares Nascimento,LC T10 - 1º Sem Licenciatura em Computação,Pensamento Computacional
+Segunda,10,19:00,19:50,Thaiane da Silva Socoloski,LC T10 - 1º Sem Licenciatura em Computação,Inglês Técnico
+Segunda,11,19:50,20:40,Thaiane da Silva Socoloski,LC T10 - 1º Sem Licenciatura em Computação,Inglês Técnico
+Segunda,12,20:50,21:40,Thaiane da Silva Socoloski,LC T10 - 1º Sem Licenciatura em Computação,Inglês Técnico
+Quinta,12,20:50,21:40,Tatiélle Rita Souza da Silva,LC T10 - 1º Sem Licenciatura em Computação,Filosofia da Educação
+Quinta,13,21:40,22:30,Tatiélle Rita Souza da Silva,LC T10 - 1º Sem Licenciatura em Computação,Filosofia da Educação
+Quinta,14,,,Tatiélle Rita Souza da Silva,LC T10 - 1º Sem Licenciatura em Computação,Filosofia da Educação
+Terça,10,19:00,19:50,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Terça,11,19:50,20:40,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Terça,12,20:50,21:40,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Terça,13,21:40,22:30,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Terça,14,,,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Terça,15,,,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Terça,16,,,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,Alfabetização e Letramento
+Sexta,10,19:00,19:50,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Sexta,11,19:50,20:40,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Sexta,12,20:50,21:40,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Sexta,13,21:40,22:30,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Sexta,14,,,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Sexta,15,,,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Sexta,16,,,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação: concepções e Teorias de Ensino e Aprendizagem
+Quinta,10,19:00,19:50,Jéssica Maria da Rosa Lucion,LP T1 _3º semestre Licenciatura em Pedagogia,Sociologia da Infância
+Quinta,11,19:50,20:40,Jéssica Maria da Rosa Lucion,LP T1 _3º semestre Licenciatura em Pedagogia,Sociologia da Infância
+Quinta,12,20:50,21:40,Jéssica Maria da Rosa Lucion,LP T1 _3º semestre Licenciatura em Pedagogia,Sociologia da Infância
+Quarta,10,19:00,19:50,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Quarta,11,19:50,20:40,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Quarta,12,20:50,21:40,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Quarta,13,21:40,22:30,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Quarta,14,,,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Quarta,15,,,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Quarta,16,,,Tatiélle Rita Souza da Silva,LP T1 _3º semestre Licenciatura em Pedagogia,"Linguagem, Escrita e Criança"
+Terça,12,20:50,21:40,Amilcar Guidolim Vitor,LP T2 _1º semestre Licenciatura em Pedagogia,História da Educação
+Terça,13,21:40,22:30,Amilcar Guidolim Vitor,LP T2 _1º semestre Licenciatura em Pedagogia,História da Educação
+Terça,14,,,Amilcar Guidolim Vitor,LP T2 _1º semestre Licenciatura em Pedagogia,História da Educação
+Segunda,10,19:00,19:50,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Segunda,11,19:50,20:40,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Segunda,12,20:50,21:40,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Segunda,13,21:40,22:30,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Segunda,14,,,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Segunda,15,,,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Segunda,16,,,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Filosofia da Educação
+Terça,10,19:00,19:50,Marcele Teixeira Homrich Ravasio,LP T2 _1º semestre Licenciatura em Pedagogia,Metodologia Científica
+Terça,11,19:50,20:40,Marcele Teixeira Homrich Ravasio,LP T2 _1º semestre Licenciatura em Pedagogia,Metodologia Científica
+Terça,12,20:50,21:40,Marcele Teixeira Homrich Ravasio,LP T2 _1º semestre Licenciatura em Pedagogia,Metodologia Científica
+Sexta,10,19:00,19:50,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Sexta,11,19:50,20:40,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Sexta,12,20:50,21:40,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Sexta,13,21:40,22:30,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Sexta,14,,,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Sexta,15,,,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Sexta,16,,,Tatiélle Rita Souza da Silva,LP T2 _1º semestre Licenciatura em Pedagogia,Processos Criativos e Lúdicos
+Quarta,12,20:50,21:40,Luthiane Miszak Valença de Oliveira,LP T2 _1º semestre Licenciatura em Pedagogia,Introdução à Pedagogia
+Quarta,13,21:40,22:30,Luthiane Miszak Valença de Oliveira,LP T2 _1º semestre Licenciatura em Pedagogia,Introdução à Pedagogia
+Quarta,14,,,Luthiane Miszak Valença de Oliveira,LP T2 _1º semestre Licenciatura em Pedagogia,Introdução à Pedagogia
+Terça,6,13:30,14:20,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Terça,7,14:20,15:10,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Terça,8,15:30,16:20,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Terça,9,16:20,17:10,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Terça,10,19:00,19:50,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Terça,11,19:50,20:40,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Terça,12,20:50,21:40,Andressa Peripolli Rodrigues,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Cirúrgica
+Segunda,6,13:30,14:20,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Segunda,7,14:20,15:10,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Segunda,8,15:30,16:20,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Segunda,9,16:20,17:10,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Segunda,10,19:00,19:50,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Segunda,11,19:50,20:40,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Segunda,12,20:50,21:40,Margot Agathe Seiffert,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Clínica Médica
+Quarta,6,13:30,14:20,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quarta,7,14:20,15:10,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quarta,8,15:30,16:20,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quarta,9,16:20,17:10,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quarta,10,19:00,19:50,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quarta,11,19:50,20:40,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quarta,12,20:50,21:40,Lucimara Sonaglio Rocha,ENS T11 -  3º Sem Téc. Enfermagem Subsequente,Enfermagem em Situações Críticas de Vida
+Quinta,6,13:30,14:20,Dionara Denize Cavinatto,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Legislação e Ética Profissional
+Quinta,7,14:20,15:10,Dionara Denize Cavinatto,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Legislação e Ética Profissional
+Quinta,8,15:30,16:20,Dionara Denize Cavinatto,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Legislação e Ética Profissional
+Quinta,8,15:30,16:20,Ana Queli Mafalda Reis Lautério,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Matemática Aplicada à Enfermagem
+Quinta,9,16:20,17:10,Ana Queli Mafalda Reis Lautério,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Matemática Aplicada à Enfermagem
+Quinta,10,19:00,19:50,Ana Queli Mafalda Reis Lautério,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Matemática Aplicada à Enfermagem
+Sexta,6,13:30,14:20,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Sexta,7,14:20,15:10,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Sexta,8,15:30,16:20,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Sexta,9,16:20,17:10,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Sexta,10,19:00,19:50,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Sexta,11,19:50,20:40,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Sexta,12,20:50,21:40,Lucas Gabriel Almeida Ramos,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Saúde Coletiva
+Segunda,1,7:30,8:20,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Segunda,2,8:20,9:10,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Segunda,3,9:10,10:00,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Segunda,4,10:20,11:10,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Segunda,5,11:10,12:00,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Segunda,6,13:30,14:20,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Segunda,7,14:20,15:10,Sandra Dal Pai,ENF T3 - 1º sem Bacharelado em Enfermagem,Fundamentos do Processo de Trabalho em Enfermagem
+Terça,3,9:10,10:00,Sandra Maria de Mello Cardoso,ENF T3 - 1º sem Bacharelado em Enfermagem,Saúde Coletiva I
+Terça,4,10:20,11:10,Sandra Maria de Mello Cardoso,ENF T3 - 1º sem Bacharelado em Enfermagem,Saúde Coletiva I
+Terça,5,11:10,12:00,Sandra Maria de Mello Cardoso,ENF T3 - 1º sem Bacharelado em Enfermagem,Saúde Coletiva I
+Terça,6,13:30,14:20,Sandra Maria de Mello Cardoso,ENF T3 - 1º sem Bacharelado em Enfermagem,Saúde Coletiva I
+Terça,7,14:20,15:10,Sandra Maria de Mello Cardoso,ENF T3 - 1º sem Bacharelado em Enfermagem,Saúde Coletiva I
+Quarta,1,7:30,8:20,Maria Aparecida Lucca Paranhos,ENF T3 - 1º sem Bacharelado em Enfermagem,Leitura e Produção Textual
+Quarta,2,8:20,9:10,Maria Aparecida Lucca Paranhos,ENF T3 - 1º sem Bacharelado em Enfermagem,Leitura e Produção Textual
+Quarta,3,9:10,10:00,Maria Aparecida Lucca Paranhos,ENF T3 - 1º sem Bacharelado em Enfermagem,Leitura e Produção Textual
+Terça,1,7:30,8:20,Marcele Teixeira Homrich Ravasio,ENF T3 - 1º sem Bacharelado em Enfermagem,Psicologia Aplicada à Enfermagem
+Terça,2,8:20,9:10,Marcele Teixeira Homrich Ravasio,ENF T3 - 1º sem Bacharelado em Enfermagem,Psicologia Aplicada à Enfermagem
+Terça,3,9:10,10:00,Marcele Teixeira Homrich Ravasio,ENF T3 - 1º sem Bacharelado em Enfermagem,Psicologia Aplicada à Enfermagem
+Quinta,2,8:20,9:10,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Quinta,3,9:10,10:00,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Quinta,4,10:20,11:10,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Quinta,5,11:10,12:00,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Quinta,6,13:30,14:20,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Quinta,7,14:20,15:10,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Quinta,8,15:30,16:20,Ângela Pawlowski,ENF T3 - 1º sem Bacharelado em Enfermagem,"Biologia Celular, Molecular e Genética"
+Sexta,1,7:30,8:20,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Sexta,2,8:20,9:10,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Sexta,3,9:10,10:00,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Sexta,4,10:20,11:10,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Sexta,5,11:10,12:00,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Sexta,6,13:30,14:20,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Sexta,7,14:20,15:10,Nelson Rodrigues de Carvalho,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Patologia
+Quarta,4,10:20,11:10,Dionara Denize Cavinatto,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Ética Profissional
+Quarta,5,11:10,12:00,Dionara Denize Cavinatto,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Ética Profissional
+Quarta,6,13:30,14:20,Dionara Denize Cavinatto,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Ética Profissional
+Segunda,4,10:20,11:10,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Eletiva II [ Educação em Saúde 06023056]
+Segunda,5,11:10,12:00,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Eletiva II [ Educação em Saúde 06023056]
+Segunda,6,13:30,14:20,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Eletiva II [ Educação em Saúde 06023056]
+Terça,1,7:30,8:20,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Terça,2,8:20,9:10,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Terça,3,9:10,10:00,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Terça,4,10:20,11:10,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Terça,5,11:10,12:00,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Terça,6,13:30,14:20,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Terça,7,14:20,15:10,Jucelia Iantas,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Embriologia e Histologia
+Sexta,1,7:30,8:20,Ricardo da Silva e Silva,ADM 21 - 2º ANO Técnico em Administração Integrado,Contabilidade
+Sexta,2,8:20,9:10,Ricardo da Silva e Silva,ADM 21 - 2º ANO Técnico em Administração Integrado,Contabilidade
+Sexta,3,9:10,10:00,Ricardo da Silva e Silva,ADM 21 - 2º ANO Técnico em Administração Integrado,Contabilidade
+Segunda,1,7:30,8:20,Ricardo da Silva e Silva,ADM 22 - 2º ANO Técnico em Administração Integrado,Contabilidade
+Segunda,2,8:20,9:10,Ricardo da Silva e Silva,ADM 22 - 2º ANO Técnico em Administração Integrado,Contabilidade
+Segunda,3,9:10,10:00,Ricardo da Silva e Silva,ADM 22 - 2º ANO Técnico em Administração Integrado,Contabilidade
+Sexta,4,10:20,11:10,Ricardo da Silva e Silva,ADM 32 - 3º ANO Técnico em Administração Integrado,Administração Financeira
+Sexta,5,11:10,12:00,Ricardo da Silva e Silva,ADM 32 - 3º ANO Técnico em Administração Integrado,Administração Financeira
+Sexta,6,13:30,14:20,Ricardo da Silva e Silva,ADM 32 - 3º ANO Técnico em Administração Integrado,Administração Financeira
+Quinta,4,10:20,11:10,Ricardo da Silva e Silva,ADM 31 - 3º ANO Técnico em Administração Integrado,Administração Financeira
+Quinta,5,11:10,12:00,Ricardo da Silva e Silva,ADM 31 - 3º ANO Técnico em Administração Integrado,Administração Financeira
+Quinta,6,13:30,14:20,Ricardo da Silva e Silva,ADM 31 - 3º ANO Técnico em Administração Integrado,Administração Financeira
+Sexta,3,9:10,10:00,Martin Ledermann,ADM 21 - 2º ANO Técnico em Administração Integrado,Produção e Logística
+Sexta,4,10:20,11:10,Martin Ledermann,ADM 21 - 2º ANO Técnico em Administração Integrado,Produção e Logística
+Sexta,5,11:10,12:00,Martin Ledermann,ADM 21 - 2º ANO Técnico em Administração Integrado,Produção e Logística
+Terça,1,7:30,8:20,Martin Ledermann,ADM 22 - 2º ANO Técnico em Administração Integrado,Produção e Logística
+Terça,2,8:20,9:10,Martin Ledermann,ADM 22 - 2º ANO Técnico em Administração Integrado,Produção e Logística
+Terça,3,9:10,10:00,Martin Ledermann,ADM 22 - 2º ANO Técnico em Administração Integrado,Produção e Logística
+Quinta,6,13:30,14:20,Martin Ledermann,ADM 22 - 2º ANO Técnico em Administração Integrado,Fundamentos de Marketing e Vendas
+Quinta,7,14:20,15:10,Martin Ledermann,ADM 22 - 2º ANO Técnico em Administração Integrado,Fundamentos de Marketing e Vendas
+Quinta,8,15:30,16:20,Martin Ledermann,ADM 22 - 2º ANO Técnico em Administração Integrado,Fundamentos de Marketing e Vendas
+Quinta,8,15:30,16:20,Martin Ledermann,ADM 21 - 2º ANO Técnico em Administração Integrado,Fundamentos de Marketing e Vendas
+Quinta,9,16:20,17:10,Martin Ledermann,ADM 21 - 2º ANO Técnico em Administração Integrado,Fundamentos de Marketing e Vendas
+Quinta,10,19:00,19:50,Martin Ledermann,ADM 21 - 2º ANO Técnico em Administração Integrado,Fundamentos de Marketing e Vendas
+Sexta,1,7:30,8:20,Martin Ledermann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Noções de Economia
+Sexta,2,8:20,9:10,Martin Ledermann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Noções de Economia
+Sexta,3,9:10,10:00,Martin Ledermann,ADM 11 - 1º ANO  Técnico em Administração Integrado,Noções de Economia
+Terça,4,10:20,11:10,Jéssica Maria da Rosa Lucion,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Sociologia da Saúde
+Terça,5,11:10,12:00,Jéssica Maria da Rosa Lucion,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Sociologia da Saúde
+Terça,6,13:30,14:20,Jéssica Maria da Rosa Lucion,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Sociologia da Saúde
+Sexta,1,7:30,8:20,Margot Agathe Seiffert,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Farmacologia Aplicada à Enfermagem II
+Sexta,2,8:20,9:10,Margot Agathe Seiffert,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Farmacologia Aplicada à Enfermagem II
+Sexta,3,9:10,10:00,Margot Agathe Seiffert,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Farmacologia Aplicada à Enfermagem II
+Sexta,3,9:10,10:00,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Eletiva  IV - Enfermagem baseada em Evidências [06023053]
+Sexta,4,10:20,11:10,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Eletiva  IV - Enfermagem baseada em Evidências [06023053]
+Sexta,5,11:10,12:00,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Eletiva  IV - Enfermagem baseada em Evidências [06023053]
+Terça,10,19:00,19:50,Luthiane Miszak Valença de Oliveira,LC T8 - 5º Sem Licenciatura em Computação,Teorias do Currículo
+Terça,11,19:50,20:40,Luthiane Miszak Valença de Oliveira,LC T8 - 5º Sem Licenciatura em Computação,Teorias do Currículo
+Terça,12,20:50,21:40,Luthiane Miszak Valença de Oliveira,LC T8 - 5º Sem Licenciatura em Computação,Teorias do Currículo
+Terça,10,19:00,19:50,Amilcar Guidolim Vitor,LC T10 - 1º Sem Licenciatura em Computação,História da Educação Brasileira
+Terça,11,19:50,20:40,Amilcar Guidolim Vitor,LC T10 - 1º Sem Licenciatura em Computação,História da Educação Brasileira
+Terça,12,20:50,21:40,Amilcar Guidolim Vitor,LC T10 - 1º Sem Licenciatura em Computação,História da Educação Brasileira
+Sexta,5,11:10,12:00,Larissa Zanetti Theil,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Educação Física
+Terça,4,10:20,11:10,Willian Rubira da Silva,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Física
+Terça,5,11:10,12:00,Willian Rubira da Silva,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Física
+Terça,6,13:30,14:20,Willian Rubira da Silva,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Física
+Quinta,6,13:30,14:20,Adriane Speranza,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Química
+Quinta,7,14:20,15:10,Adriane Speranza,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Química
+Quinta,8,15:30,16:20,Adriane Speranza,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Química
+Sexta,3,9:10,10:00,Kelly de Fátima Castilhos,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Filosofia
+Sexta,4,10:20,11:10,Kelly de Fátima Castilhos,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Filosofia
+Sexta,5,11:10,12:00,Kelly de Fátima Castilhos,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Filosofia
+Quinta,8,15:30,16:20,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Irrigação e Drenagem
+Quinta,9,16:20,17:10,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Irrigação e Drenagem
+Quinta,10,19:00,19:50,Luis Henrique Loose,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Irrigação e Drenagem
+Segunda,3,9:10,10:00,Marina Lara Silva dos Santos Teixeira,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Matemática
+Segunda,4,10:20,11:10,Marina Lara Silva dos Santos Teixeira,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Matemática
+Segunda,5,11:10,12:00,Marina Lara Silva dos Santos Teixeira,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Matemática
+Quinta,5,11:10,12:00,Rosélia da Rosa Lutchemeyer,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Matemática
+Quarta,10,19:00,19:50,Letícia Domanski,LP T2 _1º semestre Licenciatura em Pedagogia,Leitura e Produção Textual
+Quarta,11,19:50,20:40,Letícia Domanski,LP T2 _1º semestre Licenciatura em Pedagogia,Leitura e Produção Textual
+Quarta,12,20:50,21:40,Letícia Domanski,LP T2 _1º semestre Licenciatura em Pedagogia,Leitura e Produção Textual
+Terça,1,7:30,8:20,Ricardo da Silva e Silva,ADM 32 - 3º ANO Técnico em Administração Integrado,Tópicos Especiais em Administração
+Terça,3,9:10,10:00,Ricardo da Silva e Silva,ADM 31 - 3º ANO Técnico em Administração Integrado,Tópicos Especiais em Administração
+Quarta,1,7:30,8:20,Martin Ledermann,ADM 12 - 1º Ano Técnico em Administração Integrado,Noções de Economia
+Quarta,2,8:20,9:10,Martin Ledermann,ADM 12 - 1º Ano Técnico em Administração Integrado,Noções de Economia
+Quarta,3,9:10,10:00,Martin Ledermann,ADM 12 - 1º Ano Técnico em Administração Integrado,Noções de Economia
+Segunda,3,9:10,10:00,Ricardo da Silva e Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Rotinas Administrativas
+Segunda,4,10:20,11:10,Ricardo da Silva e Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Rotinas Administrativas
+Segunda,5,11:10,12:00,Ricardo da Silva e Silva,ADM 11 - 1º ANO  Técnico em Administração Integrado,Rotinas Administrativas
+Quinta,1,7:30,8:20,Ricardo da Silva e Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Rotinas Administrativas
+Quinta,2,8:20,9:10,Ricardo da Silva e Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Rotinas Administrativas
+Quinta,3,9:10,10:00,Ricardo da Silva e Silva,ADM 12 - 1º Ano Técnico em Administração Integrado,Rotinas Administrativas
+Quinta,10,19:00,19:50,Eliane De Lourdes Felden,LP T2 _1º semestre Licenciatura em Pedagogia,Prática Educativa Integrada I
+Quinta,11,19:50,20:40,Eliane De Lourdes Felden,LP T2 _1º semestre Licenciatura em Pedagogia,Prática Educativa Integrada I
+Quinta,12,20:50,21:40,Eliane De Lourdes Felden,LP T2 _1º semestre Licenciatura em Pedagogia,Prática Educativa Integrada I
+Sexta,10,19:00,19:50,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Sexta,11,19:50,20:40,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Sexta,12,20:50,21:40,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Sexta,13,21:40,22:30,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Sexta,14,,,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Sexta,15,,,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Sexta,16,,,Gabriel Corrêa Bomm,LC  T9 - 3º Sem Licenciatura em Computação,Sistemas Operacionais
+Segunda,10,19:00,19:50,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,11,19:50,20:40,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,12,20:50,21:40,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,13,21:40,22:30,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,14,,,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,15,,,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,16,,,Gabriel Corrêa Bomm,LC T7 - 7º Sem Licenciatura em Computação,Redes de Computadores I
+Segunda,10,19:00,19:50,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Segunda,11,19:50,20:40,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Segunda,12,20:50,21:40,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Segunda,13,21:40,22:30,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Segunda,14,,,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Segunda,15,,,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Segunda,16,,,Luthiane Miszak Valença de Oliveira,LP T1 _3º semestre Licenciatura em Pedagogia,Educação Infantil e Infância
+Quinta,12,20:50,21:40,Eliane De Lourdes Felden,LP T1 _3º semestre Licenciatura em Pedagogia,Prática Educativa Integrada III
+Quinta,13,21:40,22:30,Eliane De Lourdes Felden,LP T1 _3º semestre Licenciatura em Pedagogia,Prática Educativa Integrada III
+Quinta,14,,,Eliane De Lourdes Felden,LP T1 _3º semestre Licenciatura em Pedagogia,Prática Educativa Integrada III
+Quarta,10,19:00,19:50,Luthiane Miszak Valença de Oliveira,LC T10 - 1º Sem Licenciatura em Computação,PeCC I    Licenciatura
+Quarta,11,19:50,20:40,Luthiane Miszak Valença de Oliveira,LC T10 - 1º Sem Licenciatura em Computação,PeCC I    Licenciatura
+Quarta,12,20:50,21:40,Luthiane Miszak Valença de Oliveira,LC T10 - 1º Sem Licenciatura em Computação,PeCC I    Licenciatura
+Segunda,10,19:00,19:50,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Segunda,11,19:50,20:40,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Segunda,12,20:50,21:40,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Segunda,13,21:40,22:30,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Segunda,14,,,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Segunda,15,,,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Segunda,16,,,Eliane De Lourdes Felden,LC  T9 - 3º Sem Licenciatura em Computação,"Políticas, Gestão e Organização da Educação"
+Quarta,12,20:50,21:40,George Rodrigo Souza Gonçalves,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Informática
+Quarta,13,21:40,22:30,George Rodrigo Souza Gonçalves,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Informática
+Quarta,14,,,George Rodrigo Souza Gonçalves,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Informática
+Quinta,12,20:50,21:40,Andréa Pereira,LP T2 _1º semestre Licenciatura em Pedagogia,Tecnologias da Informação e da Comunicação
+Quinta,13,21:40,22:30,Andréa Pereira,LP T2 _1º semestre Licenciatura em Pedagogia,Tecnologias da Informação e da Comunicação
+Quinta,14,,,Andréa Pereira,LP T2 _1º semestre Licenciatura em Pedagogia,Tecnologias da Informação e da Comunicação
+Terça,3,9:10,10:00,Willian Juliano Dutra,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,3,9:10,10:00,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,4,10:20,11:10,Willian Juliano Dutra,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,4,10:20,11:10,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,5,11:10,12:00,Willian Juliano Dutra,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,5,11:10,12:00,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,6,13:30,14:20,Willian Juliano Dutra,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,6,13:30,14:20,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,7,14:20,15:10,Willian Juliano Dutra,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Terça,7,14:20,15:10,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Sexta,3,9:10,10:00,Willian Juliano Dutra,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Sexta,3,9:10,10:00,George Rodrigo Souza Gonçalves,INF 31 - 3º ANO Técnico em Informática Integrado,Tópicos Emergentes em Informática
+Quinta,10,19:00,19:50,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Prática de Ensino de Computação VII
+Quinta,11,19:50,20:40,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Prática de Ensino de Computação VII
+Quinta,12,20:50,21:40,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Prática de Ensino de Computação VII
+Sexta,10,19:00,19:50,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Sexta,11,19:50,20:40,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Sexta,12,20:50,21:40,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Sexta,13,21:40,22:30,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Sexta,14,,,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Sexta,15,,,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Sexta,16,,,Lucas Campello da Pieva,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Projeto de Trabalho de Conclusão de Curso
+Quinta,12,20:50,21:40,Fátima  Regina Zan,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Eletiva II - Empreendedorismo
+Quinta,13,21:40,22:30,Fátima  Regina Zan,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Eletiva II - Empreendedorismo
+Quinta,14,,,Fátima  Regina Zan,SI T10 - 5º Sem Sup. Tec. em Sistemas para Internet,Eletiva II - Empreendedorismo
+Terça,12,20:50,21:40,Luthiane Miszak Valença de Oliveira,LC  T9 - 3º Sem Licenciatura em Computação,PeCC  Prática de Ensino da Computação III
+Terça,13,21:40,22:30,Luthiane Miszak Valença de Oliveira,LC  T9 - 3º Sem Licenciatura em Computação,PeCC  Prática de Ensino da Computação III
+Terça,14,,,Luthiane Miszak Valença de Oliveira,LC  T9 - 3º Sem Licenciatura em Computação,PeCC  Prática de Ensino da Computação III
+Quarta,12,20:50,21:40,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Estágio Curricular Supervisionado II
+Quarta,13,21:40,22:30,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Estágio Curricular Supervisionado II
+Quarta,14,,,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Estágio Curricular Supervisionado II
+Quarta,10,19:00,19:50,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Estágio Curricular Supervisionado II
+Quarta,11,19:50,20:40,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Estágio Curricular Supervisionado II
+Quarta,8,15:30,16:20,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,8,15:30,16:20,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,9,16:20,17:10,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,9,16:20,17:10,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,10,19:00,19:50,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,10,19:00,19:50,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Terça,8,15:30,16:20,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Terça,8,15:30,16:20,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Terça,9,16:20,17:10,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Terça,9,16:20,17:10,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Terça,10,19:00,19:50,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Terça,10,19:00,19:50,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,6,13:30,14:20,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,6,13:30,14:20,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,7,14:20,15:10,Neiva Claudete Brondani Machado,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,7,14:20,15:10,Joyce dos Santos Barros Silva,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Semiologia e Semiotécnica I
+Quarta,12,20:50,21:40,Suzana dos Santos Matos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Metodologia Extensionista
+Quarta,13,21:40,22:30,Suzana dos Santos Matos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Metodologia Extensionista
+Quarta,14,,,Suzana dos Santos Matos,ESC T8 - 1º Sem Sup. Tec. Estética e Cosmética,Metodologia Extensionista
+Sexta,1,7:30,8:20,Amilcar Guidolim Vitor,AGR 21 - 2º ano Técnico em Agricultura Integrado,História
+Sexta,2,8:20,9:10,Amilcar Guidolim Vitor,AGR 21 - 2º ano Técnico em Agricultura Integrado,História
+Sexta,3,9:10,10:00,Amilcar Guidolim Vitor,AGR 21 - 2º ano Técnico em Agricultura Integrado,História
+Quarta,2,8:20,9:10,Amilcar Guidolim Vitor,AGP 21 - 2º ano Técnico em Agropecuária Integrado,História
+Quarta,3,9:10,10:00,Amilcar Guidolim Vitor,AGP 21 - 2º ano Técnico em Agropecuária Integrado,História
+Quarta,4,10:20,11:10,Amilcar Guidolim Vitor,AGP 21 - 2º ano Técnico em Agropecuária Integrado,História
+Terça,2,8:20,9:10,Leandro Jorge Daronco,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,História
+Terça,3,9:10,10:00,Leandro Jorge Daronco,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,História
+Terça,4,10:20,11:10,Leandro Jorge Daronco,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,História
+Quinta,6,13:30,14:20,Suzana dos Santos Matos,ADM 32 - 3º ANO Técnico em Administração Integrado,Gestão Ambiental e Responsabilidade Social
+Quinta,7,14:20,15:10,Suzana dos Santos Matos,ADM 32 - 3º ANO Técnico em Administração Integrado,Gestão Ambiental e Responsabilidade Social
+Quinta,8,15:30,16:20,Suzana dos Santos Matos,ADM 32 - 3º ANO Técnico em Administração Integrado,Gestão Ambiental e Responsabilidade Social
+Terça,4,10:20,11:10,Suzana dos Santos Matos,ADM 31 - 3º ANO Técnico em Administração Integrado,Gestão Ambiental e Responsabilidade Social
+Terça,5,11:10,12:00,Suzana dos Santos Matos,ADM 31 - 3º ANO Técnico em Administração Integrado,Gestão Ambiental e Responsabilidade Social
+Terça,6,13:30,14:20,Suzana dos Santos Matos,ADM 31 - 3º ANO Técnico em Administração Integrado,Gestão Ambiental e Responsabilidade Social
+Sexta,12,20:50,21:40,Ricardo da Silva e Silva,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Gestão Agroindustrial
+Sexta,13,21:40,22:30,Ricardo da Silva e Silva,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Gestão Agroindustrial
+Sexta,14,,,Ricardo da Silva e Silva,AGRO T7 - 5º sem Superior de Tecnologia  em Gestão do Agronegócio,Gestão Agroindustrial
+Quinta,12,20:50,21:40,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Eletiva - Culttura Maker [06 020 062]
+Quinta,13,21:40,22:30,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Eletiva - Culttura Maker [06 020 062]
+Quinta,14,,,Karlise Soares Nascimento,LC T7 - 7º Sem Licenciatura em Computação,Eletiva - Culttura Maker [06 020 062]
+Terça,1,7:30,8:20,Letícia Domanski,ADM 21 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Terça,5,11:10,12:00,Letícia Domanski,ADM 22 - 2º ANO Técnico em Administração Integrado,Língua Port. e Lit. Brasileira
+Segunda,6,13:30,14:20,Rosélia da Rosa Lutchemeyer,INF 21 - 2º ANO Técnico em Informática Integrado,Matemática
+Segunda,7,14:20,15:10,Rosélia da Rosa Lutchemeyer,INF 21 - 2º ANO Técnico em Informática Integrado,Matemática
+Segunda,8,15:30,16:20,Rosélia da Rosa Lutchemeyer,INF 21 - 2º ANO Técnico em Informática Integrado,Matemática
+Quinta,3,9:10,10:00,Rosélia da Rosa Lutchemeyer,INF 21 - 2º ANO Técnico em Informática Integrado,Matemática
+Terça,12,20:50,21:40,kelly Padilha Brites,LC T7 - 7º Sem Licenciatura em Computação,Tecnologias para a acessibilidade e inclusão
+Terça,13,21:40,22:30,kelly Padilha Brites,LC T7 - 7º Sem Licenciatura em Computação,Tecnologias para a acessibilidade e inclusão
+Terça,14,,,kelly Padilha Brites,LC T7 - 7º Sem Licenciatura em Computação,Tecnologias para a acessibilidade e inclusão
+Terça,10,19:00,19:50,Dionara Denize Cavinatto,LC T7 - 7º Sem Licenciatura em Computação,Educação Profissional
+Terça,11,19:50,20:40,Dionara Denize Cavinatto,LC T7 - 7º Sem Licenciatura em Computação,Educação Profissional
+Terça,12,20:50,21:40,Dionara Denize Cavinatto,LC T7 - 7º Sem Licenciatura em Computação,Educação Profissional
+Sexta,3,9:10,10:00,Vinícius Feltrin Giglio,ADM 12 - 1º Ano Técnico em Administração Integrado,Química
+Sexta,4,10:20,11:10,Vinícius Feltrin Giglio,ADM 12 - 1º Ano Técnico em Administração Integrado,Química
+Sexta,5,11:10,12:00,Vinícius Feltrin Giglio,ADM 12 - 1º Ano Técnico em Administração Integrado,Química
+Quinta,8,15:30,16:20,Vinícius Feltrin Giglio,ADM 11 - 1º ANO  Técnico em Administração Integrado,Química
+Quinta,9,16:20,17:10,Vinícius Feltrin Giglio,ADM 11 - 1º ANO  Técnico em Administração Integrado,Química
+Quinta,10,19:00,19:50,Vinícius Feltrin Giglio,ADM 11 - 1º ANO  Técnico em Administração Integrado,Química
+Quarta,10,19:00,19:50,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,11,19:50,20:40,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,12,20:50,21:40,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,13,21:40,22:30,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,14,,,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,15,,,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,16,,,Gabriel Corrêa Bomm,SI T 11 - 3º Sem Sup. Tec. em Sistemas para Internet,Banco de Dados II
+Quarta,1,7:30,8:20,Alexandre Novicki,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Física
+Quarta,2,8:20,9:10,Alexandre Novicki,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Física
+Quarta,3,9:10,10:00,Alexandre Novicki,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Física
+Quinta,10,19:00,19:50,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Quinta,11,19:50,20:40,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Quinta,12,20:50,21:40,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Quinta,13,21:40,22:30,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Quinta,14,,,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Quinta,15,,,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Quinta,16,,,Manuela Sulzbach Rodrigues,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Fundamentos de Produção Animal
+Sexta,12,20:50,21:40,kelly Padilha Brites,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Metodologia Científica
+Sexta,13,21:40,22:30,kelly Padilha Brites,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Metodologia Científica
+Sexta,14,,,kelly Padilha Brites,AGRO  T9 - 1º Sem Superior de Tecnologia em Gestão do Agronegócio,Metodologia Científica
+Quinta,12,20:50,21:40,Jéssica Maria da Rosa Lucion,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Sociologia Rural
+Quinta,12,20:50,21:40,Ulisses dos Santos Gonçalves,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Sociologia Rural
+Quinta,13,21:40,22:30,Jéssica Maria da Rosa Lucion,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Sociologia Rural
+Quinta,13,21:40,22:30,Ulisses dos Santos Gonçalves,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Sociologia Rural
+Quinta,14,,,Jéssica Maria da Rosa Lucion,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Sociologia Rural
+Quinta,14,,,Ulisses dos Santos Gonçalves,AGRO T8 - 3º Sem Superior de Tecnologia em Gestão do Agronegócio,Sociologia Rural
+Quarta,1,7:30,8:20,Talitha Comaru,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Epidemiologia
+Quarta,2,8:20,9:10,Talitha Comaru,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Epidemiologia
+Quarta,3,9:10,10:00,Talitha Comaru,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Epidemiologia
+Quarta,4,10:20,11:10,Talitha Comaru,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Epidemiologia
+Quarta,5,11:10,12:00,Talitha Comaru,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Epidemiologia
+Segunda,10,19:00,19:50,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,11,19:50,20:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,12,20:50,21:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,13,21:40,22:30,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,14,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,15,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,16,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,10,19:00,19:50,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,11,19:50,20:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,12,20:50,21:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,13,21:40,22:30,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,14,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,15,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Terça,16,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,10,19:00,19:50,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,11,19:50,20:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,12,20:50,21:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,13,21:40,22:30,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,14,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,15,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quarta,16,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,10,19:00,19:50,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,11,19:50,20:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,12,20:50,21:40,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,13,21:40,22:30,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,14,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,15,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Quinta,16,,,Margot Agathe Seiffert,ENS T11 - Estágio II [10h/s de 11/05 a 10/07_TARDE] prof Margot,Hospital UNIMED_A TARDE
+Segunda,10,19:00,19:50,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,11,19:50,20:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,12,20:50,21:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,13,21:40,22:30,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,14,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,15,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,16,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,10,19:00,19:50,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,11,19:50,20:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,12,20:50,21:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,13,21:40,22:30,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,14,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,15,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,16,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,10,19:00,19:50,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,11,19:50,20:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,12,20:50,21:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,13,21:40,22:30,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,14,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,15,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,16,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,10,19:00,19:50,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,11,19:50,20:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,12,20:50,21:40,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,13,21:40,22:30,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,14,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,15,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,16,,,Andressa Peripolli Rodrigues,ENS T11 -  Estágio II[10h/s de 11/05 a 10/07_TARDE] profe Andressa,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,10,19:00,19:50,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,11,19:50,20:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,12,20:50,21:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,13,21:40,22:30,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,14,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,15,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,16,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,10,19:00,19:50,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,11,19:50,20:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,12,20:50,21:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,13,21:40,22:30,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,14,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,15,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,16,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,6,13:30,14:20,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,7,14:20,15:10,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,8,15:30,16:20,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,9,16:20,17:10,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,10,19:00,19:50,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,11,19:50,20:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,12,20:50,21:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,10,19:00,19:50,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,11,19:50,20:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,12,20:50,21:40,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,13,21:40,22:30,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,14,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,15,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,16,,,Lucas Gabriel Almeida Ramos,ENS T11 -  Estágio II  [10h/s de 11/05 a 10/07_TARDE] profe Lucas,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,10,19:00,19:50,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Segunda,11,19:50,20:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Segunda,12,20:50,21:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Segunda,13,21:40,22:30,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Segunda,14,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Segunda,15,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Segunda,16,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,10,19:00,19:50,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,11,19:50,20:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,12,20:50,21:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,13,21:40,22:30,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,14,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,15,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Terça,16,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,10,19:00,19:50,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,11,19:50,20:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,12,20:50,21:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,13,21:40,22:30,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,14,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,15,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,16,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,10,19:00,19:50,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,11,19:50,20:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,12,20:50,21:40,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,13,21:40,22:30,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,14,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,15,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quinta,16,,,Rita Fernanda Monteiro Fernandes,"ENS T11 - Estágio II [5,4h/s de 11/05 a 10/07_TARDE] profe Fernanda",UPA_ A TARDE
+Quarta,4,10:20,11:10,Adriane Speranza,ADM 21 - 2º ANO Técnico em Administração Integrado,Química
+Quarta,5,11:10,12:00,Adriane Speranza,ADM 21 - 2º ANO Técnico em Administração Integrado,Química
+Quarta,6,13:30,14:20,Adriane Speranza,ADM 21 - 2º ANO Técnico em Administração Integrado,Química
+Quarta,1,7:30,8:20,Adriane Speranza,ADM 22 - 2º ANO Técnico em Administração Integrado,Química
+Quarta,2,8:20,9:10,Adriane Speranza,ADM 22 - 2º ANO Técnico em Administração Integrado,Química
+Quarta,3,9:10,10:00,Adriane Speranza,ADM 22 - 2º ANO Técnico em Administração Integrado,Química
+Terça,2,8:20,9:10,Vinícius Feltrin Giglio,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Química
+Terça,3,9:10,10:00,Vinícius Feltrin Giglio,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Química
+Terça,4,10:20,11:10,Vinícius Feltrin Giglio,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Química
+Terça,10,19:00,19:50,Sandra Maria de Mello Cardoso,"At. Pr. Saúde Coletiva e Saúde do Idoso 1,5h/s MANHÃ [25/05 a 08/07]",ILPI  [7h às 13h] 25/05; 01/06; 09/06; 16/06; 30/06
+Segunda,10,19:00,19:50,Sandra Maria de Mello Cardoso,"At. Pr. Saúde Coletiva e Saúde do Idoso 1,5h/s MANHÃ [25/05 a 08/07]",ILPI  [7h às 13h] 25/05; 01/06; 09/06; 16/06; 30/06
+Quarta,10,19:00,19:50,Sandra Maria de Mello Cardoso,"At. Pr. Saúde Coletiva e Saúde do Idoso 1,5h/s MANHÃ [25/05 a 08/07]",ILPI  [7h às 13h] 25/05; 01/06; 09/06; 16/06; 30/06
+Quinta,10,19:00,19:50,Sandra Maria de Mello Cardoso,"At. Pr. Saúde Coletiva e Saúde do Idoso 1,5h/s MANHÃ [25/05 a 08/07]",ILPI  [7h às 13h] 25/05; 01/06; 09/06; 16/06; 30/06
+Segunda,10,19:00,19:50,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,11,19:50,20:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,12,20:50,21:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,13,21:40,22:30,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,14,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,15,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,16,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,10,19:00,19:50,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,11,19:50,20:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,12,20:50,21:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,13,21:40,22:30,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,14,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,15,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Terça,16,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,10,19:00,19:50,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,11,19:50,20:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,12,20:50,21:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,13,21:40,22:30,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,14,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,15,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quarta,16,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,10,19:00,19:50,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,11,19:50,20:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,12,20:50,21:40,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,13,21:40,22:30,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,14,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,15,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Quinta,16,,,Lucimara Sonaglio Rocha,ENF T1_At. Pr. Saúde Coletiva e Saúde da pessoa idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 3
+Segunda,10,19:00,19:50,Maria Aparecida Lucca Paranhos,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Leitura e Produção Textual
+Segunda,11,19:50,20:40,Maria Aparecida Lucca Paranhos,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Leitura e Produção Textual
+Segunda,12,20:50,21:40,Maria Aparecida Lucca Paranhos,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Leitura e Produção Textual
+Segunda,12,20:50,21:40,Maria Aparecida Lucca Paranhos,LC T10 - 1º Sem Licenciatura em Computação,Leitura e Produção Textual
+Segunda,13,21:40,22:30,Maria Aparecida Lucca Paranhos,LC T10 - 1º Sem Licenciatura em Computação,Leitura e Produção Textual
+Segunda,14,,,Maria Aparecida Lucca Paranhos,LC T10 - 1º Sem Licenciatura em Computação,Leitura e Produção Textual
+Quarta,12,20:50,21:40,Adelino Jacó Seibt,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Inglês Técnico
+Quarta,13,21:40,22:30,Adelino Jacó Seibt,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Inglês Técnico
+Quarta,14,,,Adelino Jacó Seibt,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Inglês Técnico
+Segunda,12,20:50,21:40,Adelino Jacó Seibt,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Inglês Técnico
+Segunda,13,21:40,22:30,Adelino Jacó Seibt,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Inglês Técnico
+Segunda,14,,,Adelino Jacó Seibt,SI T12 -1º Sem Sup. Tec. em Sistemas para Internet,Inglês Técnico
+Quinta,6,13:30,14:20,Willian Juliano Dutra,INF 21 - 2º ANO Técnico em Informática Integrado,Banco de Dados
+Quinta,7,14:20,15:10,Willian Juliano Dutra,INF 21 - 2º ANO Técnico em Informática Integrado,Banco de Dados
+Quinta,8,15:30,16:20,Willian Juliano Dutra,INF 21 - 2º ANO Técnico em Informática Integrado,Banco de Dados
+Quinta,10,19:00,19:50,Gabriel Corrêa Bomm,LC T10 - 1º Sem Licenciatura em Computação,Lógica Matemática
+Quinta,11,19:50,20:40,Gabriel Corrêa Bomm,LC T10 - 1º Sem Licenciatura em Computação,Lógica Matemática
+Quinta,12,20:50,21:40,Gabriel Corrêa Bomm,LC T10 - 1º Sem Licenciatura em Computação,Lógica Matemática
+Sexta,3,9:10,10:00,Gabriel Corrêa Bomm,ENF T3 - 1º sem Bacharelado em Enfermagem,Informática
+Sexta,4,10:20,11:10,Gabriel Corrêa Bomm,ENF T3 - 1º sem Bacharelado em Enfermagem,Informática
+Sexta,5,11:10,12:00,Gabriel Corrêa Bomm,ENF T3 - 1º sem Bacharelado em Enfermagem,Informática
+Terça,3,9:10,10:00,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Programação I
+Terça,4,10:20,11:10,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Programação I
+Terça,5,11:10,12:00,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Programação I
+Terça,6,13:30,14:20,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Programação I
+Terça,7,14:20,15:10,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Programação I
+Quinta,3,9:10,10:00,Adelino Jacó Seibt,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,8,15:30,16:20,Adelino Jacó Seibt,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,9,16:20,17:10,Adelino Jacó Seibt,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,10,19:00,19:50,Adelino Jacó Seibt,INF 11  - 1º ANO Técnico em Informática Integrado,Língua Port. e Lit. Brasileira
+Segunda,6,13:30,14:20,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Introdução à Eletrônica
+Segunda,7,14:20,15:10,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Introdução à Eletrônica
+Segunda,8,15:30,16:20,Lucas Campello da Pieva,INF 11  - 1º ANO Técnico em Informática Integrado,Introdução à Eletrônica
+Sexta,3,9:10,10:00,Adriane Speranza,ADM 32 - 3º ANO Técnico em Administração Integrado,Química
+Quinta,1,7:30,8:20,Adriane Speranza,ADM 32 - 3º ANO Técnico em Administração Integrado,Química
+Quinta,2,8:20,9:10,Adriane Speranza,ADM 32 - 3º ANO Técnico em Administração Integrado,Química
+Quinta,3,9:10,10:00,Adriane Speranza,ADM 32 - 3º ANO Técnico em Administração Integrado,Química
+Quarta,1,7:30,8:20,Rosélia da Rosa Lutchemeyer,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Matemática
+Quinta,1,7:30,8:20,Rosélia da Rosa Lutchemeyer,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Matemática
+Quinta,2,8:20,9:10,Rosélia da Rosa Lutchemeyer,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Matemática
+Quinta,3,9:10,10:00,Rosélia da Rosa Lutchemeyer,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Matemática
+Quinta,4,10:20,11:10,Adriana Toso Kemp,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Quinta,5,11:10,12:00,Adriana Toso Kemp,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Quinta,6,13:30,14:20,Adriana Toso Kemp,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Terça,1,7:30,8:20,Adriana Toso Kemp,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Língua Port. e Lit. Brasileira
+Quarta,1,7:30,8:20,Thaiane da Silva Socoloski,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Inglesa
+Quarta,2,8:20,9:10,Thaiane da Silva Socoloski,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Inglesa
+Quarta,3,9:10,10:00,Thaiane da Silva Socoloski,INF 21 - 2º ANO Técnico em Informática Integrado,Língua Inglesa
+Quinta,1,7:30,8:20,Nelson Rodrigues de Carvalho,INF 11  - 1º ANO Técnico em Informática Integrado,Biologia
+Quinta,2,8:20,9:10,Nelson Rodrigues de Carvalho,INF 11  - 1º ANO Técnico em Informática Integrado,Biologia
+Quinta,3,9:10,10:00,Nelson Rodrigues de Carvalho,INF 11  - 1º ANO Técnico em Informática Integrado,Biologia
+Quarta,3,9:10,10:00,Rita Fernanda Monteiro Fernandes,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Quarta,4,10:20,11:10,Rita Fernanda Monteiro Fernandes,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Quarta,5,11:10,12:00,Rita Fernanda Monteiro Fernandes,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Quarta,6,13:30,14:20,Rita Fernanda Monteiro Fernandes,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Quarta,7,14:20,15:10,Rita Fernanda Monteiro Fernandes,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Sexta,1,7:30,8:20,Talitha Comaru,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Sexta,2,8:20,9:10,Talitha Comaru,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Sexta,3,9:10,10:00,Talitha Comaru,ENF T3 - 1º sem Bacharelado em Enfermagem,Anatomia Humana
+Segunda,5,11:10,12:00,Nelcí Andreatta Kunzler,AGR 31 - 3º ANO Técnico em Agricultura Integrado,Arte
+Quarta,1,7:30,8:20,Nelcí Andreatta Kunzler,AGP 11 - 1º ANO Técnico em Agropecuária Integrado,Arte
+Segunda,7,14:20,15:10,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Agricultura I
+Segunda,8,15:30,16:20,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Agricultura I
+Segunda,9,16:20,17:10,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Agricultura I
+Segunda,10,19:00,19:50,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Agricultura I
+Segunda,11,19:50,20:40,Elaine Luiza Biacchi Vione,AGP 21 - 2º ano Técnico em Agropecuária Integrado,Agricultura I
+Segunda,6,13:30,14:20,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Segunda,7,14:20,15:10,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Segunda,8,15:30,16:20,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Segunda,9,16:20,17:10,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Segunda,10,19:00,19:50,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Segunda,11,19:50,20:40,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Segunda,12,20:50,21:40,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Terça,6,13:30,14:20,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Terça,7,14:20,15:10,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Terça,8,15:30,16:20,Rita Fernanda Monteiro Fernandes,ENS T12 - 1º sem Téc. Enfermagem [Registro  no Sigaa],Anatomia e Fisiologia Humana
+Quarta,1,7:30,8:20,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Quarta,2,8:20,9:10,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Quarta,3,9:10,10:00,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Quarta,4,10:20,11:10,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Quarta,5,11:10,12:00,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Quarta,6,13:30,14:20,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Quarta,7,14:20,15:10,Sandra Leontina Graube,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Gerenciamento em Enfermagem
+Segunda,1,7:30,8:20,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,2,8:20,9:10,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,3,9:10,10:00,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,4,10:20,11:10,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,5,11:10,12:00,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,6,13:30,14:20,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,7,14:20,15:10,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Enfermagem em Saúde da Pessoa Idosa
+Segunda,1,7:30,8:20,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,1,7:30,8:20,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,1,7:30,8:20,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,2,8:20,9:10,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,2,8:20,9:10,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,2,8:20,9:10,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,3,9:10,10:00,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,3,9:10,10:00,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,3,9:10,10:00,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,1,7:30,8:20,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,1,7:30,8:20,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,1,7:30,8:20,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,2,8:20,9:10,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,2,8:20,9:10,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,2,8:20,9:10,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,3,9:10,10:00,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,3,9:10,10:00,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,3,9:10,10:00,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,4,10:20,11:10,Sandra Leontina Graube,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,4,10:20,11:10,Andressa Peripolli Rodrigues,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Quinta,4,10:20,11:10,Lucas Gabriel Almeida Ramos,ENF T2 - 3º Sem Bacharelado em Enfermagem [Registro  no Sigaa],Semiotécnica em Enfermagem I
+Segunda,10,19:00,19:50,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Segunda,11,19:50,20:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Segunda,12,20:50,21:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Segunda,13,21:40,22:30,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Segunda,14,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Segunda,15,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Segunda,16,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,10,19:00,19:50,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,11,19:50,20:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,12,20:50,21:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,13,21:40,22:30,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,14,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,15,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Terça,16,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,10,19:00,19:50,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,11,19:50,20:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,12,20:50,21:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,13,21:40,22:30,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,14,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,15,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quarta,16,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,10,19:00,19:50,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,11,19:50,20:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,12,20:50,21:40,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,13,21:40,22:30,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,14,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,15,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,16,,,Neiva Claudete Brondani Machado,"ENS T11 -  Estágio II  [3,6h/s de 11/05 a 10/07_TARDE] profe Neiva",UPA_ A TARDE
+Quinta,1,7:30,8:20,Willian Rubira da Silva,INF 21 - 2º ANO Técnico em Informática Integrado,Física
+Quinta,2,8:20,9:10,Willian Rubira da Silva,INF 21 - 2º ANO Técnico em Informática Integrado,Física
+Quinta,3,9:10,10:00,Willian Rubira da Silva,INF 21 - 2º ANO Técnico em Informática Integrado,Física
+Quarta,3,9:10,10:00,Rosélia da Rosa Lutchemeyer,AGR 21 - 2º ano Técnico em Agricultura Integrado,Matemática
+Quarta,4,10:20,11:10,Rosélia da Rosa Lutchemeyer,AGR 21 - 2º ano Técnico em Agricultura Integrado,Matemática
+Quarta,5,11:10,12:00,Rosélia da Rosa Lutchemeyer,AGR 21 - 2º ano Técnico em Agricultura Integrado,Matemática
+Quarta,6,13:30,14:20,Rosélia da Rosa Lutchemeyer,AGR 21 - 2º ano Técnico em Agricultura Integrado,Matemática
+Quarta,7,14:20,15:10,Rosélia da Rosa Lutchemeyer,AGR 21 - 2º ano Técnico em Agricultura Integrado,Matemática
+Sexta,5,11:10,12:00,Gabriel Corrêa Bomm,INF 21 - 2º ANO Técnico em Informática Integrado,Hardware II
+Terça,3,9:10,10:00,Gabriel Corrêa Bomm,INF 21 - 2º ANO Técnico em Informática Integrado,Hardware II
+Terça,4,10:20,11:10,Larissa Zanetti Theil,AGR 21 - 2º ano Técnico em Agricultura Integrado,Educação Física
+Terça,5,11:10,12:00,Larissa Zanetti Theil,AGR 21 - 2º ano Técnico em Agricultura Integrado,Educação Física
+Terça,6,13:30,14:20,Larissa Zanetti Theil,AGR 21 - 2º ano Técnico em Agricultura Integrado,Educação Física
+Segunda,8,15:30,16:20,Gabriel Corrêa Bomm,INF 31 - 3º ANO Técnico em Informática Integrado,Programação III
+Segunda,9,16:20,17:10,Gabriel Corrêa Bomm,INF 31 - 3º ANO Técnico em Informática Integrado,Programação III
+Segunda,10,19:00,19:50,Gabriel Corrêa Bomm,INF 31 - 3º ANO Técnico em Informática Integrado,Programação III
+Sexta,1,7:30,8:20,Lucas Campello da Pieva,INF 21 - 2º ANO Técnico em Informática Integrado,Programação II
+Sexta,2,8:20,9:10,Lucas Campello da Pieva,INF 21 - 2º ANO Técnico em Informática Integrado,Programação II
+Sexta,3,9:10,10:00,Lucas Campello da Pieva,INF 21 - 2º ANO Técnico em Informática Integrado,Programação II
+Quinta,1,7:30,8:20,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,1,7:30,8:20,Sandra Maria de Mello Cardoso,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,2,8:20,9:10,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,2,8:20,9:10,Sandra Maria de Mello Cardoso,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,3,9:10,10:00,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,3,9:10,10:00,Sandra Maria de Mello Cardoso,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,4,10:20,11:10,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,4,10:20,11:10,Sandra Maria de Mello Cardoso,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,5,11:10,12:00,Sandra Dal Pai,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Quinta,5,11:10,12:00,Sandra Maria de Mello Cardoso,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Saúde Coletiva III
+Terça,1,7:30,8:20,Neiva Claudete Brondani Machado,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,1,7:30,8:20,Sandra 2 Sandra Cardoso 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,1,7:30,8:20,Sandra G 2 Sandra G 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,1,7:30,8:20,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,2,8:20,9:10,Neiva Claudete Brondani Machado,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,2,8:20,9:10,Sandra 2 Sandra Cardoso 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,2,8:20,9:10,Sandra G 2 Sandra G 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,2,8:20,9:10,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,5,11:10,12:00,Neiva Claudete Brondani Machado,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,5,11:10,12:00,Sandra 2 Sandra Cardoso 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,5,11:10,12:00,Sandra G 2 Sandra G 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,5,11:10,12:00,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,3,9:10,10:00,Neiva Claudete Brondani Machado,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,3,9:10,10:00,Sandra 2 Sandra Cardoso 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,3,9:10,10:00,Sandra G 2 Sandra G 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Terça,3,9:10,10:00,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,4,10:20,11:10,Neiva Claudete Brondani Machado,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,4,10:20,11:10,Sandra 2 Sandra Cardoso 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,4,10:20,11:10,Sandra G 2 Sandra G 2,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Quinta,4,10:20,11:10,Lucimara Sonaglio Rocha,ENF T1 - 5º sem Bacharelado em Enfermagem [Registro no SIGAA],Atividade Prática de Enfermagem em Saúde Coletiva e da Pessoa Idosa
+Segunda,10,19:00,19:50,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,11,19:50,20:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,12,20:50,21:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,13,21:40,22:30,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,14,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,15,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,16,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,10,19:00,19:50,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,11,19:50,20:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,12,20:50,21:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,13,21:40,22:30,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,14,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,15,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Terça,16,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,10,19:00,19:50,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,11,19:50,20:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,12,20:50,21:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,13,21:40,22:30,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,14,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,15,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quarta,16,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,10,19:00,19:50,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,11,19:50,20:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,12,20:50,21:40,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,13,21:40,22:30,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,14,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,15,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Quinta,16,,,Sandra Leontina Graube,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [26/05 a 08/07] 6h/s,ESF 1
+Segunda,10,19:00,19:50,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,11,19:50,20:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,12,20:50,21:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,13,21:40,22:30,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,14,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,15,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,16,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,10,19:00,19:50,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,11,19:50,20:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,12,20:50,21:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,13,21:40,22:30,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,14,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,15,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Terça,16,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,10,19:00,19:50,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,11,19:50,20:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,12,20:50,21:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,13,21:40,22:30,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,14,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,15,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quarta,16,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,10,19:00,19:50,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,11,19:50,20:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,12,20:50,21:40,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,13,21:40,22:30,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,14,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,15,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Quinta,16,,,Joyce dos Santos Barros Silva,ENF T1_At. Pr. Saúde Coletiva e Saúda Pessoa Idosa MANHÃ [25/05 a 08/07] 6h/s,ESF 2
+Segunda,10,19:00,19:50,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,11,19:50,20:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,12,20:50,21:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,13,21:40,22:30,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,14,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,15,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Segunda,16,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,10,19:00,19:50,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,11,19:50,20:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,12,20:50,21:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,13,21:40,22:30,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,14,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,15,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Terça,16,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,10,19:00,19:50,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,11,19:50,20:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,12,20:50,21:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,13,21:40,22:30,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,14,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,15,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quarta,16,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,10,19:00,19:50,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,11,19:50,20:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,12,20:50,21:40,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,13,21:40,22:30,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,14,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,15,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
+Quinta,16,,,Sandra Dal Pai,ENS T11 -  Estágio II [10h/s de 11/05 a 10/07_TARDE] profe Sandra Dal Pai,HOSPITAL REGIONAL DAS MISSÕES_ A TARDE
