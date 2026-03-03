@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Substituição de Professores</title>
+  <title>Substituição com Troca</title>
 
   <style>
     :root{
@@ -48,6 +48,7 @@
       font-size:12px;
       white-space:nowrap;
     }
+
     .card{
       background:var(--card);
       border:1px solid var(--borda);
@@ -76,11 +77,11 @@
       outline:none;
       min-width:240px;
     }
-    input{ min-width:280px; }
     .right-controls{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-end; }
     .status{ font-size:12px; color:var(--muted); min-height:18px; display:flex; align-items:center; gap:8px; }
     .dot{ width:10px; height:10px; border-radius:999px; background:var(--verde); opacity:.25; }
     .dot.on{ opacity:1; }
+
     .btn{
       display:inline-flex;
       align-items:center;
@@ -100,6 +101,7 @@
       border-color:var(--verde);
       color:#fff;
     }
+
     .content{ padding:14px; }
     .grid{
       display:grid;
@@ -114,6 +116,7 @@
     }
     .panel h3{ margin:0 0 10px 0; font-size:14px; }
     .hint{ font-size:12px; color:var(--muted); margin-top:6px; }
+
     .list{
       margin:0;
       padding:0;
@@ -127,12 +130,13 @@
       border:1px solid var(--borda);
       border-radius:12px;
       display:flex;
-      align-items:center;
+      align-items:flex-start;
       justify-content:space-between;
       gap:10px;
     }
-    .name{ font-weight:600; font-size:13px; }
-    .meta{ font-size:12px; color:var(--muted); text-align:right; }
+    .name{ font-weight:650; font-size:13px; }
+    .meta{ font-size:12px; color:var(--muted); text-align:right; white-space:pre-line; }
+
     .footer{
       padding:10px 14px 14px 14px;
       border-top:1px solid var(--borda);
@@ -144,6 +148,7 @@
       flex-wrap:wrap;
       align-items:center;
     }
+
     @media (max-width: 860px){
       .grid{ grid-template-columns:1fr; }
     }
@@ -158,8 +163,8 @@
   <div class="wrap">
     <div class="header">
       <div>
-        <h1 class="title">Substituição de Professores</h1>
-        <p class="subtitle">Escolha dia e horário. O sistema lista quem está livre nesse horário.</p>
+        <h1 class="title">Substituição com Troca</h1>
+        <p class="subtitle">Regra 3: sugere substitutos por disponibilidade (sem checar disciplina).</p>
       </div>
       <div class="badge">IFFar • 2026/1</div>
     </div>
@@ -168,7 +173,13 @@
       <div class="controls">
         <div class="left-controls">
           <label>
-            Dia
+            Professor ausente (obrigatório)
+            <input id="ausenteInput" list="profList" placeholder="Digite o nome exato ou selecione" disabled>
+            <datalist id="profList"></datalist>
+          </label>
+
+          <label>
+            Dia do horário a cobrir
             <select id="diaSelect" disabled>
               <option>Carregando...</option>
             </select>
@@ -180,12 +191,6 @@
               <option>Carregando...</option>
             </select>
           </label>
-
-          <label>
-            Professor ausente (opcional)
-            <input id="ausenteInput" list="profList" placeholder="Digite o nome (ex.: Adelino)" disabled>
-            <datalist id="profList"></datalist>
-          </label>
         </div>
 
         <div class="right-controls">
@@ -193,21 +198,21 @@
             <span class="dot" id="loadingDot"></span>
             <span id="status"></span>
           </div>
-          <button class="btn primary" id="buscarBtn" disabled>🔎 Buscar disponíveis</button>
-          <a class="btn" href="./index.html">↩ Voltar aos horários</a>
+          <button class="btn primary" id="buscarBtn" disabled>🔎 Sugerir com troca</button>
+          <a class="btn" href="./index.html">↩ Voltar</a>
         </div>
       </div>
 
       <div class="content">
         <div class="grid">
           <div class="panel">
-            <h3>Disponíveis neste horário</h3>
-            <ul class="list" id="disponiveisList"></ul>
-            <div class="hint" id="disponiveisHint"></div>
+            <h3>Sugestões (substituto + horário de troca)</h3>
+            <ul class="list" id="sugestoesList"></ul>
+            <div class="hint" id="sugestoesHint"></div>
           </div>
 
           <div class="panel">
-            <h3>Ocupados neste horário</h3>
+            <h3>Ocupados no horário solicitado</h3>
             <ul class="list" id="ocupadosList"></ul>
             <div class="hint" id="ocupadosHint"></div>
           </div>
@@ -215,8 +220,8 @@
       </div>
 
       <div class="footer">
-        <span>Dica: se trocar o CSV no GitHub e não atualizar, use Ctrl+F5.</span>
-        <span>Fonte: exportação aSc (XML → CSV)</span>
+        <span>Dica: se atualizar o CSV e não refletir, use Ctrl+F5.</span>
+        <span>Fonte: aSc XML → CSV</span>
       </div>
     </div>
   </div>
