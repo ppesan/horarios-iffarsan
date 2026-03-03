@@ -1,6 +1,5 @@
-// substituicao.js
-// Lê o arquivo horarios_ocupacao_professores.csv na raiz do repositório
-// Colunas esperadas: dia, periodo, inicio, fim, professor, turmas, disciplina
+// substituicao.js — Regra 3 (disponibilidade apenas)
+// Sugere professor B livre em S, e encontra um horário T em que B está ocupado e A (ausente) está livre.
 
 const CSV_URL = "./horarios_ocupacao_professores.csv";
 
@@ -13,33 +12,27 @@ const buscarBtn = document.getElementById("buscarBtn");
 const statusEl = document.getElementById("status");
 const loadingDot = document.getElementById("loadingDot");
 
-const disponiveisList = document.getElementById("disponiveisList");
+const sugestoesList = document.getElementById("sugestoesList");
 const ocupadosList = document.getElementById("ocupadosList");
-const disponiveisHint = document.getElementById("disponiveisHint");
+const sugestoesHint = document.getElementById("sugestoesHint");
 const ocupadosHint = document.getElementById("ocupadosHint");
 
-let rows = [];          // todas as linhas do CSV
-let professores = [];   // lista única de professores
-let dias = [];          // lista única de dias
-let horas = [];         // lista única de horários início
+// dados
+let rows = [];                 // linhas normalizadas
+let professores = [];          // lista única
+let dias = [];                 // lista única
+let horas = [];                // lista única (início)
+let slots = [];                // slots possíveis (dia+inicio+fim)
 
+// índices para performance
+let busyByProf = new Map();    // professor -> Set(slotKey)
+let rowsBySlot = new Map();    // slotKey -> [rows ocupadas nesse slot]
+let slotInfo = new Map();      // slotKey -> {dia,inicio,fim}
+
+// ---------- UX ----------
 function setStatus(msg) {
   statusEl.textContent = msg || "";
   if (loadingDot) loadingDot.classList.toggle("on", !!msg);
-}
-
-function clearList(ul) {
-  ul.innerHTML = "";
-}
-
-function addItem(ul, name, meta) {
-  const li = document.createElement("li");
-  li.className = "item";
-  li.innerHTML = `
-    <div class="name">${escapeHtml(name)}</div>
-    <div class="meta">${escapeHtml(meta || "")}</div>
-  `;
-  ul.appendChild(li);
 }
 
 function escapeHtml(s) {
@@ -51,30 +44,53 @@ function escapeHtml(s) {
     .replaceAll("'", "&#039;");
 }
 
+function clearList(ul) {
+  ul.innerHTML = "";
+}
+
+function addItem(ul, title, meta) {
+  const li = document.createElement("li");
+  li.className = "item";
+  li.innerHTML = `
+    <div class="name">${escapeHtml(title)}</div>
+    <div class="meta">${escapeHtml(meta || "")}</div>
+  `;
+  ul.appendChild(li);
+}
+
 function normalize(s) {
   return String(s || "").trim();
 }
 
-// Parser CSV simples (compatível com UTF-8-sig e aspas)
-function parseCSV(text) {
-  // remove BOM (UTF-8-sig)
-  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
-
-  const lines = text.split(/\r?\n/).filter(l => l.trim() !== "");
-  if (lines.length < 2) return [];
-
-  const header = splitCSVLine(lines[0]).map(h => normalize(h).toLowerCase());
-  const out = [];
-
-  for (let i = 1; i < lines.length; i++) {
-    const cols = splitCSVLine(lines[i]);
-    const obj = {};
-    for (let c = 0; c < header.length; c++) obj[header[c]] = normalize(cols[c] ?? "");
-    out.push(obj);
-  }
-  return out;
+function uniqueSorted(arr) {
+  return Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b, "pt-BR"));
 }
 
+function fillSelect(select, values, placeholder) {
+  select.innerHTML = "";
+  const op0 = document.createElement("option");
+  op0.value = "";
+  op0.textContent = placeholder || "Selecione...";
+  select.appendChild(op0);
+
+  for (const v of values) {
+    const op = document.createElement("option");
+    op.value = v;
+    op.textContent = v;
+    select.appendChild(op);
+  }
+}
+
+function buildDatalist(datalist, values) {
+  datalist.innerHTML = "";
+  for (const v of values) {
+    const op = document.createElement("option");
+    op.value = v;
+    datalist.appendChild(op);
+  }
+}
+
+// ---------- CSV parser (simples e robusto) ----------
 function splitCSVLine(line) {
   const res = [];
   let cur = "";
@@ -83,8 +99,8 @@ function splitCSVLine(line) {
   for (let i = 0; i < line.length; i++) {
     const ch = line[i];
 
-    if (ch === '"' ) {
-      if (inQuotes && line[i+1] === '"') { // escape ""
+    if (ch === '"') {
+      if (inQuotes && line[i + 1] === '"') {
         cur += '"';
         i++;
       } else {
@@ -106,101 +122,204 @@ function splitCSVLine(line) {
   return res;
 }
 
-function uniqueSorted(arr) {
-  return Array.from(new Set(arr)).sort((a, b) => a.localeCompare(b, "pt-BR"));
+function parseCSV(text) {
+  // remove BOM (UTF-8-sig)
+  if (text && text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+
+  const lines = text.split(/\r?\n/).filter(l => l.trim() !== "");
+  if (lines.length < 2) return [];
+
+  const header = splitCSVLine(lines[0]).map(h => normalize(h).toLowerCase());
+  const out = [];
+
+  for (let i = 1; i < lines.length; i++) {
+    const cols = splitCSVLine(lines[i]);
+    const obj = {};
+    for (let c = 0; c < header.length; c++) obj[header[c]] = normalize(cols[c] ?? "");
+    out.push(obj);
+  }
+  return out;
 }
 
-function fillSelect(select, values, placeholder) {
-  select.innerHTML = "";
-  if (placeholder) {
-    const op = document.createElement("option");
-    op.value = "";
-    op.textContent = placeholder;
-    select.appendChild(op);
-  }
-  for (const v of values) {
-    const op = document.createElement("option");
-    op.value = v;
-    op.textContent = v;
-    select.appendChild(op);
-  }
+// ---------- Slots / índices ----------
+function makeSlotKey(dia, inicio, fim) {
+  return `${dia}||${inicio}||${fim}`;
 }
 
-function buildDatalist(datalist, values) {
-  datalist.innerHTML = "";
-  for (const v of values) {
-    const op = document.createElement("option");
-    op.value = v;
-    datalist.appendChild(op);
-  }
+function sortSlotKey(a, b) {
+  // ordena por dia (seg..sex) e hora início
+  const dayOrder = { "Segunda":1, "Terça":2, "Quarta":3, "Quinta":4, "Sexta":5 };
+  const [da, ia] = a.split("||");
+  const [db, ib] = b.split("||");
+  const oa = dayOrder[da] || 99;
+  const ob = dayOrder[db] || 99;
+  if (oa !== ob) return oa - ob;
+  return (ia || "").localeCompare(ib || "", "pt-BR");
 }
 
+function buildIndexes() {
+  busyByProf = new Map();
+  rowsBySlot = new Map();
+  slotInfo = new Map();
+
+  for (const r of rows) {
+    const dia = r.dia;
+    const inicio = r.inicio;
+    const fim = r.fim;
+    const prof = r.professor;
+
+    if (!dia || !inicio || !fim || !prof) continue;
+
+    const key = makeSlotKey(dia, inicio, fim);
+
+    slotInfo.set(key, { dia, inicio, fim });
+
+    if (!rowsBySlot.has(key)) rowsBySlot.set(key, []);
+    rowsBySlot.get(key).push(r);
+
+    if (!busyByProf.has(prof)) busyByProf.set(prof, new Set());
+    busyByProf.get(prof).add(key);
+  }
+
+  slots = Array.from(slotInfo.keys()).sort(sortSlotKey);
+}
+
+// ---------- Regra de sugestão ----------
 function currentSelection() {
-  const dia = diaSelect.value;
-  const inicio = horaSelect.value;
-  const ausente = normalize(ausenteInput.value);
-  return { dia, inicio, ausente };
+  return {
+    ausente: normalize(ausenteInput.value),
+    dia: diaSelect.value,
+    inicio: horaSelect.value
+  };
 }
 
-function buscar() {
-  const { dia, inicio, ausente } = currentSelection();
+function getSlotKeyByDiaHora(dia, inicio) {
+  // encontra o slot que bate (dia+inicio); se houver mais de um fim, pega o primeiro
+  for (const k of slots) {
+    const info = slotInfo.get(k);
+    if (info && info.dia === dia && info.inicio === inicio) return k;
+  }
+  return null;
+}
 
-  clearList(disponiveisList);
+function buscarSugestoes() {
+  clearList(sugestoesList);
   clearList(ocupadosList);
-  disponiveisHint.textContent = "";
+  sugestoesHint.textContent = "";
   ocupadosHint.textContent = "";
 
+  const { ausente, dia, inicio } = currentSelection();
+
+  if (!ausente) {
+    sugestoesHint.textContent = "Informe o professor ausente (obrigatório).";
+    return;
+  }
+  if (!professores.includes(ausente)) {
+    sugestoesHint.textContent = "Nome do ausente não bate exatamente com a lista. Selecione pelo campo (setinha/autocomplete).";
+    return;
+  }
   if (!dia || !inicio) {
-    disponiveisHint.textContent = "Selecione Dia e Horário para buscar.";
+    sugestoesHint.textContent = "Selecione Dia e Horário.";
     return;
   }
 
-  // Quem está ocupado nesse slot
-  const ocupadosSlot = rows.filter(r => r.dia === dia && r.inicio === inicio);
+  const slotS = getSlotKeyByDiaHora(dia, inicio);
+  if (!slotS) {
+    sugestoesHint.textContent = "Não encontrei esse horário na base.";
+    return;
+  }
 
-  const ocupadosSet = new Set(ocupadosSlot.map(r => r.professor).filter(Boolean));
+  const ocupadosS = rowsBySlot.get(slotS) || [];
+  const ocupadosSetS = new Set(ocupadosS.map(r => r.professor).filter(Boolean));
 
-  // Se o usuário indicou ausente, remove ele da lista de disponíveis
-  const ausenteNorm = ausente;
-  const disponiveis = professores
-    .filter(p => p && !ocupadosSet.has(p) && p !== ausenteNorm);
-
-  // Render ocupados (com turma/discip)
-  ocupadosSlot
+  // ocupa a coluna "Ocupados"
+  ocupadosS
+    .slice()
     .sort((a,b) => (a.professor||"").localeCompare(b.professor||"", "pt-BR"))
     .forEach(r => {
       const meta = `${r.turmas || ""}${r.disciplina ? " • " + r.disciplina : ""}`.trim();
       addItem(ocupadosList, r.professor || "(sem nome)", meta);
     });
+  ocupadosHint.textContent = `Total ocupados neste horário: ${ocupadosS.length}`;
 
-  // Render disponíveis (sem meta por enquanto)
-  disponiveis
-    .sort((a,b) => a.localeCompare(b, "pt-BR"))
-    .forEach(p => addItem(disponiveisList, p, "Livre"));
+  // sets de ocupação
+  const busyA = busyByProf.get(ausente) || new Set();
 
-  disponiveisHint.textContent = `Total disponíveis: ${disponiveis.length}`;
-  ocupadosHint.textContent = `Total ocupados: ${ocupadosSlot.length}`;
+  // Candidatos B: livres em S (não estão em ocupadosSetS) e não são o ausente
+  const candidatos = professores.filter(p => p && p !== ausente && !ocupadosSetS.has(p));
 
-  // Caso o ausente não esteja exatamente como no cadastro, avisa
-  if (ausenteNorm && !professores.includes(ausenteNorm)) {
-    disponiveisHint.textContent += " • (Obs.: o nome do ausente não bate exatamente com a lista)";
+  // Para cada B, procurar um T onde B está ocupado e A está livre
+  const sugestoes = [];
+
+  for (const b of candidatos) {
+    const busyB = busyByProf.get(b) || new Set();
+    // T: slots que B tem aula (ocupado)
+    // Condição: A livre em T => T não está em busyA
+    // Além disso, evitamos T == S (mesmo horário)
+    let melhorT = null;
+
+    for (const t of busyB) {
+      if (t === slotS) continue;
+      if (!busyA.has(t)) {
+        melhorT = t;
+        break; // já está ordenado? Não. Então escolhemos depois.
+      }
+    }
+
+    if (melhorT) {
+      // Para escolher o "melhor" T, vamos pegar o primeiro pela ordem de slots (seg..sex, hora)
+      // então recalculamos pegando o mínimo segundo sortSlotKey
+      const possiveis = Array.from(busyB).filter(t => t !== slotS && !busyA.has(t)).sort(sortSlotKey);
+      melhorT = possiveis[0];
+
+      // Pegamos o que B está dando em T para mostrar meta
+      const aulasEmT = (rowsBySlot.get(melhorT) || []).filter(r => r.professor === b);
+      const aula = aulasEmT[0]; // geralmente 1
+      const infoT = slotInfo.get(melhorT);
+
+      sugestoes.push({
+        substituto: b,
+        trocaDia: infoT?.dia || "",
+        trocaInicio: infoT?.inicio || "",
+        trocaFim: infoT?.fim || "",
+        trocaTurmas: aula?.turmas || "",
+        trocaDisciplina: aula?.disciplina || ""
+      });
+    }
   }
+
+  // ordena sugestões por nome
+  sugestoes.sort((a,b) => a.substituto.localeCompare(b.substituto, "pt-BR"));
+
+  // render
+  for (const s of sugestoes) {
+    const meta =
+      `Troca sugerida:\n${s.trocaDia} ${s.trocaInicio}–${s.trocaFim}` +
+      `${s.trocaTurmas ? `\n${s.trocaTurmas}` : ""}` +
+      `${s.trocaDisciplina ? `\n${s.trocaDisciplina}` : ""}`;
+
+    addItem(sugestoesList, s.substituto, meta);
+  }
+
+  sugestoesHint.textContent =
+    `Substitutos possíveis (com pelo menos 1 troca viável): ${sugestoes.length} • ` +
+    `Candidatos livres no horário: ${candidatos.length}`;
 }
 
+// ---------- init ----------
 async function init() {
   try {
     setStatus("Carregando base de dados...");
 
-    // cache:'no-store' ajuda a evitar pegar CSV antigo
     const resp = await fetch(CSV_URL, { cache: "no-store" });
     if (!resp.ok) throw new Error(`Falha ao carregar CSV (${resp.status})`);
-
     const text = await resp.text();
-    rows = parseCSV(text);
 
-    // normaliza nomes de colunas que importam
-    rows = rows.map(r => ({
-      dia: r.dia || r["dia"] || "",
+    const raw = parseCSV(text);
+
+    // normalização de colunas
+    rows = raw.map(r => ({
+      dia: r.dia || "",
       inicio: r.inicio || r["início"] || "",
       fim: r.fim || "",
       professor: r.professor || "",
@@ -211,9 +330,9 @@ async function init() {
 
     professores = uniqueSorted(rows.map(r => r.professor).filter(Boolean));
     dias = uniqueSorted(rows.map(r => r.dia).filter(Boolean));
-
-    // Horários: usamos o campo "inicio"
     horas = uniqueSorted(rows.map(r => r.inicio).filter(Boolean));
+
+    buildIndexes();
 
     fillSelect(diaSelect, dias, "Selecione...");
     fillSelect(horaSelect, horas, "Selecione...");
@@ -226,10 +345,9 @@ async function init() {
 
     setStatus("");
 
-    // auto-busca quando o usuário muda dia/hora
-    diaSelect.addEventListener("change", buscar);
-    horaSelect.addEventListener("change", buscar);
-    buscarBtn.addEventListener("click", buscar);
+    buscarBtn.addEventListener("click", buscarSugestoes);
+    diaSelect.addEventListener("change", () => { /* opcional */ });
+    horaSelect.addEventListener("change", () => { /* opcional */ });
 
   } catch (err) {
     console.error(err);
