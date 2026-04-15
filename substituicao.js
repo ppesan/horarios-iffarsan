@@ -7,8 +7,6 @@
 // 5) Manter a lógica de troca na mesma turma
 
 const CSV_URL = "./horarios_ocupacao_professores.csv";
-
-// Ajuste aqui se quiser mudar o início da "tarde"
 const AFTERNOON_START = "12:00";
 
 const diaSelect = document.getElementById("diaSelect");
@@ -34,10 +32,10 @@ let horas = [];
 let busyByProf = new Map();   // professor -> Set(slotKey)
 let rowsBySlot = new Map();   // slotKey -> [rows]
 let slotInfo = new Map();     // slotKey -> { dia, inicio }
-let horasPorDia = new Map();  // dia -> [hora1, hora2, ...]
+let horasPorDia = new Map();  // dia -> [horas ordenadas]
 
 function setStatus(msg) {
-  statusEl.textContent = msg || "";
+  if (statusEl) statusEl.textContent = msg || "";
   if (loadingDot) loadingDot.classList.toggle("on", !!msg);
 }
 
@@ -51,10 +49,11 @@ function escapeHtml(s) {
 }
 
 function clearList(ul) {
-  ul.innerHTML = "";
+  if (ul) ul.innerHTML = "";
 }
 
 function addItem(ul, title, meta) {
+  if (!ul) return;
   const li = document.createElement("li");
   li.className = "item";
   li.innerHTML = `
@@ -81,6 +80,8 @@ function uniqueSorted(arr) {
 }
 
 function fillSelect(select, values, placeholder) {
+  if (!select) return;
+
   select.innerHTML = "";
 
   const op0 = document.createElement("option");
@@ -97,6 +98,7 @@ function fillSelect(select, values, placeholder) {
 }
 
 function buildDatalist(datalist, values) {
+  if (!datalist) return;
   datalist.innerHTML = "";
   for (const v of values) {
     const op = document.createElement("option");
@@ -232,10 +234,10 @@ function extractTurmaSet(turmasStr) {
 
 function currentSelection() {
   return {
-    ausente: normalize(ausenteInput.value),
-    dia: diaSelect.value,
-    inicio: horaSelect.value,
-    quantidade: Number(quantidadeSelect.value || "1")
+    ausente: normalize(ausenteInput ? ausenteInput.value : ""),
+    dia: diaSelect ? diaSelect.value : "",
+    inicio: horaSelect ? horaSelect.value : "",
+    quantidade: Number(quantidadeSelect ? quantidadeSelect.value : "1")
   };
 }
 
@@ -323,9 +325,7 @@ function getTurmaReferenceForBlock(professor, slotKeys) {
   });
 
   const inter = intersectionOfArrayOfSets(turmaSetsPorSlot);
-  if (inter.size > 0) {
-    return inter;
-  }
+  if (inter.size > 0) return inter;
 
   return unionSets(turmaSetsPorSlot);
 }
@@ -350,21 +350,15 @@ function findCandidateTradeBlock(ausente, substituto, quantidade, turmasReferenc
   const horasCandidato = Array.from(busySub).sort(sortSlotKey);
 
   for (const slotInicial of horasCandidato) {
-    if (slotInicial === slotOrigem[0]) continue;
-
     const info = slotInfo.get(slotInicial);
     if (!info) continue;
 
     const blocoT = getConsecutiveSlots(info.dia, info.inicio, quantidade);
     if (!blocoT) continue;
 
-    // Não permitir bloco de troca em tarde bloqueada
+    if (slotOrigem[0] === blocoT[0]) continue;
     if (blockTouchesRestrictedAfternoon(blocoT)) continue;
-
-    // B precisa estar ocupado em todo o bloco T
     if (!isProfessorBusyInAllSlots(substituto, blocoT)) continue;
-
-    // A precisa estar livre em todo o bloco T
     if (!isProfessorFreeInAllSlots(ausente, blocoT)) continue;
 
     const turmasBlocoT = getTurmaReferenceForBlock(substituto, blocoT);
@@ -375,16 +369,15 @@ function findCandidateTradeBlock(ausente, substituto, quantidade, turmasReferenc
     const turmaEscolhida = Array.from(turmasComuns).sort((a, b) => a.localeCompare(b, "pt-BR"))[0];
     const primeiroInfo = slotInfo.get(blocoT[0]);
     const ultimoInfo = slotInfo.get(blocoT[blocoT.length - 1]);
-
     const primeiraLinha = (rowsBySlot.get(blocoT[0]) || []).find(r => r.professor === substituto);
 
     return {
       blocoT,
       turma: turmaEscolhida,
-      trocaDia: primeiroInfo?.dia || "",
-      trocaInicio: primeiroInfo?.inicio || "",
-      trocaFim: ultimoInfo?.inicio || "",
-      disciplina: primeiraLinha?.disciplina || ""
+      trocaDia: primeiroInfo ? primeiroInfo.dia : "",
+      trocaInicio: primeiroInfo ? primeiroInfo.inicio : "",
+      trocaFim: ultimoInfo ? ultimoInfo.inicio : "",
+      disciplina: primeiraLinha ? primeiraLinha.disciplina : ""
     };
   }
 
@@ -402,53 +395,52 @@ function formatBlockLabel(slotKeys) {
 function buscarSugestoes() {
   clearList(sugestoesList);
   clearList(ocupadosList);
-  sugestoesHint.textContent = "";
-  ocupadosHint.textContent = "";
+  if (sugestoesHint) sugestoesHint.textContent = "";
+  if (ocupadosHint) ocupadosHint.textContent = "";
 
   const { ausente, dia, inicio, quantidade } = currentSelection();
 
   if (!ausente) {
-    sugestoesHint.textContent = "Informe o professor ausente.";
+    if (sugestoesHint) sugestoesHint.textContent = "Informe o professor ausente.";
     return;
   }
 
   if (!professores.includes(ausente)) {
-    sugestoesHint.textContent = "Nome do ausente não bate exatamente com a lista. Selecione pelo autocomplete.";
+    if (sugestoesHint) sugestoesHint.textContent = "Nome do ausente não bate exatamente com a lista. Selecione pelo autocomplete.";
     return;
   }
 
   if (!dia || !inicio) {
-    sugestoesHint.textContent = "Selecione o dia e o horário inicial.";
+    if (sugestoesHint) sugestoesHint.textContent = "Selecione o dia e o horário inicial.";
     return;
   }
 
   if (!Number.isInteger(quantidade) || quantidade < 1) {
-    sugestoesHint.textContent = "Selecione uma quantidade válida de períodos.";
+    if (sugestoesHint) sugestoesHint.textContent = "Selecione uma quantidade válida de períodos.";
     return;
   }
 
   const blocoS = getConsecutiveSlots(dia, inicio, quantidade);
   if (!blocoS) {
-    sugestoesHint.textContent = "Não encontrei quantidade suficiente de períodos consecutivos a partir deste horário.";
+    if (sugestoesHint) sugestoesHint.textContent = "Não encontrei quantidade suficiente de períodos consecutivos a partir deste horário.";
     return;
   }
 
   if (blockTouchesRestrictedAfternoon(blocoS)) {
-    sugestoesHint.textContent =
+    if (sugestoesHint) sugestoesHint.textContent =
       "Não é permitido sugerir trocas nas tardes de terça, quarta e sexta. Escolha outro bloco.";
     return;
   }
 
-  // Ausente precisa estar ocupado em todo o bloco de origem
   if (!isProfessorBusyInAllSlots(ausente, blocoS)) {
-    sugestoesHint.textContent =
+    if (sugestoesHint) sugestoesHint.textContent =
       "O professor ausente não aparece ocupado em todos os períodos consecutivos selecionados. Verifique o horário e a quantidade de períodos.";
     return;
   }
 
   const turmasReferencia = getTurmaReferenceForBlock(ausente, blocoS);
   if (turmasReferencia.size === 0) {
-    sugestoesHint.textContent =
+    if (sugestoesHint) sugestoesHint.textContent =
       "Não consegui identificar a turma do bloco selecionado para o professor ausente.";
     return;
   }
@@ -463,6 +455,7 @@ function buscarSugestoes() {
     const turmas = uniqueSorted(
       linhas.flatMap(l => Array.from(extractTurmaSet(l.turmas)))
     );
+
     const disciplinas = uniqueSorted(
       linhas.map(l => normalize(l.disciplina)).filter(Boolean)
     );
@@ -475,9 +468,11 @@ function buscarSugestoes() {
     addItem(ocupadosList, prof, meta.trim());
   }
 
-  ocupadosHint.textContent =
-    `Bloco selecionado: ${formatBlockLabel(blocoS)}\n` +
-    `Professores ocupados no bloco: ${ocupadosOrdenados.length}`;
+  if (ocupadosHint) {
+    ocupadosHint.textContent =
+      `Bloco selecionado: ${formatBlockLabel(blocoS)}\n` +
+      `Professores ocupados no bloco: ${ocupadosOrdenados.length}`;
+  }
 
   const candidatos = professores.filter(p =>
     p &&
@@ -490,7 +485,6 @@ function buscarSugestoes() {
 
   for (const candidato of candidatos) {
     const troca = findCandidateTradeBlock(ausente, candidato, quantidade, turmasReferencia, blocoS);
-
     if (!troca) continue;
 
     sugestoes.push({
@@ -515,11 +509,13 @@ function buscarSugestoes() {
     addItem(sugestoesList, s.substituto, meta);
   }
 
-  sugestoesHint.textContent =
-    `Bloco solicitado: ${formatBlockLabel(blocoS)}\n` +
-    `Turma(s) de referência: ${Array.from(turmasReferencia).join(" | ")}\n` +
-    `Candidatos livres no bloco: ${candidatos.length}\n` +
-    `Substitutos sugeridos: ${sugestoes.length}`;
+  if (sugestoesHint) {
+    sugestoesHint.textContent =
+      `Bloco solicitado: ${formatBlockLabel(blocoS)}\n` +
+      `Turma(s) de referência: ${Array.from(turmasReferencia).join(" | ")}\n` +
+      `Candidatos livres no bloco: ${candidatos.length}\n` +
+      `Substitutos sugeridos: ${sugestoes.length}`;
+  }
 }
 
 async function init() {
@@ -553,13 +549,15 @@ async function init() {
     fillSelect(horaSelect, horas, "Selecione...");
     buildDatalist(profList, professores);
 
-    diaSelect.disabled = false;
-    horaSelect.disabled = false;
-    quantidadeSelect.disabled = false;
-    ausenteInput.disabled = false;
-    buscarBtn.disabled = false;
+    if (diaSelect) diaSelect.disabled = false;
+    if (horaSelect) horaSelect.disabled = false;
+    if (quantidadeSelect) quantidadeSelect.disabled = false;
+    if (ausenteInput) ausenteInput.disabled = false;
+    if (buscarBtn) buscarBtn.disabled = false;
 
-    buscarBtn.addEventListener("click", buscarSugestoes);
+    if (buscarBtn) {
+      buscarBtn.addEventListener("click", buscarSugestoes);
+    }
 
     setStatus("");
   } catch (err) {
