@@ -8,8 +8,9 @@
 // 6) O substituto deve estar livre em TODO o bloco solicitado
 // 7) O substituto deve ter um bloco de troca com no mínimo a mesma quantidade de períodos
 // 8) Manter a lógica de troca na mesma turma
-// 9) O menu "Horário inicial" deve mostrar apenas inícios de bloco válidos
-//    conforme o dia e a quantidade de períodos escolhida
+// 9) O menu "Horário inicial" mostra apenas inícios de bloco válidos
+// 10) O menu "Dia" fica em ordem Segunda -> Sexta
+// 11) O menu "Horário inicial" mostra texto amigável
 
 const CSV_URL = "./horarios_ocupacao_professores.csv";
 
@@ -127,7 +128,24 @@ function sortTimes(a, b) {
   return parseTimeToMinutes(a) - parseTimeToMinutes(b);
 }
 
-function fillSelect(select, values, placeholder) {
+function sortDiasSemana(a, b) {
+  const ordem = {
+    "Segunda": 1,
+    "Terça": 2,
+    "Quarta": 3,
+    "Quinta": 4,
+    "Sexta": 5
+  };
+  return (ordem[a] || 99) - (ordem[b] || 99);
+}
+
+function getFriendlyHourLabel(hora) {
+  const p = getPeriodByStart(hora);
+  if (!p) return hora;
+  return `${hora} — ${p.periodoLabel}`;
+}
+
+function fillSelect(select, values, placeholder, labelFn) {
   if (!select) return;
 
   const currentValue = select.value;
@@ -141,7 +159,7 @@ function fillSelect(select, values, placeholder) {
   for (const v of values) {
     const op = document.createElement("option");
     op.value = v;
-    op.textContent = v;
+    op.textContent = typeof labelFn === "function" ? labelFn(v) : v;
     select.appendChild(op);
   }
 
@@ -488,11 +506,11 @@ function findCandidateTradeBlock(ausente, substituto, quantidade, turmasReferenc
 }
 
 function getValidHourOptionsFromRows(rowsData) {
-  const horariosBase = uniqueSorted(
+  const horariosBase = Array.from(new Set(
     rowsData
       .map(r => normalizeTime(r.inicio || r["início"]))
       .filter(Boolean)
-  ).sort(sortTimes);
+  )).sort(sortTimes);
 
   return horariosBase.filter(h => PERIOD_BY_START.has(h));
 }
@@ -527,7 +545,12 @@ function refreshHourOptions() {
     novasOpcoes = [];
   }
 
-  fillSelect(horaSelect, novasOpcoes, novasOpcoes.length ? "Selecione..." : "Sem horários válidos");
+  fillSelect(
+    horaSelect,
+    novasOpcoes,
+    novasOpcoes.length ? "Selecione..." : "Sem horários válidos",
+    getFriendlyHourLabel
+  );
 
   horaSelect.disabled = !dia || novasOpcoes.length === 0;
 }
@@ -704,13 +727,13 @@ async function init() {
     })).filter(r => r.dia && r.inicio && r.professor);
 
     professores = uniqueSorted(rows.map(r => r.professor));
-    dias = uniqueSorted(rows.map(r => r.dia));
+    dias = Array.from(new Set(rows.map(r => r.dia))).sort(sortDiasSemana);
     horas = getValidHourOptionsFromRows(rows);
 
     buildIndexes();
 
     fillSelect(diaSelect, dias, "Selecione...");
-    fillSelect(horaSelect, [], "Selecione o dia primeiro...");
+    fillSelect(horaSelect, [], "Selecione o dia primeiro...", getFriendlyHourLabel);
     buildDatalist(profList, professores);
 
     if (diaSelect) diaSelect.disabled = false;
