@@ -19,6 +19,9 @@
       --radius:16px;
       --warning:#fff8e1;
       --warning-borda:#f2d58a;
+      --planejamento:#fff3cd;
+      --planejamento-borda:#f2c94c;
+      --planejamento-texto:#5c4500;
     }
 
     *{ box-sizing:border-box; }
@@ -234,6 +237,22 @@
       padding:12px;
     }
 
+    .item.planejamento{
+      background:var(--planejamento);
+      border-color:var(--planejamento-borda);
+    }
+
+    .tag-planejamento{
+      display:inline-block;
+      margin-top:8px;
+      padding:4px 8px;
+      border-radius:999px;
+      background:var(--planejamento-borda);
+      color:var(--planejamento-texto);
+      font-size:12px;
+      font-weight:700;
+    }
+
     .name{
       font-weight:700;
       margin-bottom:6px;
@@ -244,6 +263,10 @@
       font-size:13px;
       white-space:pre-line;
       line-height:1.45;
+    }
+
+    .item.planejamento .meta{
+      color:#4f430f;
     }
 
     .footer{
@@ -337,7 +360,7 @@
       </div>
 
       <div class="notice">
-        Regras ativas: não sugerir trocas nas tardes de terça, quarta e sexta; considerar períodos consecutivos; exigir que o substituto esteja livre em todo o bloco e tenha bloco de troca com a mesma quantidade mínima de períodos.
+        Regras ativas: não sugerir trocas nas tardes de terça, quarta e sexta; considerar períodos consecutivos; exigir que o substituto esteja livre em todo o bloco e tenha bloco de troca com a mesma quantidade mínima de períodos. Professores em planejamento aparecem destacados em amarelo, como opção com ressalva.
       </div>
 
       <div class="grid">
