@@ -105,7 +105,16 @@ function normalizeLower(s) {
 }
 
 function isPlanejamentoRow(row) {
-  const texto = normalizeLower(`${row.disciplina || ""} ${row.turmas || ""}`);
+  const texto = normalizeLower(`
+    ${row.dia || ""}
+    ${row.inicio || ""}
+    ${row.fim || ""}
+    ${row.professor || ""}
+    ${row.turmas || ""}
+    ${row.disciplina || ""}
+    ${row.textoOriginal || ""}
+  `);
+
   return texto.includes("planejamento");
 }
 
@@ -777,6 +786,7 @@ async function init() {
       professor: normalize(r.professor),
       turmas: normalize(r.turmas),
       disciplina: normalize(r.disciplina),
+      textoOriginal: Object.values(r).map(v => normalize(v)).join(" ")
     })).filter(r => r.dia && r.inicio && r.professor);
 
     professores = uniqueSorted(rows.map(r => r.professor));
