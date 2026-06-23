@@ -1,16 +1,4 @@
 // substituicao.js
-// Regras:
-// 1) Não sugerir trocas nas tardes de Terça, Quarta e Sexta
-// 2) Buscar por 1, 2, 3 ou mais períodos consecutivos
-// 3) Consecutividade baseada em PERÍODOS LETIVOS, não em minutos corridos
-// 4) Recreios curtos do turno NÃO quebram o bloco
-// 5) Almoço, tardinha e troca de turno quebram o bloco
-// 6) O substituto deve estar livre em TODO o bloco solicitado
-// 7) O substituto deve ter um bloco de troca com no mínimo a mesma quantidade de períodos
-// 8) Manter a lógica de troca na mesma turma
-// 9) O menu "Horário inicial" mostra apenas inícios de bloco válidos
-// 10) O menu "Dia" fica em ordem Segunda -> Sexta
-// 11) O menu "Horário inicial" mostra texto amigável
 
 const CSV_URL = "./horarios_ocupacao_professores.csv";
 
@@ -29,10 +17,9 @@ const ocupadosList = document.getElementById("ocupadosList");
 const sugestoesHint = document.getElementById("sugestoesHint");
 const ocupadosHint = document.getElementById("ocupadosHint");
 
-// Grade pedagógica fixa por turno
 const PERIOD_GRID = {
   manhã: [
-    { codigo: "M1", inicio: "07:30", fim: "08:19", periodoLabel: "1º Período (manhã)", ordem: 1, turno: "manhã" },
+    { codigo: "M1", inicio: "07:30", fim: "08:29", periodoLabel: "1º Período (manhã)", ordem: 1, turno: "manhã" },
     { codigo: "M2", inicio: "08:20", fim: "09:09", periodoLabel: "2º Período (manhã)", ordem: 2, turno: "manhã" },
     { codigo: "M3", inicio: "09:10", fim: "10:00", periodoLabel: "3º Período (manhã)", ordem: 3, turno: "manhã" },
     { codigo: "M4", inicio: "10:20", fim: "11:09", periodoLabel: "4º Período (manhã)", ordem: 4, turno: "manhã" },
@@ -67,10 +54,11 @@ let professores = [];
 let dias = [];
 let horas = [];
 
-let busyByProf = new Map();       // professor -> Set(slotKey)
-let rowsBySlot = new Map();       // slotKey -> [rows]
-let slotInfo = new Map();         // slotKey -> { dia, inicio }
-let validStartsByDay = new Map(); // dia -> [horários válidos da grade presentes na base]
+let busyByProf = new Map();
+let planejamentoByProf = new Map();
+let rowsBySlot = new Map();
+let slotInfo = new Map();
+let validStartsByDay = new Map();
 
 function setStatus(msg) {
   if (statusEl) statusEl.textContent = msg || "";
@@ -90,19 +78,35 @@ function clearList(ul) {
   if (ul) ul.innerHTML = "";
 }
 
-function addItem(ul, title, meta) {
+function addItem(ul, title, meta, options = {}) {
   if (!ul) return;
+
   const li = document.createElement("li");
-  li.className = "item";
+  li.className = options.planejamento ? "item planejamento" : "item";
+
   li.innerHTML = `
     <div class="name">${escapeHtml(title)}</div>
     <div class="meta">${escapeHtml(meta || "")}</div>
+    ${options.planejamento ? `<span class="tag-planejamento">⚠️ Em planejamento neste horário</span>` : ""}
   `;
+
   ul.appendChild(li);
 }
 
 function normalize(s) {
   return String(s || "").trim();
+}
+
+function normalizeLower(s) {
+  return normalize(s)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+function isPlanejamentoRow(row) {
+  const texto = normalizeLower(`${row.disciplina || ""} ${row.turmas || ""}`);
+  return texto.includes("planejamento");
 }
 
 function normalizeTime(t) {
@@ -163,16 +167,13 @@ function fillSelect(select, values, placeholder, labelFn) {
     select.appendChild(op);
   }
 
-  if (values.includes(currentValue)) {
-    select.value = currentValue;
-  } else {
-    select.value = "";
-  }
+  select.value = values.includes(currentValue) ? currentValue : "";
 }
 
 function buildDatalist(datalist, values) {
   if (!datalist) return;
   datalist.innerHTML = "";
+
   for (const v of values) {
     const op = document.createElement("option");
     op.value = v;
@@ -212,9 +213,7 @@ function splitCSVLine(line) {
 }
 
 function parseCSV(text) {
-  if (text && text.charCodeAt(0) === 0xFEFF) {
-    text = text.slice(1);
-  }
+  if (text && text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
 
   const lines = text.split(/\r?\n/).filter(l => l.trim() !== "");
   if (lines.length < 2) return [];
@@ -265,6 +264,7 @@ function sortSlotKey(a, b) {
 
 function buildIndexes() {
   busyByProf = new Map();
+  planejamentoByProf = new Map();
   rowsBySlot = new Map();
   slotInfo = new Map();
   validStartsByDay = new Map();
@@ -273,13 +273,20 @@ function buildIndexes() {
     if (!r.dia || !r.inicio || !r.professor) continue;
 
     const key = makeSlotKey(r.dia, r.inicio);
+    const planejamento = isPlanejamentoRow(r);
+
     slotInfo.set(key, { dia: r.dia, inicio: r.inicio });
 
     if (!rowsBySlot.has(key)) rowsBySlot.set(key, []);
     rowsBySlot.get(key).push(r);
 
-    if (!busyByProf.has(r.professor)) busyByProf.set(r.professor, new Set());
-    busyByProf.get(r.professor).add(key);
+    if (planejamento) {
+      if (!planejamentoByProf.has(r.professor)) planejamentoByProf.set(r.professor, new Set());
+      planejamentoByProf.get(r.professor).add(key);
+    } else {
+      if (!busyByProf.has(r.professor)) busyByProf.set(r.professor, new Set());
+      busyByProf.get(r.professor).add(key);
+    }
 
     if (PERIOD_BY_START.has(r.inicio)) {
       if (!validStartsByDay.has(r.dia)) validStartsByDay.set(r.dia, new Set());
@@ -300,6 +307,7 @@ function extractTurmaSet(turmasStr) {
     s.split(";")
       .map(p => normalize(p))
       .filter(Boolean)
+      .filter(p => !normalizeLower(p).includes("planejamento"))
   );
 }
 
@@ -330,10 +338,12 @@ function unionSets(sets) {
 
 function intersectionOfArrayOfSets(sets) {
   if (!sets.length) return new Set();
+
   let current = new Set(sets[0]);
   for (let i = 1; i < sets.length; i++) {
     current = intersectSets(current, sets[i]);
   }
+
   return current;
 }
 
@@ -372,13 +382,20 @@ function blockTouchesRestrictedAfternoon(slotKeys) {
   return false;
 }
 
-function getProfessorRowsInBlock(professor, slotKeys) {
+function getProfessorRowsInBlock(professor, slotKeys, options = {}) {
+  const includePlanejamento = options.includePlanejamento === true;
   const out = [];
+
   for (const key of slotKeys) {
     const rowsSlot = rowsBySlot.get(key) || [];
-    const rowsProf = rowsSlot.filter(r => r.professor === professor);
+    const rowsProf = rowsSlot.filter(r => {
+      if (r.professor !== professor) return false;
+      if (!includePlanejamento && isPlanejamentoRow(r)) return false;
+      return true;
+    });
     out.push(rowsProf);
   }
+
   return out;
 }
 
@@ -392,15 +409,36 @@ function isProfessorFreeInAllSlots(professor, slotKeys) {
   return slotKeys.every(k => !busy.has(k));
 }
 
+function isProfessorInPlanejamentoInAnySlot(professor, slotKeys) {
+  const plan = planejamentoByProf.get(professor) || new Set();
+  return slotKeys.some(k => plan.has(k));
+}
+
+function getPlanejamentoLabels(professor, slotKeys) {
+  const plan = planejamentoByProf.get(professor) || new Set();
+
+  return slotKeys
+    .filter(k => plan.has(k))
+    .map(k => {
+      const info = slotInfo.get(k) || parseSlotKey(k);
+      if (!info) return "";
+      const p = getPeriodByStart(info.inicio);
+      return p ? `${info.inicio} — ${p.periodoLabel}` : info.inicio;
+    })
+    .filter(Boolean);
+}
+
 function getTurmaReferenceForBlock(professor, slotKeys) {
   const rowsPorSlot = getProfessorRowsInBlock(professor, slotKeys);
 
   const turmaSetsPorSlot = rowsPorSlot.map(rowsSlot => {
     const unionSlot = new Set();
+
     for (const row of rowsSlot) {
       const tset = extractTurmaSet(row.turmas);
       for (const turma of tset) unionSlot.add(turma);
     }
+
     return unionSlot;
   });
 
@@ -415,8 +453,11 @@ function getBusyRowsInBlock(slotKeys) {
 
   for (const key of slotKeys) {
     const rowsSlot = rowsBySlot.get(key) || [];
+
     for (const row of rowsSlot) {
       if (!row.professor) continue;
+      if (isPlanejamentoRow(row)) continue;
+
       if (!map.has(row.professor)) map.set(row.professor, []);
       map.get(row.professor).push(row);
     }
@@ -490,7 +531,9 @@ function findCandidateTradeBlock(ausente, substituto, quantidade, turmasReferenc
     const primeiroInfo = slotInfo.get(blocoT[0]) || parseSlotKey(blocoT[0]);
     const ultimoInfo = slotInfo.get(blocoT[blocoT.length - 1]) || parseSlotKey(blocoT[blocoT.length - 1]);
     const ultimoPeriod = ultimoInfo ? getPeriodByStart(ultimoInfo.inicio) : null;
-    const primeiraLinha = (rowsBySlot.get(blocoT[0]) || []).find(r => r.professor === substituto);
+
+    const primeiraLinha = (rowsBySlot.get(blocoT[0]) || [])
+      .find(r => r.professor === substituto && !isPlanejamentoRow(r));
 
     return {
       blocoT,
@@ -541,8 +584,6 @@ function refreshHourOptions() {
 
   if (dia) {
     novasOpcoes = getAllowedStartOptionsForDayAndQuantity(dia, quantidade);
-  } else {
-    novasOpcoes = [];
   }
 
   fillSelect(
@@ -558,6 +599,7 @@ function refreshHourOptions() {
 function buscarSugestoes() {
   clearList(sugestoesList);
   clearList(ocupadosList);
+
   if (sugestoesHint) sugestoesHint.textContent = "";
   if (ocupadosHint) ocupadosHint.textContent = "";
 
@@ -584,44 +626,42 @@ function buscarSugestoes() {
   }
 
   const periodoInicial = getPeriodByStart(inicio);
+
   if (!periodoInicial) {
     if (sugestoesHint) {
-      sugestoesHint.textContent =
-        "Este horário inicial não pertence a um período letivo válido da grade. Use apenas os horários de início dos períodos.";
+      sugestoesHint.textContent = "Este horário inicial não pertence a um período letivo válido da grade.";
     }
     return;
   }
 
   const blocoS = getConsecutivePedagogicalSlots(dia, inicio, quantidade);
+
   if (!blocoS) {
     if (sugestoesHint) {
-      sugestoesHint.textContent =
-        "Não existe essa quantidade de períodos consecutivos dentro do mesmo turno a partir do horário selecionado.";
+      sugestoesHint.textContent = "Não existe essa quantidade de períodos consecutivos dentro do mesmo turno a partir do horário selecionado.";
     }
     return;
   }
 
   if (blockTouchesRestrictedAfternoon(blocoS)) {
     if (sugestoesHint) {
-      sugestoesHint.textContent =
-        "Não é permitido sugerir trocas nas tardes de terça, quarta e sexta. Escolha outro bloco.";
+      sugestoesHint.textContent = "Não é permitido sugerir trocas nas tardes de terça, quarta e sexta.";
     }
     return;
   }
 
   if (!isProfessorBusyInAllSlots(ausente, blocoS)) {
     if (sugestoesHint) {
-      sugestoesHint.textContent =
-        "O professor ausente não aparece ocupado em todos os períodos do bloco selecionado. Verifique o horário e a quantidade de períodos.";
+      sugestoesHint.textContent = "O professor ausente não aparece ocupado em todos os períodos do bloco selecionado.";
     }
     return;
   }
 
   const turmasReferencia = getTurmaReferenceForBlock(ausente, blocoS);
+
   if (turmasReferencia.size === 0) {
     if (sugestoesHint) {
-      sugestoesHint.textContent =
-        "Não consegui identificar a turma do bloco selecionado para o professor ausente.";
+      sugestoesHint.textContent = "Não consegui identificar a turma do bloco selecionado para o professor ausente.";
     }
     return;
   }
@@ -654,7 +694,7 @@ function buscarSugestoes() {
     ocupadosHint.textContent =
       `Bloco selecionado: ${formatBlockLabel(blocoS)}\n` +
       `Períodos: ${getBlockPeriodLabels(blocoS).join(" | ")}\n` +
-      `Professores ocupados no bloco: ${ocupadosOrdenados.length}`;
+      `Professores ocupados em aula no bloco: ${ocupadosOrdenados.length}`;
   }
 
   const candidatos = professores.filter(p =>
@@ -670,6 +710,9 @@ function buscarSugestoes() {
     const troca = findCandidateTradeBlock(ausente, candidato, quantidade, turmasReferencia, blocoS);
     if (!troca) continue;
 
+    const emPlanejamento = isProfessorInPlanejamentoInAnySlot(candidato, blocoS);
+    const planejamentoLabels = getPlanejamentoLabels(candidato, blocoS);
+
     sugestoes.push({
       substituto: candidato,
       turma: troca.turma,
@@ -677,23 +720,31 @@ function buscarSugestoes() {
       trocaInicio: troca.trocaInicio,
       trocaFim: troca.trocaFim,
       disciplina: troca.disciplina,
-      blocoT: troca.blocoT
+      blocoT: troca.blocoT,
+      planejamento: emPlanejamento,
+      planejamentoLabels
     });
   }
 
-  sugestoes.sort((a, b) => a.substituto.localeCompare(b.substituto, "pt-BR"));
+  sugestoes.sort((a, b) => {
+    if (a.planejamento !== b.planejamento) return a.planejamento ? 1 : -1;
+    return a.substituto.localeCompare(b.substituto, "pt-BR");
+  });
 
   for (const s of sugestoes) {
     const meta =
       `Livre em: ${formatBlockLabel(blocoS)}\n` +
       `Períodos livres: ${getBlockPeriodLabels(blocoS).join(" | ")}\n` +
+      (s.planejamento ? `⚠️ Observação: professor em planejamento no(s) período(s): ${s.planejamentoLabels.join(" | ")}\n` : "") +
       `Troca na mesma turma: ${s.turma}\n` +
       `Bloco de troca: ${s.trocaDia} • ${s.trocaInicio} até ${s.trocaFim} (${quantidade} período(s))\n` +
       `Períodos do bloco de troca: ${getBlockPeriodLabels(s.blocoT).join(" | ")}` +
       (s.disciplina ? `\nDisciplina no bloco de troca: ${s.disciplina}` : "");
 
-    addItem(sugestoesList, s.substituto, meta);
+    addItem(sugestoesList, s.substituto, meta, { planejamento: s.planejamento });
   }
+
+  const totalPlanejamento = sugestoes.filter(s => s.planejamento).length;
 
   if (sugestoesHint) {
     sugestoesHint.textContent =
@@ -701,7 +752,8 @@ function buscarSugestoes() {
       `Períodos: ${getBlockPeriodLabels(blocoS).join(" | ")}\n` +
       `Turma(s) de referência: ${Array.from(turmasReferencia).join(" | ")}\n` +
       `Candidatos livres no bloco: ${candidatos.length}\n` +
-      `Substitutos sugeridos: ${sugestoes.length}`;
+      `Substitutos sugeridos: ${sugestoes.length}\n` +
+      `Sugestões com planejamento destacado: ${totalPlanejamento}`;
   }
 }
 
@@ -710,6 +762,7 @@ async function init() {
     setStatus("Carregando base de dados...");
 
     const resp = await fetch(CSV_URL, { cache: "no-store" });
+
     if (!resp.ok) {
       throw new Error(`Falha ao carregar CSV (${resp.status})`);
     }
