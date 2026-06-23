@@ -32,8 +32,8 @@ const ocupadosHint = document.getElementById("ocupadosHint");
 // Grade pedagógica fixa por turno
 const PERIOD_GRID = {
   manhã: [
-    { codigo: "M1", inicio: "07:30", fim: "08:29", periodoLabel: "1º Período (manhã)", ordem: 1, turno: "manhã" },
-    { codigo: "M2", inicio: "08:30", fim: "09:09", periodoLabel: "2º Período (manhã)", ordem: 2, turno: "manhã" },
+    { codigo: "M1", inicio: "07:30", fim: "08:19", periodoLabel: "1º Período (manhã)", ordem: 1, turno: "manhã" },
+    { codigo: "M2", inicio: "08:20", fim: "09:09", periodoLabel: "2º Período (manhã)", ordem: 2, turno: "manhã" },
     { codigo: "M3", inicio: "09:10", fim: "10:00", periodoLabel: "3º Período (manhã)", ordem: 3, turno: "manhã" },
     { codigo: "M4", inicio: "10:20", fim: "11:09", periodoLabel: "4º Período (manhã)", ordem: 4, turno: "manhã" },
     { codigo: "M5", inicio: "11:10", fim: "12:00", periodoLabel: "5º Período (manhã)", ordem: 5, turno: "manhã" }
