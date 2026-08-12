@@ -4,386 +4,83 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Substituição de Professores</title>
-
   <style>
     :root{
-      --verde:#2e7d32;
-      --verde-escuro:#1b5e20;
-      --verde-claro:#e8f5e9;
-      --bg:#f4f6f5;
-      --card:#ffffff;
-      --texto:#1c1f1d;
-      --muted:#5d6560;
-      --borda:#dfe6e1;
-      --shadow:0 10px 30px rgba(0,0,0,.08);
-      --radius:16px;
-      --warning:#fff8e1;
-      --warning-borda:#f2d58a;
-      --planejamento:#fff3cd;
-      --planejamento-borda:#f2c94c;
-      --planejamento-texto:#5c4500;
+      --verde:#2e7d32;--verde-escuro:#1b5e20;--bg:#f4f6f5;--card:#fff;
+      --texto:#1c1f1d;--muted:#5d6560;--borda:#dfe6e1;
+      --shadow:0 10px 30px rgba(0,0,0,.08);--radius:16px;
+      --warning:#fff8e1;--warning-borda:#f2d58a;
+      --planejamento:#fff3cd;--planejamento-borda:#f2c94c;--planejamento-texto:#5c4500;
     }
-
-    *{ box-sizing:border-box; }
-
-    body{
-      margin:0;
-      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-      background:var(--bg);
-      color:var(--texto);
-    }
-
-    .wrap{
-      max-width:1200px;
-      margin:0 auto;
-      padding:16px;
-    }
-
-    .header{
-      background:linear-gradient(135deg,var(--verde),var(--verde-escuro));
-      color:#fff;
-      border-radius:var(--radius);
-      padding:18px 20px;
-      box-shadow:var(--shadow);
-      margin-bottom:14px;
-    }
-
-    .header-top{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      flex-wrap:wrap;
-    }
-
-    .title{
-      margin:0;
-      font-size:20px;
-      font-weight:700;
-    }
-
-    .subtitle{
-      margin:6px 0 0 0;
-      opacity:.92;
-      font-size:13px;
-    }
-
-    .badge{
-      background:rgba(255,255,255,.16);
-      border:1px solid rgba(255,255,255,.22);
-      padding:8px 10px;
-      border-radius:999px;
-      font-size:12px;
-      white-space:nowrap;
-    }
-
-    .card{
-      background:var(--card);
-      border:1px solid var(--borda);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      overflow:hidden;
-    }
-
-    .controls{
-      padding:16px;
-      border-bottom:1px solid var(--borda);
-      display:flex;
-      flex-wrap:wrap;
-      gap:12px;
-      align-items:end;
-      justify-content:space-between;
-    }
-
-    .left-controls{
-      display:flex;
-      flex-wrap:wrap;
-      gap:12px;
-      align-items:end;
-      flex:1 1 700px;
-    }
-
-    label{
-      display:flex;
-      flex-direction:column;
-      gap:6px;
-      font-size:12px;
-      color:var(--muted);
-    }
-
-    select,input{
-      padding:10px 12px;
-      border-radius:12px;
-      border:1px solid var(--borda);
-      background:#fff;
-      color:var(--texto);
-      font-size:14px;
-      outline:none;
-      min-width:180px;
-    }
-
-    input{
-      min-width:300px;
-    }
-
-    .right-controls{
-      display:flex;
-      gap:10px;
-      align-items:center;
-      flex-wrap:wrap;
-      justify-content:flex-end;
-    }
-
-    .status{
-      font-size:12px;
-      color:var(--muted);
-      min-height:18px;
-      display:flex;
-      align-items:center;
-      gap:8px;
-    }
-
-    .dot{
-      width:10px;
-      height:10px;
-      border-radius:999px;
-      background:var(--verde);
-      opacity:.25;
-      flex:0 0 auto;
-    }
-
-    .dot.on{ opacity:1; }
-
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      padding:10px 14px;
-      border-radius:12px;
-      border:1px solid var(--borda);
-      background:#fff;
-      cursor:pointer;
-      font-size:14px;
-      color:var(--texto);
-      text-decoration:none;
-      user-select:none;
-    }
-
-    .btn:hover{ filter:brightness(.98); }
-
-    .btn.primary{
-      background:var(--verde);
-      border-color:var(--verde);
-      color:#fff;
-      font-weight:600;
-    }
-
-    .notice{
-      margin:16px;
-      padding:12px 14px;
-      border-radius:14px;
-      background:var(--warning);
-      border:1px solid var(--warning-borda);
-      font-size:13px;
-      color:#5c4a19;
-      line-height:1.45;
-    }
-
-    .grid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:14px;
-      padding:16px;
-    }
-
-    .panel{
-      border:1px solid var(--borda);
-      border-radius:16px;
-      padding:14px;
-      background:#fff;
-      min-height:320px;
-    }
-
-    .panel h2{
-      margin:0 0 6px 0;
-      font-size:16px;
-    }
-
-    .hint{
-      margin:0 0 12px 0;
-      color:var(--muted);
-      font-size:12px;
-      min-height:34px;
-      white-space:pre-line;
-      line-height:1.45;
-    }
-
-    .list{
-      list-style:none;
-      padding:0;
-      margin:0;
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-      max-height:520px;
-      overflow:auto;
-      padding-right:4px;
-    }
-
-    .item{
-      border:1px solid var(--borda);
-      border-radius:14px;
-      background:#fff;
-      padding:12px;
-    }
-
-    .item.planejamento{
-      background:var(--planejamento);
-      border-color:var(--planejamento-borda);
-    }
-
-    .tag-planejamento{
-      display:inline-block;
-      margin-top:8px;
-      padding:4px 8px;
-      border-radius:999px;
-      background:var(--planejamento-borda);
-      color:var(--planejamento-texto);
-      font-size:12px;
-      font-weight:700;
-    }
-
-    .name{
-      font-weight:700;
-      margin-bottom:6px;
-    }
-
-    .meta{
-      color:var(--muted);
-      font-size:13px;
-      white-space:pre-line;
-      line-height:1.45;
-    }
-
-    .item.planejamento .meta{
-      color:#4f430f;
-    }
-
-    .footer{
-      padding:12px 16px 16px 16px;
-      border-top:1px solid var(--borda);
-      color:var(--muted);
-      font-size:12px;
-      display:flex;
-      justify-content:space-between;
-      gap:10px;
-      flex-wrap:wrap;
-      align-items:center;
-    }
-
-    @media (max-width: 900px){
-      .grid{
-        grid-template-columns:1fr;
-      }
-    }
-
-    @media (max-width: 640px){
-      select,input{
-        min-width:100%;
-      }
-      .right-controls{
-        width:100%;
-        justify-content:space-between;
-      }
-      .left-controls{
-        flex:1 1 100%;
-      }
-    }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--texto)}
+    .wrap{max-width:1200px;margin:0 auto;padding:16px}
+    .header{background:linear-gradient(135deg,var(--verde),var(--verde-escuro));color:#fff;border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow);margin-bottom:14px}
+    .header-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .title{margin:0;font-size:20px;font-weight:700}.subtitle{margin:6px 0 0;opacity:.92;font-size:13px}
+    .badge{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.22);padding:8px 10px;border-radius:999px;font-size:12px;white-space:nowrap}
+    .card{background:var(--card);border:1px solid var(--borda);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+    .controls{padding:16px;border-bottom:1px solid var(--borda);display:flex;flex-wrap:wrap;gap:12px;align-items:end;justify-content:space-between}
+    .left-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:end;flex:1 1 700px}
+    label{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--muted)}
+    select,input{padding:10px 12px;border-radius:12px;border:1px solid var(--borda);background:#fff;color:var(--texto);font-size:14px;outline:none;min-width:180px}
+    input{min-width:300px}.right-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+    .status{font-size:12px;color:var(--muted);min-height:18px;display:flex;align-items:center;gap:8px}
+    .dot{width:10px;height:10px;border-radius:999px;background:var(--verde);opacity:.25;flex:0 0 auto}.dot.on{opacity:1}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid var(--borda);background:#fff;cursor:pointer;font-size:14px;color:var(--texto)}
+    .btn.primary{background:var(--verde);border-color:var(--verde);color:#fff;font-weight:600}
+    .notice{margin:16px;padding:12px 14px;border-radius:14px;background:var(--warning);border:1px solid var(--warning-borda);font-size:13px;color:#5c4a19;line-height:1.45}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:16px}
+    .panel{border:1px solid var(--borda);border-radius:16px;padding:14px;background:#fff;min-height:320px}
+    .panel h2{margin:0 0 6px;font-size:16px}.hint{margin:0 0 12px;color:var(--muted);font-size:12px;min-height:34px;white-space:pre-line;line-height:1.45}
+    .list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;max-height:520px;overflow:auto;padding-right:4px}
+    .item{border:1px solid var(--borda);border-radius:14px;background:#fff;padding:12px}
+    .item.planejamento{background:var(--planejamento);border-color:var(--planejamento-borda)}
+    .tag-planejamento{display:inline-block;margin-top:8px;padding:4px 8px;border-radius:999px;background:var(--planejamento-borda);color:var(--planejamento-texto);font-size:12px;font-weight:700}
+    .name{font-weight:700;margin-bottom:6px}.meta{color:var(--muted);font-size:13px;white-space:pre-line;line-height:1.45}.item.planejamento .meta{color:#4f430f}
+    .footer{padding:12px 16px 16px;border-top:1px solid var(--borda);color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}} @media(max-width:640px){select,input{min-width:100%}.right-controls{width:100%;justify-content:space-between}.left-controls{flex:1 1 100%}}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="header">
-      <div class="header-top">
-        <div>
-          <h1 class="title">Substituição de Professores</h1>
-          <p class="subtitle">Sugestões automáticas de troca por disponibilidade, mesma turma e quantidade de períodos consecutivos.</p>
-        </div>
-        <div class="badge">IFFar • 2026/1</div>
+<div class="wrap">
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <h1 class="title">Substituição de Professores</h1>
+        <p class="subtitle">Sugestões automáticas de troca por disponibilidade, mesma turma e quantidade de períodos consecutivos.</p>
       </div>
-    </div>
-
-    <div class="card">
-      <div class="controls">
-        <div class="left-controls">
-          <label>
-            Professor ausente
-            <input id="ausenteInput" list="profList" type="text" placeholder="Digite ou selecione o nome do professor" autocomplete="off" disabled>
-            <datalist id="profList"></datalist>
-          </label>
-
-          <label>
-            Dia
-            <select id="diaSelect" disabled>
-              <option value="">Carregando...</option>
-            </select>
-          </label>
-
-          <label>
-            Horário inicial
-            <select id="horaSelect" disabled>
-              <option value="">Carregando...</option>
-            </select>
-          </label>
-
-          <label>
-            Quantidade de períodos
-            <select id="quantidadeSelect" disabled>
-              <option value="1">1 período</option>
-              <option value="2">2 períodos</option>
-              <option value="3">3 períodos</option>
-              <option value="4">4 períodos</option>
-              <option value="5">5 períodos</option>
-              <option value="6">6 períodos</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="right-controls">
-          <div class="status" aria-live="polite">
-            <span class="dot" id="loadingDot"></span>
-            <span id="status"></span>
-          </div>
-
-          <button class="btn primary" id="buscarBtn" disabled>Buscar sugestões</button>
-        </div>
-      </div>
-
-      <div class="notice">
-        Regras ativas: não sugerir trocas nas tardes de terça, quarta e sexta; considerar períodos consecutivos; exigir que o substituto esteja livre em todo o bloco e tenha bloco de troca com a mesma quantidade mínima de períodos. Professores em planejamento aparecem destacados em amarelo, como opção com ressalva.
-      </div>
-
-      <div class="grid">
-        <section class="panel">
-          <h2>Sugestões de substituição</h2>
-          <p class="hint" id="sugestoesHint"></p>
-          <ul class="list" id="sugestoesList"></ul>
-        </section>
-
-        <section class="panel">
-          <h2>Professores ocupados no bloco selecionado</h2>
-          <p class="hint" id="ocupadosHint"></p>
-          <ul class="list" id="ocupadosList"></ul>
-        </section>
-      </div>
-
-      <div class="footer">
-        <span>Dica: se trocar o CSV, atualize a página com Ctrl+F5.</span>
-        <span>Desenvolvido para uso no GitHub Pages ou Google Sites.</span>
-      </div>
+      <div class="badge">IFFar • 2026/2</div>
     </div>
   </div>
+  <div class="card">
+    <div class="controls">
+      <div class="left-controls">
+        <label>Professor ausente<input id="ausenteInput" list="profList" type="text" placeholder="Digite ou selecione o nome do professor" autocomplete="off" disabled><datalist id="profList"></datalist></label>
+        <label>Dia<select id="diaSelect" disabled><option value="">Carregando...</option></select></label>
+        <label>Horário inicial<select id="horaSelect" disabled><option value="">Carregando...</option></select></label>
+        <label>Quantidade de períodos<select id="quantidadeSelect" disabled>
+          <option value="1">1 período</option><option value="2">2 períodos</option><option value="3">3 períodos</option>
+          <option value="4">4 períodos</option><option value="5">5 períodos</option><option value="6">6 períodos</option>
+        </select></label>
+      </div>
+      <div class="right-controls">
+        <div class="status" aria-live="polite"><span class="dot" id="loadingDot"></span><span id="status"></span></div>
+        <button class="btn primary" id="buscarBtn" disabled>Buscar sugestões</button>
+      </div>
+    </div>
 
-  <script src="./substituicao.js"></script>
+    <div class="notice">
+      Regras ativas: não sugerir trocas nas tardes de terça, quarta e sexta; considerar períodos consecutivos; exigir que o substituto esteja livre em todo o bloco e tenha bloco de troca com a mesma quantidade mínima de períodos.
+      <strong>Dia de Planejamento:</strong> quando um professor não possui nenhuma aula na segunda, terça, quarta, quinta ou sexta-feira, em nenhum turno (manhã, tarde ou noite), ele aparece destacado em amarelo. Nesse caso, o professor deve ser consultado antes de uma eventual troca.
+    </div>
+
+    <div class="grid">
+      <section class="panel"><h2>Sugestões de substituição</h2><p class="hint" id="sugestoesHint"></p><ul class="list" id="sugestoesList"></ul></section>
+      <section class="panel"><h2>Professores ocupados no bloco selecionado</h2><p class="hint" id="ocupadosHint"></p><ul class="list" id="ocupadosList"></ul></section>
+    </div>
+    <div class="footer"><span>Dica: se trocar o CSV, atualize a página com Ctrl+F5.</span><span>Desenvolvido para uso no GitHub Pages ou Google Sites.</span></div>
+  </div>
+</div>
+<script src="./substituicao.js"></script>
 </body>
 </html>
